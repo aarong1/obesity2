@@ -15,8 +15,10 @@ library(sf)
 
 
 print(system('ls ~'))
-print(system('/ls/opt/R/4.5.1/lib/R/library'))
-print(system('~/ls/opt/R/4.5.1/lib/R'))
+print(system('ls /opt/R/4.5.1/lib/R/library'))
+print(system('ls /opt/R/4.5.1/lib/R'))
+print(system('ls ..'))
+
       
 print(resourcePaths())
 
