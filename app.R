@@ -18,6 +18,8 @@ dot <- function(col){
 }
 
 # load(".RData")
+total_pop <- qread( 'total_pop.qs')
+
 
 source('app_prep.R')
 source('global.R')
@@ -52,7 +54,6 @@ print(paste('running','/advanced_e_charts_trend.R')); source('./advanced_e_chart
 print(paste('running','/pivottable.R')); source('modules/pivot_module/pivottable.R')
 print(paste('running','/pivottable_module.R'));source('modules/pivot_module/pivottable_module.R')
 source('./pivot_columns.R')
-
 source('./6_post_main/post_evaluation_module/bed_days_estimator.R')
 source('./6_post_main/post_evaluation_module/lost_productivity_estimator.R')
 
@@ -3442,7 +3443,7 @@ server <- function(input, output, session) {
       message('no run yet')
       # past_populations
       total_pop <- qread( 'total_pop.qs')
-      
+
 
     }
 
