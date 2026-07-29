@@ -22,7 +22,8 @@ df <- c(
   rownames_to_column() %>% 
   setnames(c('disease','Disease'))
 
-base_population <- read.fst('./3_pre_main/intermediate_populations/time_one_population_w_deaths.fst')
+# base_population <- read.fst('./3_pre_main/intermediate_populations/time_one_population_w_deaths.fst')
+base_population <- read.fst('./3_pre_main/intermediate_populations/time_one_population.fst')
 
 hsct_pop_count <- base_population %>% 
   count(HSCT) %>% 
