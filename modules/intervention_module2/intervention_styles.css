@@ -1,0 +1,178 @@
+/* Intervention Module Styles */
+/* CSS specific to the intervention timeline module */
+
+/* Main container styling */
+.intervention-container {
+  margin: 15px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+}
+
+/* Chart container */
+.intervention-chart {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: white;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Control panel styling */
+.intervention-controls {
+  display: flex !important;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin: 15px 0;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 6px;
+  border: 1px solid #e9ecef;
+}
+
+.intervention-controls .checkbox {
+  text-align: center;
+  margin: 0 10px;
+  padding: 5px;
+}
+
+.intervention-controls .checkbox input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.intervention-controls .checkbox label {
+  font-size: 14px;
+  color: #495057;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Canvas drag controls */
+.canvas-drag-controls {
+  margin: 10px 0;
+  text-align: center;
+  padding: 10px;
+  background: #fff3cd;
+  border: 1px solid #ffeaa7;
+  border-radius: 6px;
+}
+
+.canvas-drag-controls .btn {
+  margin: 0 5px;
+  font-size: 12px;
+  padding: 4px 8px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .intervention-controls {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .intervention-controls .checkbox {
+    margin: 5px 0;
+    width: 100%;
+  }
+  
+  .intervention-container {
+    margin: 10px;
+    padding: 15px;
+  }
+}
+
+/* Chart interaction states */
+.intervention-chart[data-dragging="true"] {
+  cursor: grabbing;
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+/* Tooltip styling override for ECharts */
+.intervention-chart .echarts-tooltip {
+  background: rgba(0, 0, 0, 0.8) !important;
+  border: none !important;
+  border-radius: 4px !important;
+  color: white !important;
+  font-size: 12px !important;
+}
+
+/* Animation classes for smooth transitions */
+.intervention-fade-in {
+  animation: interventionFadeIn 0.3s ease-in-out;
+}
+
+@keyframes interventionFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.intervention-slide-up {
+  animation: interventionSlideUp 0.2s ease-out;
+}
+
+@keyframes interventionSlideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Loading state */
+.intervention-loading {
+  position: relative;
+}
+
+.intervention-loading::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 -10px;
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #3498db;
+  border-radius: 50%;
+  animation: interventionSpin 1s linear infinite;
+  z-index: 1000;
+}
+
+@keyframes interventionSpin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Error state */
+.intervention-error {
+  background: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+/* Success state */
+.intervention-success {
+  background: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 10px 0;
+}

@@ -1,0 +1,12 @@
+cancer_site,disability_weight,notes
+Lung cancer,0.75,Approx. GBD-weighted average across stages
+Colorectal cancer,0.73,Approx. GBD-weighted average across stages
+Oral cancer,0.87,Advanced-stage proxy (GBD)
+Pancreatic cancer,0.94,Advanced-stage proxy; very high disability
+Uterine cancer,0.71,GBD advanced-stage proxy
+Blood cancer (leukaemia/lymphoma),0.66,Approx. average across major haematological malignancies
+Ovarian cancer,0.82,Approx. GBD-weighted average
+Oesophago-gastric cancer,0.86,Advanced-stage proxy (GBD)
+Prostate cancer,0.61,Approx. GBD-weighted average
+Female breast cancer,0.65,Approx. GBD-weighted average
+Renal cancer,0.77,Approx. GBD-weighted average

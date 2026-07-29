@@ -1,0 +1,13 @@
+Condition,ICD-10 Codes,Description,therapy,mortality,complications
+Atrial Fibrillation,I48,,"anticoagulants(arfarin, acenocoumarol, phenindione, dabigatran, rivaroxaban, and apixaban)",,
+Coronary Heart Disease (CHD),I20-I25,,,,
+Heart Failure,I50,,,,
+Diabetes,E10-E14,,,yes,blindness/amputation
+Stroke,I60-I69,,aspirin NOT effective at avoiding stroke in those people with AF,,
+Atherosclerosis,I70-I79,,,,
+Venous Thromboembolism,I80-I82,,,,
+Intermittent Claudification,I73.9,,,,
+Hypertension,I10-I15,,,,
+chronic kidney disease,,,,,
+obesity,,,,,
+smoking,,,,,

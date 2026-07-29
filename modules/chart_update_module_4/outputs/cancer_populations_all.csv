@@ -1,0 +1,2041 @@
+cancer_site,sex,period,age,HSCT,prevalence
+All Cancers,Male,10-year,0-54,Belfast HSCT,751
+All Cancers,Male,10-year,0-54,Northern HSCT,1157
+All Cancers,Male,10-year,0-54,South Eastern HSCT,944
+All Cancers,Male,10-year,0-54,Southern HSCT,811
+All Cancers,Male,10-year,0-54,Western HSCT,700
+All Cancers,Male,10-year,55-64,Belfast HSCT,1094
+All Cancers,Male,10-year,55-64,Northern HSCT,1686
+All Cancers,Male,10-year,55-64,South Eastern HSCT,1375
+All Cancers,Male,10-year,55-64,Southern HSCT,1181
+All Cancers,Male,10-year,55-64,Western HSCT,1020
+All Cancers,Male,10-year,65-74,Belfast HSCT,1890
+All Cancers,Male,10-year,65-74,Northern HSCT,2912
+All Cancers,Male,10-year,65-74,South Eastern HSCT,2376
+All Cancers,Male,10-year,65-74,Southern HSCT,2040
+All Cancers,Male,10-year,65-74,Western HSCT,1761
+All Cancers,Male,10-year,75+,Belfast HSCT,2512
+All Cancers,Male,10-year,75+,Northern HSCT,3869
+All Cancers,Male,10-year,75+,South Eastern HSCT,3157
+All Cancers,Male,10-year,75+,Southern HSCT,2711
+All Cancers,Male,10-year,75+,Western HSCT,2340
+Bladder Cancer,Male,10-year,0-54,Belfast HSCT,4
+Bladder Cancer,Male,10-year,0-54,Northern HSCT,10
+Bladder Cancer,Male,10-year,0-54,South Eastern HSCT,6
+Bladder Cancer,Male,10-year,0-54,Southern HSCT,4
+Bladder Cancer,Male,10-year,0-54,Western HSCT,5
+Bladder Cancer,Male,10-year,55-64,Belfast HSCT,20
+Bladder Cancer,Male,10-year,55-64,Northern HSCT,28
+Bladder Cancer,Male,10-year,55-64,South Eastern HSCT,21
+Bladder Cancer,Male,10-year,55-64,Southern HSCT,15
+Bladder Cancer,Male,10-year,55-64,Western HSCT,20
+Bladder Cancer,Male,10-year,65-74,Belfast HSCT,41
+Bladder Cancer,Male,10-year,65-74,Northern HSCT,59
+Bladder Cancer,Male,10-year,65-74,South Eastern HSCT,48
+Bladder Cancer,Male,10-year,65-74,Southern HSCT,31
+Bladder Cancer,Male,10-year,65-74,Western HSCT,37
+Bladder Cancer,Male,10-year,75+,Belfast HSCT,79
+Bladder Cancer,Male,10-year,75+,Northern HSCT,112
+Bladder Cancer,Male,10-year,75+,South Eastern HSCT,95
+Bladder Cancer,Male,10-year,75+,Southern HSCT,59
+Bladder Cancer,Male,10-year,75+,Western HSCT,74
+Blood Leukaemia,Male,10-year,0-54,Belfast HSCT,46
+Blood Leukaemia,Male,10-year,0-54,Northern HSCT,67
+Blood Leukaemia,Male,10-year,0-54,South Eastern HSCT,54
+Blood Leukaemia,Male,10-year,0-54,Southern HSCT,50
+Blood Leukaemia,Male,10-year,0-54,Western HSCT,39
+Blood Leukaemia,Male,10-year,55-64,Belfast HSCT,27
+Blood Leukaemia,Male,10-year,55-64,Northern HSCT,41
+Blood Leukaemia,Male,10-year,55-64,South Eastern HSCT,33
+Blood Leukaemia,Male,10-year,55-64,Southern HSCT,31
+Blood Leukaemia,Male,10-year,55-64,Western HSCT,24
+Blood Leukaemia,Male,10-year,65-74,Belfast HSCT,36
+Blood Leukaemia,Male,10-year,65-74,Northern HSCT,55
+Blood Leukaemia,Male,10-year,65-74,South Eastern HSCT,44
+Blood Leukaemia,Male,10-year,65-74,Southern HSCT,42
+Blood Leukaemia,Male,10-year,65-74,Western HSCT,32
+Blood Leukaemia,Male,10-year,75+,Belfast HSCT,38
+Blood Leukaemia,Male,10-year,75+,Northern HSCT,58
+Blood Leukaemia,Male,10-year,75+,South Eastern HSCT,46
+Blood Leukaemia,Male,10-year,75+,Southern HSCT,45
+Blood Leukaemia,Male,10-year,75+,Western HSCT,33
+Blood Lymphoma,Male,10-year,0-54,Belfast HSCT,62
+Blood Lymphoma,Male,10-year,0-54,Northern HSCT,103
+Blood Lymphoma,Male,10-year,0-54,South Eastern HSCT,74
+Blood Lymphoma,Male,10-year,0-54,Southern HSCT,69
+Blood Lymphoma,Male,10-year,0-54,Western HSCT,53
+Blood Lymphoma,Male,10-year,55-64,Belfast HSCT,51
+Blood Lymphoma,Male,10-year,55-64,Northern HSCT,84
+Blood Lymphoma,Male,10-year,55-64,South Eastern HSCT,61
+Blood Lymphoma,Male,10-year,55-64,Southern HSCT,56
+Blood Lymphoma,Male,10-year,55-64,Western HSCT,44
+Blood Lymphoma,Male,10-year,65-74,Belfast HSCT,61
+Blood Lymphoma,Male,10-year,65-74,Northern HSCT,100
+Blood Lymphoma,Male,10-year,65-74,South Eastern HSCT,72
+Blood Lymphoma,Male,10-year,65-74,Southern HSCT,67
+Blood Lymphoma,Male,10-year,65-74,Western HSCT,52
+Blood Lymphoma,Male,10-year,75+,Belfast HSCT,73
+Blood Lymphoma,Male,10-year,75+,Northern HSCT,120
+Blood Lymphoma,Male,10-year,75+,South Eastern HSCT,86
+Blood Lymphoma,Male,10-year,75+,Southern HSCT,81
+Blood Lymphoma,Male,10-year,75+,Western HSCT,63
+Blood Multiple Myeloma,Male,10-year,0-54,Belfast HSCT,6
+Blood Multiple Myeloma,Male,10-year,0-54,Northern HSCT,12
+Blood Multiple Myeloma,Male,10-year,0-54,South Eastern HSCT,8
+Blood Multiple Myeloma,Male,10-year,0-54,Southern HSCT,10
+Blood Multiple Myeloma,Male,10-year,0-54,Western HSCT,7
+Blood Multiple Myeloma,Male,10-year,55-64,Belfast HSCT,14
+Blood Multiple Myeloma,Male,10-year,55-64,Northern HSCT,26
+Blood Multiple Myeloma,Male,10-year,55-64,South Eastern HSCT,18
+Blood Multiple Myeloma,Male,10-year,55-64,Southern HSCT,23
+Blood Multiple Myeloma,Male,10-year,55-64,Western HSCT,15
+Blood Multiple Myeloma,Male,10-year,65-74,Belfast HSCT,25
+Blood Multiple Myeloma,Male,10-year,65-74,Northern HSCT,46
+Blood Multiple Myeloma,Male,10-year,65-74,South Eastern HSCT,31
+Blood Multiple Myeloma,Male,10-year,65-74,Southern HSCT,40
+Blood Multiple Myeloma,Male,10-year,65-74,Western HSCT,27
+Blood Multiple Myeloma,Male,10-year,75+,Belfast HSCT,27
+Blood Multiple Myeloma,Male,10-year,75+,Northern HSCT,51
+Blood Multiple Myeloma,Male,10-year,75+,South Eastern HSCT,34
+Blood Multiple Myeloma,Male,10-year,75+,Southern HSCT,44
+Blood Multiple Myeloma,Male,10-year,75+,Western HSCT,29
+Brain Cancer,Male,10-year,0-54,Belfast HSCT,26
+Brain Cancer,Male,10-year,0-54,Northern HSCT,40
+Brain Cancer,Male,10-year,0-54,South Eastern HSCT,36
+Brain Cancer,Male,10-year,0-54,Southern HSCT,41
+Brain Cancer,Male,10-year,0-54,Western HSCT,24
+Brain Cancer,Male,10-year,55-64,Belfast HSCT,6
+Brain Cancer,Male,10-year,55-64,Northern HSCT,8
+Brain Cancer,Male,10-year,55-64,South Eastern HSCT,6
+Brain Cancer,Male,10-year,55-64,Southern HSCT,5
+Brain Cancer,Male,10-year,55-64,Western HSCT,4
+Brain Cancer,Male,10-year,65-74,Belfast HSCT,5
+Brain Cancer,Male,10-year,65-74,Northern HSCT,5
+Brain Cancer,Male,10-year,65-74,South Eastern HSCT,5
+Brain Cancer,Male,10-year,65-74,Southern HSCT,4
+Brain Cancer,Male,10-year,65-74,Western HSCT,3
+Brain Cancer,Male,10-year,75+,Belfast HSCT,13
+Brain Cancer,Male,10-year,75+,Northern HSCT,2
+Brain Cancer,Male,10-year,75+,South Eastern HSCT,3
+Brain Cancer,Male,10-year,75+,Southern HSCT,-8
+Brain Cancer,Male,10-year,75+,Western HSCT,2
+Colorectal Cancer,Male,10-year,0-54,Belfast HSCT,47
+Colorectal Cancer,Male,10-year,0-54,Northern HSCT,67
+Colorectal Cancer,Male,10-year,0-54,South Eastern HSCT,56
+Colorectal Cancer,Male,10-year,0-54,Southern HSCT,51
+Colorectal Cancer,Male,10-year,0-54,Western HSCT,49
+Colorectal Cancer,Male,10-year,55-64,Belfast HSCT,124
+Colorectal Cancer,Male,10-year,55-64,Northern HSCT,174
+Colorectal Cancer,Male,10-year,55-64,South Eastern HSCT,144
+Colorectal Cancer,Male,10-year,55-64,Southern HSCT,135
+Colorectal Cancer,Male,10-year,55-64,Western HSCT,124
+Colorectal Cancer,Male,10-year,65-74,Belfast HSCT,196
+Colorectal Cancer,Male,10-year,65-74,Northern HSCT,278
+Colorectal Cancer,Male,10-year,65-74,South Eastern HSCT,233
+Colorectal Cancer,Male,10-year,65-74,Southern HSCT,219
+Colorectal Cancer,Male,10-year,65-74,Western HSCT,204
+Colorectal Cancer,Male,10-year,75+,Belfast HSCT,262
+Colorectal Cancer,Male,10-year,75+,Northern HSCT,369
+Colorectal Cancer,Male,10-year,75+,South Eastern HSCT,309
+Colorectal Cancer,Male,10-year,75+,Southern HSCT,289
+Colorectal Cancer,Male,10-year,75+,Western HSCT,273
+Gallbladder And Other Biliary Cancer,Male,10-year,0-54,Belfast HSCT,1
+Gallbladder And Other Biliary Cancer,Male,10-year,0-54,Northern HSCT,1
+Gallbladder And Other Biliary Cancer,Male,10-year,0-54,South Eastern HSCT,1
+Gallbladder And Other Biliary Cancer,Male,10-year,0-54,Southern HSCT,-1
+Gallbladder And Other Biliary Cancer,Male,10-year,0-54,Western HSCT,2
+Gallbladder And Other Biliary Cancer,Male,10-year,55-64,Belfast HSCT,2
+Gallbladder And Other Biliary Cancer,Male,10-year,55-64,Northern HSCT,2
+Gallbladder And Other Biliary Cancer,Male,10-year,55-64,South Eastern HSCT,3
+Gallbladder And Other Biliary Cancer,Male,10-year,55-64,Southern HSCT,1
+Gallbladder And Other Biliary Cancer,Male,10-year,55-64,Western HSCT,1
+Gallbladder And Other Biliary Cancer,Male,10-year,65-74,Belfast HSCT,6
+Gallbladder And Other Biliary Cancer,Male,10-year,65-74,Northern HSCT,6
+Gallbladder And Other Biliary Cancer,Male,10-year,65-74,South Eastern HSCT,3
+Gallbladder And Other Biliary Cancer,Male,10-year,65-74,Southern HSCT,6
+Gallbladder And Other Biliary Cancer,Male,10-year,65-74,Western HSCT,4
+Gallbladder And Other Biliary Cancer,Male,10-year,75+,Belfast HSCT,8
+Gallbladder And Other Biliary Cancer,Male,10-year,75+,Northern HSCT,8
+Gallbladder And Other Biliary Cancer,Male,10-year,75+,South Eastern HSCT,6
+Gallbladder And Other Biliary Cancer,Male,10-year,75+,Southern HSCT,5
+Gallbladder And Other Biliary Cancer,Male,10-year,75+,Western HSCT,5
+Kidney Cancer,Male,10-year,0-54,Belfast HSCT,32
+Kidney Cancer,Male,10-year,0-54,Northern HSCT,49
+Kidney Cancer,Male,10-year,0-54,South Eastern HSCT,41
+Kidney Cancer,Male,10-year,0-54,Southern HSCT,37
+Kidney Cancer,Male,10-year,0-54,Western HSCT,31
+Kidney Cancer,Male,10-year,55-64,Belfast HSCT,45
+Kidney Cancer,Male,10-year,55-64,Northern HSCT,71
+Kidney Cancer,Male,10-year,55-64,South Eastern HSCT,59
+Kidney Cancer,Male,10-year,55-64,Southern HSCT,53
+Kidney Cancer,Male,10-year,55-64,Western HSCT,44
+Kidney Cancer,Male,10-year,65-74,Belfast HSCT,61
+Kidney Cancer,Male,10-year,65-74,Northern HSCT,94
+Kidney Cancer,Male,10-year,65-74,South Eastern HSCT,78
+Kidney Cancer,Male,10-year,65-74,Southern HSCT,70
+Kidney Cancer,Male,10-year,65-74,Western HSCT,59
+Kidney Cancer,Male,10-year,75+,Belfast HSCT,53
+Kidney Cancer,Male,10-year,75+,Northern HSCT,84
+Kidney Cancer,Male,10-year,75+,South Eastern HSCT,68
+Kidney Cancer,Male,10-year,75+,Southern HSCT,61
+Kidney Cancer,Male,10-year,75+,Western HSCT,52
+Liver Cancer,Male,10-year,0-54,Belfast HSCT,4
+Liver Cancer,Male,10-year,0-54,Northern HSCT,3
+Liver Cancer,Male,10-year,0-54,South Eastern HSCT,2
+Liver Cancer,Male,10-year,0-54,Southern HSCT,4
+Liver Cancer,Male,10-year,0-54,Western HSCT,1
+Liver Cancer,Male,10-year,55-64,Belfast HSCT,7
+Liver Cancer,Male,10-year,55-64,Northern HSCT,7
+Liver Cancer,Male,10-year,55-64,South Eastern HSCT,7
+Liver Cancer,Male,10-year,55-64,Southern HSCT,5
+Liver Cancer,Male,10-year,55-64,Western HSCT,5
+Liver Cancer,Male,10-year,65-74,Belfast HSCT,17
+Liver Cancer,Male,10-year,65-74,Northern HSCT,18
+Liver Cancer,Male,10-year,65-74,South Eastern HSCT,18
+Liver Cancer,Male,10-year,65-74,Southern HSCT,14
+Liver Cancer,Male,10-year,65-74,Western HSCT,12
+Liver Cancer,Male,10-year,75+,Belfast HSCT,18
+Liver Cancer,Male,10-year,75+,Northern HSCT,17
+Liver Cancer,Male,10-year,75+,South Eastern HSCT,17
+Liver Cancer,Male,10-year,75+,Southern HSCT,12
+Liver Cancer,Male,10-year,75+,Western HSCT,11
+Lung Cancer,Male,10-year,0-54,Belfast HSCT,13
+Lung Cancer,Male,10-year,0-54,Northern HSCT,17
+Lung Cancer,Male,10-year,0-54,South Eastern HSCT,12
+Lung Cancer,Male,10-year,0-54,Southern HSCT,15
+Lung Cancer,Male,10-year,0-54,Western HSCT,10
+Lung Cancer,Male,10-year,55-64,Belfast HSCT,35
+Lung Cancer,Male,10-year,55-64,Northern HSCT,44
+Lung Cancer,Male,10-year,55-64,South Eastern HSCT,32
+Lung Cancer,Male,10-year,55-64,Southern HSCT,39
+Lung Cancer,Male,10-year,55-64,Western HSCT,30
+Lung Cancer,Male,10-year,65-74,Belfast HSCT,81
+Lung Cancer,Male,10-year,65-74,Northern HSCT,105
+Lung Cancer,Male,10-year,65-74,South Eastern HSCT,75
+Lung Cancer,Male,10-year,65-74,Southern HSCT,93
+Lung Cancer,Male,10-year,65-74,Western HSCT,73
+Lung Cancer,Male,10-year,75+,Belfast HSCT,92
+Lung Cancer,Male,10-year,75+,Northern HSCT,116
+Lung Cancer,Male,10-year,75+,South Eastern HSCT,81
+Lung Cancer,Male,10-year,75+,Southern HSCT,102
+Lung Cancer,Male,10-year,75+,Western HSCT,80
+Oesophageal Cancer,Male,10-year,0-54,Belfast HSCT,6
+Oesophageal Cancer,Male,10-year,0-54,Northern HSCT,8
+Oesophageal Cancer,Male,10-year,0-54,South Eastern HSCT,10
+Oesophageal Cancer,Male,10-year,0-54,Southern HSCT,8
+Oesophageal Cancer,Male,10-year,0-54,Western HSCT,8
+Oesophageal Cancer,Male,10-year,55-64,Belfast HSCT,15
+Oesophageal Cancer,Male,10-year,55-64,Northern HSCT,20
+Oesophageal Cancer,Male,10-year,55-64,South Eastern HSCT,22
+Oesophageal Cancer,Male,10-year,55-64,Southern HSCT,18
+Oesophageal Cancer,Male,10-year,55-64,Western HSCT,17
+Oesophageal Cancer,Male,10-year,65-74,Belfast HSCT,23
+Oesophageal Cancer,Male,10-year,65-74,Northern HSCT,39
+Oesophageal Cancer,Male,10-year,65-74,South Eastern HSCT,41
+Oesophageal Cancer,Male,10-year,65-74,Southern HSCT,30
+Oesophageal Cancer,Male,10-year,65-74,Western HSCT,30
+Oesophageal Cancer,Male,10-year,75+,Belfast HSCT,18
+Oesophageal Cancer,Male,10-year,75+,Northern HSCT,28
+Oesophageal Cancer,Male,10-year,75+,South Eastern HSCT,28
+Oesophageal Cancer,Male,10-year,75+,Southern HSCT,23
+Oesophageal Cancer,Male,10-year,75+,Western HSCT,22
+Oral Cancer,Male,10-year,0-54,Belfast HSCT,32
+Oral Cancer,Male,10-year,0-54,Northern HSCT,33
+Oral Cancer,Male,10-year,0-54,South Eastern HSCT,27
+Oral Cancer,Male,10-year,0-54,Southern HSCT,29
+Oral Cancer,Male,10-year,0-54,Western HSCT,23
+Oral Cancer,Male,10-year,55-64,Belfast HSCT,55
+Oral Cancer,Male,10-year,55-64,Northern HSCT,57
+Oral Cancer,Male,10-year,55-64,South Eastern HSCT,47
+Oral Cancer,Male,10-year,55-64,Southern HSCT,51
+Oral Cancer,Male,10-year,55-64,Western HSCT,43
+Oral Cancer,Male,10-year,65-74,Belfast HSCT,50
+Oral Cancer,Male,10-year,65-74,Northern HSCT,52
+Oral Cancer,Male,10-year,65-74,South Eastern HSCT,42
+Oral Cancer,Male,10-year,65-74,Southern HSCT,47
+Oral Cancer,Male,10-year,65-74,Western HSCT,38
+Oral Cancer,Male,10-year,75+,Belfast HSCT,31
+Oral Cancer,Male,10-year,75+,Northern HSCT,32
+Oral Cancer,Male,10-year,75+,South Eastern HSCT,26
+Oral Cancer,Male,10-year,75+,Southern HSCT,27
+Oral Cancer,Male,10-year,75+,Western HSCT,25
+Pancreatic Cancer,Male,10-year,0-54,Belfast HSCT,3
+Pancreatic Cancer,Male,10-year,0-54,Northern HSCT,6
+Pancreatic Cancer,Male,10-year,0-54,South Eastern HSCT,5
+Pancreatic Cancer,Male,10-year,0-54,Southern HSCT,6
+Pancreatic Cancer,Male,10-year,0-54,Western HSCT,3
+Pancreatic Cancer,Male,10-year,55-64,Belfast HSCT,8
+Pancreatic Cancer,Male,10-year,55-64,Northern HSCT,11
+Pancreatic Cancer,Male,10-year,55-64,South Eastern HSCT,6
+Pancreatic Cancer,Male,10-year,55-64,Southern HSCT,8
+Pancreatic Cancer,Male,10-year,55-64,Western HSCT,6
+Pancreatic Cancer,Male,10-year,65-74,Belfast HSCT,11
+Pancreatic Cancer,Male,10-year,65-74,Northern HSCT,16
+Pancreatic Cancer,Male,10-year,65-74,South Eastern HSCT,10
+Pancreatic Cancer,Male,10-year,65-74,Southern HSCT,15
+Pancreatic Cancer,Male,10-year,65-74,Western HSCT,9
+Pancreatic Cancer,Male,10-year,75+,Belfast HSCT,9
+Pancreatic Cancer,Male,10-year,75+,Northern HSCT,14
+Pancreatic Cancer,Male,10-year,75+,South Eastern HSCT,9
+Pancreatic Cancer,Male,10-year,75+,Southern HSCT,12
+Pancreatic Cancer,Male,10-year,75+,Western HSCT,8
+Stomach Cancer,Male,10-year,0-54,Belfast HSCT,3
+Stomach Cancer,Male,10-year,0-54,Northern HSCT,3
+Stomach Cancer,Male,10-year,0-54,South Eastern HSCT,3
+Stomach Cancer,Male,10-year,0-54,Southern HSCT,2
+Stomach Cancer,Male,10-year,0-54,Western HSCT,4
+Stomach Cancer,Male,10-year,55-64,Belfast HSCT,8
+Stomach Cancer,Male,10-year,55-64,Northern HSCT,8
+Stomach Cancer,Male,10-year,55-64,South Eastern HSCT,8
+Stomach Cancer,Male,10-year,55-64,Southern HSCT,6
+Stomach Cancer,Male,10-year,55-64,Western HSCT,8
+Stomach Cancer,Male,10-year,65-74,Belfast HSCT,13
+Stomach Cancer,Male,10-year,65-74,Northern HSCT,12
+Stomach Cancer,Male,10-year,65-74,South Eastern HSCT,32
+Stomach Cancer,Male,10-year,65-74,Southern HSCT,-11
+Stomach Cancer,Male,10-year,65-74,Western HSCT,13
+Stomach Cancer,Male,10-year,75+,Belfast HSCT,29
+Stomach Cancer,Male,10-year,75+,Northern HSCT,30
+Stomach Cancer,Male,10-year,75+,South Eastern HSCT,8
+Stomach Cancer,Male,10-year,75+,Southern HSCT,38
+Stomach Cancer,Male,10-year,75+,Western HSCT,30
+All Cancers,Male,25-year,0-54,Belfast HSCT,1052
+All Cancers,Male,25-year,0-54,Northern HSCT,1630
+All Cancers,Male,25-year,0-54,South Eastern HSCT,1334
+All Cancers,Male,25-year,0-54,Southern HSCT,1161
+All Cancers,Male,25-year,0-54,Western HSCT,980
+All Cancers,Male,25-year,55-64,Belfast HSCT,1405
+All Cancers,Male,25-year,55-64,Northern HSCT,2175
+All Cancers,Male,25-year,55-64,South Eastern HSCT,1780
+All Cancers,Male,25-year,55-64,Southern HSCT,1550
+All Cancers,Male,25-year,55-64,Western HSCT,1308
+All Cancers,Male,25-year,65-74,Belfast HSCT,2468
+All Cancers,Male,25-year,65-74,Northern HSCT,3822
+All Cancers,Male,25-year,65-74,South Eastern HSCT,3128
+All Cancers,Male,25-year,65-74,Southern HSCT,2724
+All Cancers,Male,25-year,65-74,Western HSCT,2299
+All Cancers,Male,25-year,75+,Belfast HSCT,3570
+All Cancers,Male,25-year,75+,Northern HSCT,5528
+All Cancers,Male,25-year,75+,South Eastern HSCT,4525
+All Cancers,Male,25-year,75+,Southern HSCT,3940
+All Cancers,Male,25-year,75+,Western HSCT,3325
+Bladder Cancer,Male,25-year,0-54,Belfast HSCT,8
+Bladder Cancer,Male,25-year,0-54,Northern HSCT,1
+Bladder Cancer,Male,25-year,0-54,South Eastern HSCT,10
+Bladder Cancer,Male,25-year,0-54,Southern HSCT,16
+Bladder Cancer,Male,25-year,0-54,Western HSCT,7
+Bladder Cancer,Male,25-year,55-64,Belfast HSCT,25
+Bladder Cancer,Male,25-year,55-64,Northern HSCT,37
+Bladder Cancer,Male,25-year,55-64,South Eastern HSCT,28
+Bladder Cancer,Male,25-year,55-64,Southern HSCT,22
+Bladder Cancer,Male,25-year,55-64,Western HSCT,21
+Bladder Cancer,Male,25-year,65-74,Belfast HSCT,57
+Bladder Cancer,Male,25-year,65-74,Northern HSCT,84
+Bladder Cancer,Male,25-year,65-74,South Eastern HSCT,65
+Bladder Cancer,Male,25-year,65-74,Southern HSCT,50
+Bladder Cancer,Male,25-year,65-74,Western HSCT,49
+Bladder Cancer,Male,25-year,75+,Belfast HSCT,122
+Bladder Cancer,Male,25-year,75+,Northern HSCT,188
+Bladder Cancer,Male,25-year,75+,South Eastern HSCT,138
+Bladder Cancer,Male,25-year,75+,Southern HSCT,97
+Bladder Cancer,Male,25-year,75+,Western HSCT,104
+Blood Leukaemia,Male,25-year,0-54,Belfast HSCT,71
+Blood Leukaemia,Male,25-year,0-54,Northern HSCT,105
+Blood Leukaemia,Male,25-year,0-54,South Eastern HSCT,90
+Blood Leukaemia,Male,25-year,0-54,Southern HSCT,79
+Blood Leukaemia,Male,25-year,0-54,Western HSCT,65
+Blood Leukaemia,Male,25-year,55-64,Belfast HSCT,34
+Blood Leukaemia,Male,25-year,55-64,Northern HSCT,51
+Blood Leukaemia,Male,25-year,55-64,South Eastern HSCT,44
+Blood Leukaemia,Male,25-year,55-64,Southern HSCT,38
+Blood Leukaemia,Male,25-year,55-64,Western HSCT,31
+Blood Leukaemia,Male,25-year,65-74,Belfast HSCT,49
+Blood Leukaemia,Male,25-year,65-74,Northern HSCT,71
+Blood Leukaemia,Male,25-year,65-74,South Eastern HSCT,61
+Blood Leukaemia,Male,25-year,65-74,Southern HSCT,54
+Blood Leukaemia,Male,25-year,65-74,Western HSCT,44
+Blood Leukaemia,Male,25-year,75+,Belfast HSCT,55
+Blood Leukaemia,Male,25-year,75+,Northern HSCT,81
+Blood Leukaemia,Male,25-year,75+,South Eastern HSCT,70
+Blood Leukaemia,Male,25-year,75+,Southern HSCT,62
+Blood Leukaemia,Male,25-year,75+,Western HSCT,50
+Blood Lymphoma,Male,25-year,0-54,Belfast HSCT,101
+Blood Lymphoma,Male,25-year,0-54,Northern HSCT,159
+Blood Lymphoma,Male,25-year,0-54,South Eastern HSCT,119
+Blood Lymphoma,Male,25-year,0-54,Southern HSCT,113
+Blood Lymphoma,Male,25-year,0-54,Western HSCT,84
+Blood Lymphoma,Male,25-year,55-64,Belfast HSCT,80
+Blood Lymphoma,Male,25-year,55-64,Northern HSCT,125
+Blood Lymphoma,Male,25-year,55-64,South Eastern HSCT,94
+Blood Lymphoma,Male,25-year,55-64,Southern HSCT,89
+Blood Lymphoma,Male,25-year,55-64,Western HSCT,67
+Blood Lymphoma,Male,25-year,65-74,Belfast HSCT,90
+Blood Lymphoma,Male,25-year,65-74,Northern HSCT,142
+Blood Lymphoma,Male,25-year,65-74,South Eastern HSCT,106
+Blood Lymphoma,Male,25-year,65-74,Southern HSCT,101
+Blood Lymphoma,Male,25-year,65-74,Western HSCT,75
+Blood Lymphoma,Male,25-year,75+,Belfast HSCT,105
+Blood Lymphoma,Male,25-year,75+,Northern HSCT,165
+Blood Lymphoma,Male,25-year,75+,South Eastern HSCT,123
+Blood Lymphoma,Male,25-year,75+,Southern HSCT,117
+Blood Lymphoma,Male,25-year,75+,Western HSCT,88
+Blood Multiple Myeloma,Male,25-year,0-54,Belfast HSCT,17
+Blood Multiple Myeloma,Male,25-year,0-54,Northern HSCT,13
+Blood Multiple Myeloma,Male,25-year,0-54,South Eastern HSCT,10
+Blood Multiple Myeloma,Male,25-year,0-54,Southern HSCT,11
+Blood Multiple Myeloma,Male,25-year,0-54,Western HSCT,-2
+Blood Multiple Myeloma,Male,25-year,55-64,Belfast HSCT,6
+Blood Multiple Myeloma,Male,25-year,55-64,Northern HSCT,30
+Blood Multiple Myeloma,Male,25-year,55-64,South Eastern HSCT,23
+Blood Multiple Myeloma,Male,25-year,55-64,Southern HSCT,26
+Blood Multiple Myeloma,Male,25-year,55-64,Western HSCT,28
+Blood Multiple Myeloma,Male,25-year,65-74,Belfast HSCT,18
+Blood Multiple Myeloma,Male,25-year,65-74,Northern HSCT,53
+Blood Multiple Myeloma,Male,25-year,65-74,South Eastern HSCT,39
+Blood Multiple Myeloma,Male,25-year,65-74,Southern HSCT,55
+Blood Multiple Myeloma,Male,25-year,65-74,Western HSCT,30
+Blood Multiple Myeloma,Male,25-year,75+,Belfast HSCT,42
+Blood Multiple Myeloma,Male,25-year,75+,Northern HSCT,59
+Blood Multiple Myeloma,Male,25-year,75+,South Eastern HSCT,44
+Blood Multiple Myeloma,Male,25-year,75+,Southern HSCT,40
+Blood Multiple Myeloma,Male,25-year,75+,Western HSCT,34
+Brain Cancer,Male,25-year,0-54,Belfast HSCT,55
+Brain Cancer,Male,25-year,0-54,Northern HSCT,77
+Brain Cancer,Male,25-year,0-54,South Eastern HSCT,61
+Brain Cancer,Male,25-year,0-54,Southern HSCT,44
+Brain Cancer,Male,25-year,0-54,Western HSCT,44
+Brain Cancer,Male,25-year,55-64,Belfast HSCT,10
+Brain Cancer,Male,25-year,55-64,Northern HSCT,11
+Brain Cancer,Male,25-year,55-64,South Eastern HSCT,10
+Brain Cancer,Male,25-year,55-64,Southern HSCT,7
+Brain Cancer,Male,25-year,55-64,Western HSCT,7
+Brain Cancer,Male,25-year,65-74,Belfast HSCT,8
+Brain Cancer,Male,25-year,65-74,Northern HSCT,13
+Brain Cancer,Male,25-year,65-74,South Eastern HSCT,8
+Brain Cancer,Male,25-year,65-74,Southern HSCT,4
+Brain Cancer,Male,25-year,65-74,Western HSCT,6
+Brain Cancer,Male,25-year,75+,Belfast HSCT,3
+Brain Cancer,Male,25-year,75+,Northern HSCT,4
+Brain Cancer,Male,25-year,75+,South Eastern HSCT,3
+Brain Cancer,Male,25-year,75+,Southern HSCT,4
+Brain Cancer,Male,25-year,75+,Western HSCT,2
+Colorectal Cancer,Male,25-year,0-54,Belfast HSCT,56
+Colorectal Cancer,Male,25-year,0-54,Northern HSCT,83
+Colorectal Cancer,Male,25-year,0-54,South Eastern HSCT,68
+Colorectal Cancer,Male,25-year,0-54,Southern HSCT,61
+Colorectal Cancer,Male,25-year,0-54,Western HSCT,56
+Colorectal Cancer,Male,25-year,55-64,Belfast HSCT,149
+Colorectal Cancer,Male,25-year,55-64,Northern HSCT,220
+Colorectal Cancer,Male,25-year,55-64,South Eastern HSCT,180
+Colorectal Cancer,Male,25-year,55-64,Southern HSCT,162
+Colorectal Cancer,Male,25-year,55-64,Western HSCT,147
+Colorectal Cancer,Male,25-year,65-74,Belfast HSCT,266
+Colorectal Cancer,Male,25-year,65-74,Northern HSCT,394
+Colorectal Cancer,Male,25-year,65-74,South Eastern HSCT,322
+Colorectal Cancer,Male,25-year,65-74,Southern HSCT,288
+Colorectal Cancer,Male,25-year,65-74,Western HSCT,263
+Colorectal Cancer,Male,25-year,75+,Belfast HSCT,435
+Colorectal Cancer,Male,25-year,75+,Northern HSCT,645
+Colorectal Cancer,Male,25-year,75+,South Eastern HSCT,528
+Colorectal Cancer,Male,25-year,75+,Southern HSCT,472
+Colorectal Cancer,Male,25-year,75+,Western HSCT,431
+Gallbladder And Other Biliary Cancer,Male,25-year,0-54,Belfast HSCT,2
+Gallbladder And Other Biliary Cancer,Male,25-year,0-54,Northern HSCT,1
+Gallbladder And Other Biliary Cancer,Male,25-year,0-54,South Eastern HSCT,1
+Gallbladder And Other Biliary Cancer,Male,25-year,0-54,Southern HSCT,1
+Gallbladder And Other Biliary Cancer,Male,25-year,0-54,Western HSCT,1
+Gallbladder And Other Biliary Cancer,Male,25-year,55-64,Belfast HSCT,1
+Gallbladder And Other Biliary Cancer,Male,25-year,55-64,Northern HSCT,2
+Gallbladder And Other Biliary Cancer,Male,25-year,55-64,South Eastern HSCT,3
+Gallbladder And Other Biliary Cancer,Male,25-year,55-64,Southern HSCT,2
+Gallbladder And Other Biliary Cancer,Male,25-year,55-64,Western HSCT,2
+Gallbladder And Other Biliary Cancer,Male,25-year,65-74,Belfast HSCT,7
+Gallbladder And Other Biliary Cancer,Male,25-year,65-74,Northern HSCT,7
+Gallbladder And Other Biliary Cancer,Male,25-year,65-74,South Eastern HSCT,4
+Gallbladder And Other Biliary Cancer,Male,25-year,65-74,Southern HSCT,7
+Gallbladder And Other Biliary Cancer,Male,25-year,65-74,Western HSCT,5
+Gallbladder And Other Biliary Cancer,Male,25-year,75+,Belfast HSCT,9
+Gallbladder And Other Biliary Cancer,Male,25-year,75+,Northern HSCT,9
+Gallbladder And Other Biliary Cancer,Male,25-year,75+,South Eastern HSCT,6
+Gallbladder And Other Biliary Cancer,Male,25-year,75+,Southern HSCT,8
+Gallbladder And Other Biliary Cancer,Male,25-year,75+,Western HSCT,6
+Kidney Cancer,Male,25-year,0-54,Belfast HSCT,39
+Kidney Cancer,Male,25-year,0-54,Northern HSCT,58
+Kidney Cancer,Male,25-year,0-54,South Eastern HSCT,49
+Kidney Cancer,Male,25-year,0-54,Southern HSCT,45
+Kidney Cancer,Male,25-year,0-54,Western HSCT,38
+Kidney Cancer,Male,25-year,55-64,Belfast HSCT,57
+Kidney Cancer,Male,25-year,55-64,Northern HSCT,85
+Kidney Cancer,Male,25-year,55-64,South Eastern HSCT,73
+Kidney Cancer,Male,25-year,55-64,Southern HSCT,61
+Kidney Cancer,Male,25-year,55-64,Western HSCT,49
+Kidney Cancer,Male,25-year,65-74,Belfast HSCT,79
+Kidney Cancer,Male,25-year,65-74,Northern HSCT,125
+Kidney Cancer,Male,25-year,65-74,South Eastern HSCT,99
+Kidney Cancer,Male,25-year,65-74,Southern HSCT,97
+Kidney Cancer,Male,25-year,65-74,Western HSCT,74
+Kidney Cancer,Male,25-year,75+,Belfast HSCT,75
+Kidney Cancer,Male,25-year,75+,Northern HSCT,125
+Kidney Cancer,Male,25-year,75+,South Eastern HSCT,101
+Kidney Cancer,Male,25-year,75+,Southern HSCT,93
+Kidney Cancer,Male,25-year,75+,Western HSCT,74
+Liver Cancer,Male,25-year,0-54,Belfast HSCT,5
+Liver Cancer,Male,25-year,0-54,Northern HSCT,5
+Liver Cancer,Male,25-year,0-54,South Eastern HSCT,5
+Liver Cancer,Male,25-year,0-54,Southern HSCT,4
+Liver Cancer,Male,25-year,0-54,Western HSCT,3
+Liver Cancer,Male,25-year,55-64,Belfast HSCT,9
+Liver Cancer,Male,25-year,55-64,Northern HSCT,7
+Liver Cancer,Male,25-year,55-64,South Eastern HSCT,8
+Liver Cancer,Male,25-year,55-64,Southern HSCT,6
+Liver Cancer,Male,25-year,55-64,Western HSCT,5
+Liver Cancer,Male,25-year,65-74,Belfast HSCT,22
+Liver Cancer,Male,25-year,65-74,Northern HSCT,19
+Liver Cancer,Male,25-year,65-74,South Eastern HSCT,21
+Liver Cancer,Male,25-year,65-74,Southern HSCT,13
+Liver Cancer,Male,25-year,65-74,Western HSCT,12
+Liver Cancer,Male,25-year,75+,Belfast HSCT,20
+Liver Cancer,Male,25-year,75+,Northern HSCT,17
+Liver Cancer,Male,25-year,75+,South Eastern HSCT,19
+Liver Cancer,Male,25-year,75+,Southern HSCT,15
+Liver Cancer,Male,25-year,75+,Western HSCT,11
+Lung Cancer,Male,25-year,0-54,Belfast HSCT,17
+Lung Cancer,Male,25-year,0-54,Northern HSCT,18
+Lung Cancer,Male,25-year,0-54,South Eastern HSCT,14
+Lung Cancer,Male,25-year,0-54,Southern HSCT,17
+Lung Cancer,Male,25-year,0-54,Western HSCT,14
+Lung Cancer,Male,25-year,55-64,Belfast HSCT,40
+Lung Cancer,Male,25-year,55-64,Northern HSCT,49
+Lung Cancer,Male,25-year,55-64,South Eastern HSCT,37
+Lung Cancer,Male,25-year,55-64,Southern HSCT,42
+Lung Cancer,Male,25-year,55-64,Western HSCT,37
+Lung Cancer,Male,25-year,65-74,Belfast HSCT,93
+Lung Cancer,Male,25-year,65-74,Northern HSCT,114
+Lung Cancer,Male,25-year,65-74,South Eastern HSCT,86
+Lung Cancer,Male,25-year,65-74,Southern HSCT,99
+Lung Cancer,Male,25-year,65-74,Western HSCT,83
+Lung Cancer,Male,25-year,75+,Belfast HSCT,110
+Lung Cancer,Male,25-year,75+,Northern HSCT,135
+Lung Cancer,Male,25-year,75+,South Eastern HSCT,101
+Lung Cancer,Male,25-year,75+,Southern HSCT,116
+Lung Cancer,Male,25-year,75+,Western HSCT,96
+Oesophageal Cancer,Male,25-year,0-54,Belfast HSCT,7
+Oesophageal Cancer,Male,25-year,0-54,Northern HSCT,11
+Oesophageal Cancer,Male,25-year,0-54,South Eastern HSCT,10
+Oesophageal Cancer,Male,25-year,0-54,Southern HSCT,7
+Oesophageal Cancer,Male,25-year,0-54,Western HSCT,7
+Oesophageal Cancer,Male,25-year,55-64,Belfast HSCT,16
+Oesophageal Cancer,Male,25-year,55-64,Northern HSCT,24
+Oesophageal Cancer,Male,25-year,55-64,South Eastern HSCT,24
+Oesophageal Cancer,Male,25-year,55-64,Southern HSCT,19
+Oesophageal Cancer,Male,25-year,55-64,Western HSCT,19
+Oesophageal Cancer,Male,25-year,65-74,Belfast HSCT,30
+Oesophageal Cancer,Male,25-year,65-74,Northern HSCT,46
+Oesophageal Cancer,Male,25-year,65-74,South Eastern HSCT,45
+Oesophageal Cancer,Male,25-year,65-74,Southern HSCT,37
+Oesophageal Cancer,Male,25-year,65-74,Western HSCT,37
+Oesophageal Cancer,Male,25-year,75+,Belfast HSCT,27
+Oesophageal Cancer,Male,25-year,75+,Northern HSCT,39
+Oesophageal Cancer,Male,25-year,75+,South Eastern HSCT,40
+Oesophageal Cancer,Male,25-year,75+,Southern HSCT,31
+Oesophageal Cancer,Male,25-year,75+,Western HSCT,35
+Oral Cancer,Male,25-year,0-54,Belfast HSCT,35
+Oral Cancer,Male,25-year,0-54,Northern HSCT,39
+Oral Cancer,Male,25-year,0-54,South Eastern HSCT,33
+Oral Cancer,Male,25-year,0-54,Southern HSCT,24
+Oral Cancer,Male,25-year,0-54,Western HSCT,42
+Oral Cancer,Male,25-year,55-64,Belfast HSCT,65
+Oral Cancer,Male,25-year,55-64,Northern HSCT,69
+Oral Cancer,Male,25-year,55-64,South Eastern HSCT,62
+Oral Cancer,Male,25-year,55-64,Southern HSCT,63
+Oral Cancer,Male,25-year,55-64,Western HSCT,58
+Oral Cancer,Male,25-year,65-74,Belfast HSCT,76
+Oral Cancer,Male,25-year,65-74,Northern HSCT,64
+Oral Cancer,Male,25-year,65-74,South Eastern HSCT,62
+Oral Cancer,Male,25-year,65-74,Southern HSCT,66
+Oral Cancer,Male,25-year,65-74,Western HSCT,59
+Oral Cancer,Male,25-year,75+,Belfast HSCT,35
+Oral Cancer,Male,25-year,75+,Northern HSCT,60
+Oral Cancer,Male,25-year,75+,South Eastern HSCT,41
+Oral Cancer,Male,25-year,75+,Southern HSCT,52
+Oral Cancer,Male,25-year,75+,Western HSCT,30
+Pancreatic Cancer,Male,25-year,0-54,Belfast HSCT,4
+Pancreatic Cancer,Male,25-year,0-54,Northern HSCT,6
+Pancreatic Cancer,Male,25-year,0-54,South Eastern HSCT,4
+Pancreatic Cancer,Male,25-year,0-54,Southern HSCT,5
+Pancreatic Cancer,Male,25-year,0-54,Western HSCT,4
+Pancreatic Cancer,Male,25-year,55-64,Belfast HSCT,9
+Pancreatic Cancer,Male,25-year,55-64,Northern HSCT,12
+Pancreatic Cancer,Male,25-year,55-64,South Eastern HSCT,8
+Pancreatic Cancer,Male,25-year,55-64,Southern HSCT,10
+Pancreatic Cancer,Male,25-year,55-64,Western HSCT,8
+Pancreatic Cancer,Male,25-year,65-74,Belfast HSCT,12
+Pancreatic Cancer,Male,25-year,65-74,Northern HSCT,16
+Pancreatic Cancer,Male,25-year,65-74,South Eastern HSCT,12
+Pancreatic Cancer,Male,25-year,65-74,Southern HSCT,14
+Pancreatic Cancer,Male,25-year,65-74,Western HSCT,10
+Pancreatic Cancer,Male,25-year,75+,Belfast HSCT,11
+Pancreatic Cancer,Male,25-year,75+,Northern HSCT,16
+Pancreatic Cancer,Male,25-year,75+,South Eastern HSCT,11
+Pancreatic Cancer,Male,25-year,75+,Southern HSCT,13
+Pancreatic Cancer,Male,25-year,75+,Western HSCT,10
+Stomach Cancer,Male,25-year,0-54,Belfast HSCT,3
+Stomach Cancer,Male,25-year,0-54,Northern HSCT,4
+Stomach Cancer,Male,25-year,0-54,South Eastern HSCT,1
+Stomach Cancer,Male,25-year,0-54,Southern HSCT,3
+Stomach Cancer,Male,25-year,0-54,Western HSCT,6
+Stomach Cancer,Male,25-year,55-64,Belfast HSCT,11
+Stomach Cancer,Male,25-year,55-64,Northern HSCT,11
+Stomach Cancer,Male,25-year,55-64,South Eastern HSCT,9
+Stomach Cancer,Male,25-year,55-64,Southern HSCT,8
+Stomach Cancer,Male,25-year,55-64,Western HSCT,9
+Stomach Cancer,Male,25-year,65-74,Belfast HSCT,16
+Stomach Cancer,Male,25-year,65-74,Northern HSCT,16
+Stomach Cancer,Male,25-year,65-74,South Eastern HSCT,17
+Stomach Cancer,Male,25-year,65-74,Southern HSCT,13
+Stomach Cancer,Male,25-year,65-74,Western HSCT,19
+Stomach Cancer,Male,25-year,75+,Belfast HSCT,42
+Stomach Cancer,Male,25-year,75+,Northern HSCT,50
+Stomach Cancer,Male,25-year,75+,South Eastern HSCT,38
+Stomach Cancer,Male,25-year,75+,Southern HSCT,32
+Stomach Cancer,Male,25-year,75+,Western HSCT,48
+All Cancers,Female,10-year,0-54,Belfast HSCT,1388
+All Cancers,Female,10-year,0-54,Northern HSCT,1948
+All Cancers,Female,10-year,0-54,South Eastern HSCT,1600
+All Cancers,Female,10-year,0-54,Southern HSCT,1419
+All Cancers,Female,10-year,0-54,Western HSCT,1138
+All Cancers,Female,10-year,55-64,Belfast HSCT,1379
+All Cancers,Female,10-year,55-64,Northern HSCT,1938
+All Cancers,Female,10-year,55-64,South Eastern HSCT,1591
+All Cancers,Female,10-year,55-64,Southern HSCT,1411
+All Cancers,Female,10-year,55-64,Western HSCT,1133
+All Cancers,Female,10-year,65-74,Belfast HSCT,1588
+All Cancers,Female,10-year,65-74,Northern HSCT,2243
+All Cancers,Female,10-year,65-74,South Eastern HSCT,1854
+All Cancers,Female,10-year,65-74,Southern HSCT,1635
+All Cancers,Female,10-year,65-74,Western HSCT,1313
+All Cancers,Female,10-year,75+,Belfast HSCT,2339
+All Cancers,Female,10-year,75+,Northern HSCT,3272
+All Cancers,Female,10-year,75+,South Eastern HSCT,2678
+All Cancers,Female,10-year,75+,Southern HSCT,2384
+All Cancers,Female,10-year,75+,Western HSCT,1914
+Bladder Cancer,Female,10-year,0-54,Belfast HSCT,-7
+Bladder Cancer,Female,10-year,0-54,Northern HSCT,3
+Bladder Cancer,Female,10-year,0-54,South Eastern HSCT,3
+Bladder Cancer,Female,10-year,0-54,Southern HSCT,3
+Bladder Cancer,Female,10-year,0-54,Western HSCT,12
+Bladder Cancer,Female,10-year,55-64,Belfast HSCT,19
+Bladder Cancer,Female,10-year,55-64,Northern HSCT,11
+Bladder Cancer,Female,10-year,55-64,South Eastern HSCT,10
+Bladder Cancer,Female,10-year,55-64,Southern HSCT,7
+Bladder Cancer,Female,10-year,55-64,Western HSCT,-4
+Bladder Cancer,Female,10-year,65-74,Belfast HSCT,27
+Bladder Cancer,Female,10-year,65-74,Northern HSCT,8
+Bladder Cancer,Female,10-year,65-74,South Eastern HSCT,16
+Bladder Cancer,Female,10-year,65-74,Southern HSCT,13
+Bladder Cancer,Female,10-year,65-74,Western HSCT,10
+Bladder Cancer,Female,10-year,75+,Belfast HSCT,18
+Bladder Cancer,Female,10-year,75+,Northern HSCT,40
+Bladder Cancer,Female,10-year,75+,South Eastern HSCT,28
+Bladder Cancer,Female,10-year,75+,Southern HSCT,25
+Bladder Cancer,Female,10-year,75+,Western HSCT,19
+Blood Leukaemia,Female,10-year,0-54,Belfast HSCT,26
+Blood Leukaemia,Female,10-year,0-54,Northern HSCT,34
+Blood Leukaemia,Female,10-year,0-54,South Eastern HSCT,31
+Blood Leukaemia,Female,10-year,0-54,Southern HSCT,26
+Blood Leukaemia,Female,10-year,0-54,Western HSCT,22
+Blood Leukaemia,Female,10-year,55-64,Belfast HSCT,14
+Blood Leukaemia,Female,10-year,55-64,Northern HSCT,21
+Blood Leukaemia,Female,10-year,55-64,South Eastern HSCT,19
+Blood Leukaemia,Female,10-year,55-64,Southern HSCT,15
+Blood Leukaemia,Female,10-year,55-64,Western HSCT,12
+Blood Leukaemia,Female,10-year,65-74,Belfast HSCT,27
+Blood Leukaemia,Female,10-year,65-74,Northern HSCT,36
+Blood Leukaemia,Female,10-year,65-74,South Eastern HSCT,41
+Blood Leukaemia,Female,10-year,65-74,Southern HSCT,26
+Blood Leukaemia,Female,10-year,65-74,Western HSCT,13
+Blood Leukaemia,Female,10-year,75+,Belfast HSCT,36
+Blood Leukaemia,Female,10-year,75+,Northern HSCT,49
+Blood Leukaemia,Female,10-year,75+,South Eastern HSCT,32
+Blood Leukaemia,Female,10-year,75+,Southern HSCT,35
+Blood Leukaemia,Female,10-year,75+,Western HSCT,39
+Blood Lymphoma,Female,10-year,0-54,Belfast HSCT,44
+Blood Lymphoma,Female,10-year,0-54,Northern HSCT,71
+Blood Lymphoma,Female,10-year,0-54,South Eastern HSCT,53
+Blood Lymphoma,Female,10-year,0-54,Southern HSCT,53
+Blood Lymphoma,Female,10-year,0-54,Western HSCT,45
+Blood Lymphoma,Female,10-year,55-64,Belfast HSCT,30
+Blood Lymphoma,Female,10-year,55-64,Northern HSCT,47
+Blood Lymphoma,Female,10-year,55-64,South Eastern HSCT,36
+Blood Lymphoma,Female,10-year,55-64,Southern HSCT,36
+Blood Lymphoma,Female,10-year,55-64,Western HSCT,31
+Blood Lymphoma,Female,10-year,65-74,Belfast HSCT,45
+Blood Lymphoma,Female,10-year,65-74,Northern HSCT,70
+Blood Lymphoma,Female,10-year,65-74,South Eastern HSCT,45
+Blood Lymphoma,Female,10-year,65-74,Southern HSCT,65
+Blood Lymphoma,Female,10-year,65-74,Western HSCT,46
+Blood Lymphoma,Female,10-year,75+,Belfast HSCT,66
+Blood Lymphoma,Female,10-year,75+,Northern HSCT,103
+Blood Lymphoma,Female,10-year,75+,South Eastern HSCT,88
+Blood Lymphoma,Female,10-year,75+,Southern HSCT,69
+Blood Lymphoma,Female,10-year,75+,Western HSCT,67
+Blood Multiple Myeloma,Female,10-year,0-54,Belfast HSCT,15
+Blood Multiple Myeloma,Female,10-year,0-54,Northern HSCT,7
+Blood Multiple Myeloma,Female,10-year,0-54,South Eastern HSCT,5
+Blood Multiple Myeloma,Female,10-year,0-54,Southern HSCT,7
+Blood Multiple Myeloma,Female,10-year,0-54,Western HSCT,-5
+Blood Multiple Myeloma,Female,10-year,55-64,Belfast HSCT,13
+Blood Multiple Myeloma,Female,10-year,55-64,Northern HSCT,27
+Blood Multiple Myeloma,Female,10-year,55-64,South Eastern HSCT,12
+Blood Multiple Myeloma,Female,10-year,55-64,Southern HSCT,6
+Blood Multiple Myeloma,Female,10-year,55-64,Western HSCT,11
+Blood Multiple Myeloma,Female,10-year,65-74,Belfast HSCT,16
+Blood Multiple Myeloma,Female,10-year,65-74,Northern HSCT,12
+Blood Multiple Myeloma,Female,10-year,65-74,South Eastern HSCT,15
+Blood Multiple Myeloma,Female,10-year,65-74,Southern HSCT,31
+Blood Multiple Myeloma,Female,10-year,65-74,Western HSCT,15
+Blood Multiple Myeloma,Female,10-year,75+,Belfast HSCT,18
+Blood Multiple Myeloma,Female,10-year,75+,Northern HSCT,38
+Blood Multiple Myeloma,Female,10-year,75+,South Eastern HSCT,26
+Blood Multiple Myeloma,Female,10-year,75+,Southern HSCT,37
+Blood Multiple Myeloma,Female,10-year,75+,Western HSCT,36
+Brain Cancer,Female,10-year,0-54,Belfast HSCT,18
+Brain Cancer,Female,10-year,0-54,Northern HSCT,28
+Brain Cancer,Female,10-year,0-54,South Eastern HSCT,22
+Brain Cancer,Female,10-year,0-54,Southern HSCT,23
+Brain Cancer,Female,10-year,0-54,Western HSCT,13
+Brain Cancer,Female,10-year,55-64,Belfast HSCT,4
+Brain Cancer,Female,10-year,55-64,Northern HSCT,10
+Brain Cancer,Female,10-year,55-64,South Eastern HSCT,8
+Brain Cancer,Female,10-year,55-64,Southern HSCT,8
+Brain Cancer,Female,10-year,55-64,Western HSCT,5
+Brain Cancer,Female,10-year,65-74,Belfast HSCT,2
+Brain Cancer,Female,10-year,65-74,Northern HSCT,6
+Brain Cancer,Female,10-year,65-74,South Eastern HSCT,4
+Brain Cancer,Female,10-year,65-74,Southern HSCT,4
+Brain Cancer,Female,10-year,65-74,Western HSCT,5
+Brain Cancer,Female,10-year,75+,Belfast HSCT,1
+Brain Cancer,Female,10-year,75+,Northern HSCT,2
+Brain Cancer,Female,10-year,75+,South Eastern HSCT,2
+Brain Cancer,Female,10-year,75+,Southern HSCT,3
+Brain Cancer,Female,10-year,75+,Western HSCT,0
+Colorectal Cancer,Female,10-year,0-54,Belfast HSCT,55
+Colorectal Cancer,Female,10-year,0-54,Northern HSCT,79
+Colorectal Cancer,Female,10-year,0-54,South Eastern HSCT,68
+Colorectal Cancer,Female,10-year,0-54,Southern HSCT,59
+Colorectal Cancer,Female,10-year,0-54,Western HSCT,49
+Colorectal Cancer,Female,10-year,55-64,Belfast HSCT,91
+Colorectal Cancer,Female,10-year,55-64,Northern HSCT,131
+Colorectal Cancer,Female,10-year,55-64,South Eastern HSCT,114
+Colorectal Cancer,Female,10-year,55-64,Southern HSCT,97
+Colorectal Cancer,Female,10-year,55-64,Western HSCT,82
+Colorectal Cancer,Female,10-year,65-74,Belfast HSCT,135
+Colorectal Cancer,Female,10-year,65-74,Northern HSCT,195
+Colorectal Cancer,Female,10-year,65-74,South Eastern HSCT,169
+Colorectal Cancer,Female,10-year,65-74,Southern HSCT,144
+Colorectal Cancer,Female,10-year,65-74,Western HSCT,121
+Colorectal Cancer,Female,10-year,75+,Belfast HSCT,228
+Colorectal Cancer,Female,10-year,75+,Northern HSCT,327
+Colorectal Cancer,Female,10-year,75+,South Eastern HSCT,283
+Colorectal Cancer,Female,10-year,75+,Southern HSCT,243
+Colorectal Cancer,Female,10-year,75+,Western HSCT,203
+Gallbladder And Other Biliary Cancer,Female,10-year,0-54,Belfast HSCT,2
+Gallbladder And Other Biliary Cancer,Female,10-year,0-54,Northern HSCT,-1
+Gallbladder And Other Biliary Cancer,Female,10-year,0-54,South Eastern HSCT,3
+Gallbladder And Other Biliary Cancer,Female,10-year,0-54,Southern HSCT,2
+Gallbladder And Other Biliary Cancer,Female,10-year,0-54,Western HSCT,1
+Gallbladder And Other Biliary Cancer,Female,10-year,55-64,Belfast HSCT,2
+Gallbladder And Other Biliary Cancer,Female,10-year,55-64,Northern HSCT,4
+Gallbladder And Other Biliary Cancer,Female,10-year,55-64,South Eastern HSCT,3
+Gallbladder And Other Biliary Cancer,Female,10-year,55-64,Southern HSCT,2
+Gallbladder And Other Biliary Cancer,Female,10-year,55-64,Western HSCT,1
+Gallbladder And Other Biliary Cancer,Female,10-year,65-74,Belfast HSCT,5
+Gallbladder And Other Biliary Cancer,Female,10-year,65-74,Northern HSCT,5
+Gallbladder And Other Biliary Cancer,Female,10-year,65-74,South Eastern HSCT,5
+Gallbladder And Other Biliary Cancer,Female,10-year,65-74,Southern HSCT,6
+Gallbladder And Other Biliary Cancer,Female,10-year,65-74,Western HSCT,2
+Gallbladder And Other Biliary Cancer,Female,10-year,75+,Belfast HSCT,7
+Gallbladder And Other Biliary Cancer,Female,10-year,75+,Northern HSCT,9
+Gallbladder And Other Biliary Cancer,Female,10-year,75+,South Eastern HSCT,11
+Gallbladder And Other Biliary Cancer,Female,10-year,75+,Southern HSCT,11
+Gallbladder And Other Biliary Cancer,Female,10-year,75+,Western HSCT,4
+Kidney Cancer,Female,10-year,0-54,Belfast HSCT,28
+Kidney Cancer,Female,10-year,0-54,Northern HSCT,38
+Kidney Cancer,Female,10-year,0-54,South Eastern HSCT,20
+Kidney Cancer,Female,10-year,0-54,Southern HSCT,22
+Kidney Cancer,Female,10-year,0-54,Western HSCT,18
+Kidney Cancer,Female,10-year,55-64,Belfast HSCT,32
+Kidney Cancer,Female,10-year,55-64,Northern HSCT,43
+Kidney Cancer,Female,10-year,55-64,South Eastern HSCT,23
+Kidney Cancer,Female,10-year,55-64,Southern HSCT,24
+Kidney Cancer,Female,10-year,55-64,Western HSCT,20
+Kidney Cancer,Female,10-year,65-74,Belfast HSCT,44
+Kidney Cancer,Female,10-year,65-74,Northern HSCT,59
+Kidney Cancer,Female,10-year,65-74,South Eastern HSCT,31
+Kidney Cancer,Female,10-year,65-74,Southern HSCT,34
+Kidney Cancer,Female,10-year,65-74,Western HSCT,28
+Kidney Cancer,Female,10-year,75+,Belfast HSCT,57
+Kidney Cancer,Female,10-year,75+,Northern HSCT,76
+Kidney Cancer,Female,10-year,75+,South Eastern HSCT,41
+Kidney Cancer,Female,10-year,75+,Southern HSCT,43
+Kidney Cancer,Female,10-year,75+,Western HSCT,36
+Liver Cancer,Female,10-year,0-54,Belfast HSCT,2
+Liver Cancer,Female,10-year,0-54,Northern HSCT,3
+Liver Cancer,Female,10-year,0-54,South Eastern HSCT,2
+Liver Cancer,Female,10-year,0-54,Southern HSCT,3
+Liver Cancer,Female,10-year,0-54,Western HSCT,2
+Liver Cancer,Female,10-year,55-64,Belfast HSCT,2
+Liver Cancer,Female,10-year,55-64,Northern HSCT,3
+Liver Cancer,Female,10-year,55-64,South Eastern HSCT,2
+Liver Cancer,Female,10-year,55-64,Southern HSCT,2
+Liver Cancer,Female,10-year,55-64,Western HSCT,2
+Liver Cancer,Female,10-year,65-74,Belfast HSCT,6
+Liver Cancer,Female,10-year,65-74,Northern HSCT,6
+Liver Cancer,Female,10-year,65-74,South Eastern HSCT,5
+Liver Cancer,Female,10-year,65-74,Southern HSCT,2
+Liver Cancer,Female,10-year,65-74,Western HSCT,4
+Liver Cancer,Female,10-year,75+,Belfast HSCT,5
+Liver Cancer,Female,10-year,75+,Northern HSCT,6
+Liver Cancer,Female,10-year,75+,South Eastern HSCT,5
+Liver Cancer,Female,10-year,75+,Southern HSCT,4
+Liver Cancer,Female,10-year,75+,Western HSCT,3
+Lung Cancer,Female,10-year,0-54,Belfast HSCT,15
+Lung Cancer,Female,10-year,0-54,Northern HSCT,19
+Lung Cancer,Female,10-year,0-54,South Eastern HSCT,13
+Lung Cancer,Female,10-year,0-54,Southern HSCT,12
+Lung Cancer,Female,10-year,0-54,Western HSCT,13
+Lung Cancer,Female,10-year,55-64,Belfast HSCT,47
+Lung Cancer,Female,10-year,55-64,Northern HSCT,56
+Lung Cancer,Female,10-year,55-64,South Eastern HSCT,39
+Lung Cancer,Female,10-year,55-64,Southern HSCT,37
+Lung Cancer,Female,10-year,55-64,Western HSCT,40
+Lung Cancer,Female,10-year,65-74,Belfast HSCT,109
+Lung Cancer,Female,10-year,65-74,Northern HSCT,132
+Lung Cancer,Female,10-year,65-74,South Eastern HSCT,91
+Lung Cancer,Female,10-year,65-74,Southern HSCT,87
+Lung Cancer,Female,10-year,65-74,Western HSCT,93
+Lung Cancer,Female,10-year,75+,Belfast HSCT,122
+Lung Cancer,Female,10-year,75+,Northern HSCT,148
+Lung Cancer,Female,10-year,75+,South Eastern HSCT,102
+Lung Cancer,Female,10-year,75+,Southern HSCT,97
+Lung Cancer,Female,10-year,75+,Western HSCT,104
+Oesophageal Cancer,Female,10-year,0-54,Belfast HSCT,0
+Oesophageal Cancer,Female,10-year,0-54,Northern HSCT,1
+Oesophageal Cancer,Female,10-year,0-54,South Eastern HSCT,1
+Oesophageal Cancer,Female,10-year,0-54,Southern HSCT,1
+Oesophageal Cancer,Female,10-year,0-54,Western HSCT,1
+Oesophageal Cancer,Female,10-year,55-64,Belfast HSCT,5
+Oesophageal Cancer,Female,10-year,55-64,Northern HSCT,10
+Oesophageal Cancer,Female,10-year,55-64,South Eastern HSCT,7
+Oesophageal Cancer,Female,10-year,55-64,Southern HSCT,6
+Oesophageal Cancer,Female,10-year,55-64,Western HSCT,6
+Oesophageal Cancer,Female,10-year,65-74,Belfast HSCT,7
+Oesophageal Cancer,Female,10-year,65-74,Northern HSCT,13
+Oesophageal Cancer,Female,10-year,65-74,South Eastern HSCT,10
+Oesophageal Cancer,Female,10-year,65-74,Southern HSCT,8
+Oesophageal Cancer,Female,10-year,65-74,Western HSCT,9
+Oesophageal Cancer,Female,10-year,75+,Belfast HSCT,10
+Oesophageal Cancer,Female,10-year,75+,Northern HSCT,20
+Oesophageal Cancer,Female,10-year,75+,South Eastern HSCT,15
+Oesophageal Cancer,Female,10-year,75+,Southern HSCT,13
+Oesophageal Cancer,Female,10-year,75+,Western HSCT,13
+Oral Cancer,Female,10-year,0-54,Belfast HSCT,16
+Oral Cancer,Female,10-year,0-54,Northern HSCT,20
+Oral Cancer,Female,10-year,0-54,South Eastern HSCT,20
+Oral Cancer,Female,10-year,0-54,Southern HSCT,13
+Oral Cancer,Female,10-year,0-54,Western HSCT,14
+Oral Cancer,Female,10-year,55-64,Belfast HSCT,25
+Oral Cancer,Female,10-year,55-64,Northern HSCT,29
+Oral Cancer,Female,10-year,55-64,South Eastern HSCT,26
+Oral Cancer,Female,10-year,55-64,Southern HSCT,19
+Oral Cancer,Female,10-year,55-64,Western HSCT,21
+Oral Cancer,Female,10-year,65-74,Belfast HSCT,23
+Oral Cancer,Female,10-year,65-74,Northern HSCT,28
+Oral Cancer,Female,10-year,65-74,South Eastern HSCT,29
+Oral Cancer,Female,10-year,65-74,Southern HSCT,18
+Oral Cancer,Female,10-year,65-74,Western HSCT,20
+Oral Cancer,Female,10-year,75+,Belfast HSCT,16
+Oral Cancer,Female,10-year,75+,Northern HSCT,20
+Oral Cancer,Female,10-year,75+,South Eastern HSCT,20
+Oral Cancer,Female,10-year,75+,Southern HSCT,13
+Oral Cancer,Female,10-year,75+,Western HSCT,14
+Pancreatic Cancer,Female,10-year,0-54,Belfast HSCT,3
+Pancreatic Cancer,Female,10-year,0-54,Northern HSCT,3
+Pancreatic Cancer,Female,10-year,0-54,South Eastern HSCT,5
+Pancreatic Cancer,Female,10-year,0-54,Southern HSCT,4
+Pancreatic Cancer,Female,10-year,0-54,Western HSCT,2
+Pancreatic Cancer,Female,10-year,55-64,Belfast HSCT,3
+Pancreatic Cancer,Female,10-year,55-64,Northern HSCT,4
+Pancreatic Cancer,Female,10-year,55-64,South Eastern HSCT,6
+Pancreatic Cancer,Female,10-year,55-64,Southern HSCT,3
+Pancreatic Cancer,Female,10-year,55-64,Western HSCT,4
+Pancreatic Cancer,Female,10-year,65-74,Belfast HSCT,9
+Pancreatic Cancer,Female,10-year,65-74,Northern HSCT,11
+Pancreatic Cancer,Female,10-year,65-74,South Eastern HSCT,18
+Pancreatic Cancer,Female,10-year,65-74,Southern HSCT,9
+Pancreatic Cancer,Female,10-year,65-74,Western HSCT,12
+Pancreatic Cancer,Female,10-year,75+,Belfast HSCT,7
+Pancreatic Cancer,Female,10-year,75+,Northern HSCT,9
+Pancreatic Cancer,Female,10-year,75+,South Eastern HSCT,15
+Pancreatic Cancer,Female,10-year,75+,Southern HSCT,8
+Pancreatic Cancer,Female,10-year,75+,Western HSCT,11
+Stomach Cancer,Female,10-year,0-54,Belfast HSCT,4
+Stomach Cancer,Female,10-year,0-54,Northern HSCT,5
+Stomach Cancer,Female,10-year,0-54,South Eastern HSCT,5
+Stomach Cancer,Female,10-year,0-54,Southern HSCT,4
+Stomach Cancer,Female,10-year,0-54,Western HSCT,4
+Stomach Cancer,Female,10-year,55-64,Belfast HSCT,4
+Stomach Cancer,Female,10-year,55-64,Northern HSCT,6
+Stomach Cancer,Female,10-year,55-64,South Eastern HSCT,5
+Stomach Cancer,Female,10-year,55-64,Southern HSCT,5
+Stomach Cancer,Female,10-year,55-64,Western HSCT,5
+Stomach Cancer,Female,10-year,65-74,Belfast HSCT,8
+Stomach Cancer,Female,10-year,65-74,Northern HSCT,10
+Stomach Cancer,Female,10-year,65-74,South Eastern HSCT,9
+Stomach Cancer,Female,10-year,65-74,Southern HSCT,9
+Stomach Cancer,Female,10-year,65-74,Western HSCT,8
+Stomach Cancer,Female,10-year,75+,Belfast HSCT,14
+Stomach Cancer,Female,10-year,75+,Northern HSCT,20
+Stomach Cancer,Female,10-year,75+,South Eastern HSCT,18
+Stomach Cancer,Female,10-year,75+,Southern HSCT,17
+Stomach Cancer,Female,10-year,75+,Western HSCT,15
+All Cancers,Female,25-year,0-54,Belfast HSCT,1855
+All Cancers,Female,25-year,0-54,Northern HSCT,2604
+All Cancers,Female,25-year,0-54,South Eastern HSCT,2185
+All Cancers,Female,25-year,0-54,Southern HSCT,1907
+All Cancers,Female,25-year,0-54,Western HSCT,1524
+All Cancers,Female,25-year,55-64,Belfast HSCT,2046
+All Cancers,Female,25-year,55-64,Northern HSCT,2872
+All Cancers,Female,25-year,55-64,South Eastern HSCT,2410
+All Cancers,Female,25-year,55-64,Southern HSCT,2104
+All Cancers,Female,25-year,55-64,Western HSCT,1682
+All Cancers,Female,25-year,65-74,Belfast HSCT,2467
+All Cancers,Female,25-year,65-74,Northern HSCT,3463
+All Cancers,Female,25-year,65-74,South Eastern HSCT,2906
+All Cancers,Female,25-year,65-74,Southern HSCT,2537
+All Cancers,Female,25-year,65-74,Western HSCT,2027
+All Cancers,Female,25-year,75+,Belfast HSCT,3712
+All Cancers,Female,25-year,75+,Northern HSCT,5212
+All Cancers,Female,25-year,75+,South Eastern HSCT,4373
+All Cancers,Female,25-year,75+,Southern HSCT,3817
+All Cancers,Female,25-year,75+,Western HSCT,3051
+Bladder Cancer,Female,25-year,0-54,Belfast HSCT,4
+Bladder Cancer,Female,25-year,0-54,Northern HSCT,5
+Bladder Cancer,Female,25-year,0-54,South Eastern HSCT,4
+Bladder Cancer,Female,25-year,0-54,Southern HSCT,4
+Bladder Cancer,Female,25-year,0-54,Western HSCT,2
+Bladder Cancer,Female,25-year,55-64,Belfast HSCT,12
+Bladder Cancer,Female,25-year,55-64,Northern HSCT,14
+Bladder Cancer,Female,25-year,55-64,South Eastern HSCT,13
+Bladder Cancer,Female,25-year,55-64,Southern HSCT,11
+Bladder Cancer,Female,25-year,55-64,Western HSCT,7
+Bladder Cancer,Female,25-year,65-74,Belfast HSCT,20
+Bladder Cancer,Female,25-year,65-74,Northern HSCT,23
+Bladder Cancer,Female,25-year,65-74,South Eastern HSCT,21
+Bladder Cancer,Female,25-year,65-74,Southern HSCT,19
+Bladder Cancer,Female,25-year,65-74,Western HSCT,12
+Bladder Cancer,Female,25-year,75+,Belfast HSCT,44
+Bladder Cancer,Female,25-year,75+,Northern HSCT,50
+Bladder Cancer,Female,25-year,75+,South Eastern HSCT,46
+Bladder Cancer,Female,25-year,75+,Southern HSCT,41
+Bladder Cancer,Female,25-year,75+,Western HSCT,25
+Blood Leukaemia,Female,25-year,0-54,Belfast HSCT,48
+Blood Leukaemia,Female,25-year,0-54,Northern HSCT,64
+Blood Leukaemia,Female,25-year,0-54,South Eastern HSCT,57
+Blood Leukaemia,Female,25-year,0-54,Southern HSCT,48
+Blood Leukaemia,Female,25-year,0-54,Western HSCT,44
+Blood Leukaemia,Female,25-year,55-64,Belfast HSCT,23
+Blood Leukaemia,Female,25-year,55-64,Northern HSCT,31
+Blood Leukaemia,Female,25-year,55-64,South Eastern HSCT,18
+Blood Leukaemia,Female,25-year,55-64,Southern HSCT,34
+Blood Leukaemia,Female,25-year,55-64,Western HSCT,22
+Blood Leukaemia,Female,25-year,65-74,Belfast HSCT,34
+Blood Leukaemia,Female,25-year,65-74,Northern HSCT,46
+Blood Leukaemia,Female,25-year,65-74,South Eastern HSCT,52
+Blood Leukaemia,Female,25-year,65-74,Southern HSCT,25
+Blood Leukaemia,Female,25-year,65-74,Western HSCT,32
+Blood Leukaemia,Female,25-year,75+,Belfast HSCT,53
+Blood Leukaemia,Female,25-year,75+,Northern HSCT,71
+Blood Leukaemia,Female,25-year,75+,South Eastern HSCT,64
+Blood Leukaemia,Female,25-year,75+,Southern HSCT,54
+Blood Leukaemia,Female,25-year,75+,Western HSCT,47
+Blood Lymphoma,Female,25-year,0-54,Belfast HSCT,80
+Blood Lymphoma,Female,25-year,0-54,Northern HSCT,119
+Blood Lymphoma,Female,25-year,0-54,South Eastern HSCT,92
+Blood Lymphoma,Female,25-year,0-54,Southern HSCT,80
+Blood Lymphoma,Female,25-year,0-54,Western HSCT,68
+Blood Lymphoma,Female,25-year,55-64,Belfast HSCT,57
+Blood Lymphoma,Female,25-year,55-64,Northern HSCT,87
+Blood Lymphoma,Female,25-year,55-64,South Eastern HSCT,50
+Blood Lymphoma,Female,25-year,55-64,Southern HSCT,75
+Blood Lymphoma,Female,25-year,55-64,Western HSCT,49
+Blood Lymphoma,Female,25-year,65-74,Belfast HSCT,77
+Blood Lymphoma,Female,25-year,65-74,Northern HSCT,117
+Blood Lymphoma,Female,25-year,65-74,South Eastern HSCT,81
+Blood Lymphoma,Female,25-year,65-74,Southern HSCT,90
+Blood Lymphoma,Female,25-year,65-74,Western HSCT,67
+Blood Lymphoma,Female,25-year,75+,Belfast HSCT,122
+Blood Lymphoma,Female,25-year,75+,Northern HSCT,187
+Blood Lymphoma,Female,25-year,75+,South Eastern HSCT,131
+Blood Lymphoma,Female,25-year,75+,Southern HSCT,141
+Blood Lymphoma,Female,25-year,75+,Western HSCT,107
+Blood Multiple Myeloma,Female,25-year,0-54,Belfast HSCT,5
+Blood Multiple Myeloma,Female,25-year,0-54,Northern HSCT,8
+Blood Multiple Myeloma,Female,25-year,0-54,South Eastern HSCT,6
+Blood Multiple Myeloma,Female,25-year,0-54,Southern HSCT,7
+Blood Multiple Myeloma,Female,25-year,0-54,Western HSCT,5
+Blood Multiple Myeloma,Female,25-year,55-64,Belfast HSCT,14
+Blood Multiple Myeloma,Female,25-year,55-64,Northern HSCT,21
+Blood Multiple Myeloma,Female,25-year,55-64,South Eastern HSCT,16
+Blood Multiple Myeloma,Female,25-year,55-64,Southern HSCT,18
+Blood Multiple Myeloma,Female,25-year,55-64,Western HSCT,12
+Blood Multiple Myeloma,Female,25-year,65-74,Belfast HSCT,18
+Blood Multiple Myeloma,Female,25-year,65-74,Northern HSCT,27
+Blood Multiple Myeloma,Female,25-year,65-74,South Eastern HSCT,20
+Blood Multiple Myeloma,Female,25-year,65-74,Southern HSCT,24
+Blood Multiple Myeloma,Female,25-year,65-74,Western HSCT,16
+Blood Multiple Myeloma,Female,25-year,75+,Belfast HSCT,32
+Blood Multiple Myeloma,Female,25-year,75+,Northern HSCT,48
+Blood Multiple Myeloma,Female,25-year,75+,South Eastern HSCT,36
+Blood Multiple Myeloma,Female,25-year,75+,Southern HSCT,41
+Blood Multiple Myeloma,Female,25-year,75+,Western HSCT,28
+Brain Cancer,Female,25-year,0-54,Belfast HSCT,40
+Brain Cancer,Female,25-year,0-54,Northern HSCT,42
+Brain Cancer,Female,25-year,0-54,South Eastern HSCT,37
+Brain Cancer,Female,25-year,0-54,Southern HSCT,39
+Brain Cancer,Female,25-year,0-54,Western HSCT,32
+Brain Cancer,Female,25-year,55-64,Belfast HSCT,8
+Brain Cancer,Female,25-year,55-64,Northern HSCT,14
+Brain Cancer,Female,25-year,55-64,South Eastern HSCT,20
+Brain Cancer,Female,25-year,55-64,Southern HSCT,0
+Brain Cancer,Female,25-year,55-64,Western HSCT,8
+Brain Cancer,Female,25-year,65-74,Belfast HSCT,6
+Brain Cancer,Female,25-year,65-74,Northern HSCT,9
+Brain Cancer,Female,25-year,65-74,South Eastern HSCT,-3
+Brain Cancer,Female,25-year,65-74,Southern HSCT,17
+Brain Cancer,Female,25-year,65-74,Western HSCT,5
+Brain Cancer,Female,25-year,75+,Belfast HSCT,-7
+Brain Cancer,Female,25-year,75+,Northern HSCT,15
+Brain Cancer,Female,25-year,75+,South Eastern HSCT,2
+Brain Cancer,Female,25-year,75+,Southern HSCT,3
+Brain Cancer,Female,25-year,75+,Western HSCT,2
+Colorectal Cancer,Female,25-year,0-54,Belfast HSCT,84
+Colorectal Cancer,Female,25-year,0-54,Northern HSCT,95
+Colorectal Cancer,Female,25-year,0-54,South Eastern HSCT,58
+Colorectal Cancer,Female,25-year,0-54,Southern HSCT,66
+Colorectal Cancer,Female,25-year,0-54,Western HSCT,60
+Colorectal Cancer,Female,25-year,55-64,Belfast HSCT,119
+Colorectal Cancer,Female,25-year,55-64,Northern HSCT,193
+Colorectal Cancer,Female,25-year,55-64,South Eastern HSCT,143
+Colorectal Cancer,Female,25-year,55-64,Southern HSCT,123
+Colorectal Cancer,Female,25-year,55-64,Western HSCT,91
+Colorectal Cancer,Female,25-year,65-74,Belfast HSCT,199
+Colorectal Cancer,Female,25-year,65-74,Northern HSCT,272
+Colorectal Cancer,Female,25-year,65-74,South Eastern HSCT,240
+Colorectal Cancer,Female,25-year,65-74,Southern HSCT,207
+Colorectal Cancer,Female,25-year,65-74,Western HSCT,205
+Colorectal Cancer,Female,25-year,75+,Belfast HSCT,367
+Colorectal Cancer,Female,25-year,75+,Northern HSCT,561
+Colorectal Cancer,Female,25-year,75+,South Eastern HSCT,482
+Colorectal Cancer,Female,25-year,75+,Southern HSCT,398
+Colorectal Cancer,Female,25-year,75+,Western HSCT,358
+Gallbladder And Other Biliary Cancer,Female,25-year,0-54,Belfast HSCT,1
+Gallbladder And Other Biliary Cancer,Female,25-year,0-54,Northern HSCT,1
+Gallbladder And Other Biliary Cancer,Female,25-year,0-54,South Eastern HSCT,2
+Gallbladder And Other Biliary Cancer,Female,25-year,0-54,Southern HSCT,2
+Gallbladder And Other Biliary Cancer,Female,25-year,0-54,Western HSCT,1
+Gallbladder And Other Biliary Cancer,Female,25-year,55-64,Belfast HSCT,2
+Gallbladder And Other Biliary Cancer,Female,25-year,55-64,Northern HSCT,3
+Gallbladder And Other Biliary Cancer,Female,25-year,55-64,South Eastern HSCT,4
+Gallbladder And Other Biliary Cancer,Female,25-year,55-64,Southern HSCT,4
+Gallbladder And Other Biliary Cancer,Female,25-year,55-64,Western HSCT,1
+Gallbladder And Other Biliary Cancer,Female,25-year,65-74,Belfast HSCT,5
+Gallbladder And Other Biliary Cancer,Female,25-year,65-74,Northern HSCT,5
+Gallbladder And Other Biliary Cancer,Female,25-year,65-74,South Eastern HSCT,8
+Gallbladder And Other Biliary Cancer,Female,25-year,65-74,Southern HSCT,8
+Gallbladder And Other Biliary Cancer,Female,25-year,65-74,Western HSCT,3
+Gallbladder And Other Biliary Cancer,Female,25-year,75+,Belfast HSCT,8
+Gallbladder And Other Biliary Cancer,Female,25-year,75+,Northern HSCT,9
+Gallbladder And Other Biliary Cancer,Female,25-year,75+,South Eastern HSCT,13
+Gallbladder And Other Biliary Cancer,Female,25-year,75+,Southern HSCT,14
+Gallbladder And Other Biliary Cancer,Female,25-year,75+,Western HSCT,5
+Kidney Cancer,Female,25-year,0-54,Belfast HSCT,33
+Kidney Cancer,Female,25-year,0-54,Northern HSCT,45
+Kidney Cancer,Female,25-year,0-54,South Eastern HSCT,28
+Kidney Cancer,Female,25-year,0-54,Southern HSCT,28
+Kidney Cancer,Female,25-year,0-54,Western HSCT,24
+Kidney Cancer,Female,25-year,55-64,Belfast HSCT,37
+Kidney Cancer,Female,25-year,55-64,Northern HSCT,50
+Kidney Cancer,Female,25-year,55-64,South Eastern HSCT,30
+Kidney Cancer,Female,25-year,55-64,Southern HSCT,31
+Kidney Cancer,Female,25-year,55-64,Western HSCT,30
+Kidney Cancer,Female,25-year,65-74,Belfast HSCT,55
+Kidney Cancer,Female,25-year,65-74,Northern HSCT,75
+Kidney Cancer,Female,25-year,65-74,South Eastern HSCT,45
+Kidney Cancer,Female,25-year,65-74,Southern HSCT,47
+Kidney Cancer,Female,25-year,65-74,Western HSCT,43
+Kidney Cancer,Female,25-year,75+,Belfast HSCT,78
+Kidney Cancer,Female,25-year,75+,Northern HSCT,108
+Kidney Cancer,Female,25-year,75+,South Eastern HSCT,69
+Kidney Cancer,Female,25-year,75+,Southern HSCT,67
+Kidney Cancer,Female,25-year,75+,Western HSCT,61
+Liver Cancer,Female,25-year,0-54,Belfast HSCT,4
+Liver Cancer,Female,25-year,0-54,Northern HSCT,5
+Liver Cancer,Female,25-year,0-54,South Eastern HSCT,4
+Liver Cancer,Female,25-year,0-54,Southern HSCT,3
+Liver Cancer,Female,25-year,0-54,Western HSCT,3
+Liver Cancer,Female,25-year,55-64,Belfast HSCT,3
+Liver Cancer,Female,25-year,55-64,Northern HSCT,4
+Liver Cancer,Female,25-year,55-64,South Eastern HSCT,3
+Liver Cancer,Female,25-year,55-64,Southern HSCT,2
+Liver Cancer,Female,25-year,55-64,Western HSCT,2
+Liver Cancer,Female,25-year,65-74,Belfast HSCT,5
+Liver Cancer,Female,25-year,65-74,Northern HSCT,7
+Liver Cancer,Female,25-year,65-74,South Eastern HSCT,5
+Liver Cancer,Female,25-year,65-74,Southern HSCT,4
+Liver Cancer,Female,25-year,65-74,Western HSCT,4
+Liver Cancer,Female,25-year,75+,Belfast HSCT,6
+Liver Cancer,Female,25-year,75+,Northern HSCT,7
+Liver Cancer,Female,25-year,75+,South Eastern HSCT,6
+Liver Cancer,Female,25-year,75+,Southern HSCT,4
+Liver Cancer,Female,25-year,75+,Western HSCT,5
+Lung Cancer,Female,25-year,0-54,Belfast HSCT,18
+Lung Cancer,Female,25-year,0-54,Northern HSCT,22
+Lung Cancer,Female,25-year,0-54,South Eastern HSCT,15
+Lung Cancer,Female,25-year,0-54,Southern HSCT,16
+Lung Cancer,Female,25-year,0-54,Western HSCT,16
+Lung Cancer,Female,25-year,55-64,Belfast HSCT,53
+Lung Cancer,Female,25-year,55-64,Northern HSCT,64
+Lung Cancer,Female,25-year,55-64,South Eastern HSCT,44
+Lung Cancer,Female,25-year,55-64,Southern HSCT,43
+Lung Cancer,Female,25-year,55-64,Western HSCT,45
+Lung Cancer,Female,25-year,65-74,Belfast HSCT,117
+Lung Cancer,Female,25-year,65-74,Northern HSCT,140
+Lung Cancer,Female,25-year,65-74,South Eastern HSCT,97
+Lung Cancer,Female,25-year,65-74,Southern HSCT,93
+Lung Cancer,Female,25-year,65-74,Western HSCT,103
+Lung Cancer,Female,25-year,75+,Belfast HSCT,138
+Lung Cancer,Female,25-year,75+,Northern HSCT,166
+Lung Cancer,Female,25-year,75+,South Eastern HSCT,115
+Lung Cancer,Female,25-year,75+,Southern HSCT,112
+Lung Cancer,Female,25-year,75+,Western HSCT,120
+Oesophageal Cancer,Female,25-year,0-54,Belfast HSCT,1
+Oesophageal Cancer,Female,25-year,0-54,Northern HSCT,-1
+Oesophageal Cancer,Female,25-year,0-54,South Eastern HSCT,1
+Oesophageal Cancer,Female,25-year,0-54,Southern HSCT,2
+Oesophageal Cancer,Female,25-year,0-54,Western HSCT,1
+Oesophageal Cancer,Female,25-year,55-64,Belfast HSCT,7
+Oesophageal Cancer,Female,25-year,55-64,Northern HSCT,11
+Oesophageal Cancer,Female,25-year,55-64,South Eastern HSCT,7
+Oesophageal Cancer,Female,25-year,55-64,Southern HSCT,7
+Oesophageal Cancer,Female,25-year,55-64,Western HSCT,8
+Oesophageal Cancer,Female,25-year,65-74,Belfast HSCT,11
+Oesophageal Cancer,Female,25-year,65-74,Northern HSCT,17
+Oesophageal Cancer,Female,25-year,65-74,South Eastern HSCT,11
+Oesophageal Cancer,Female,25-year,65-74,Southern HSCT,11
+Oesophageal Cancer,Female,25-year,65-74,Western HSCT,12
+Oesophageal Cancer,Female,25-year,75+,Belfast HSCT,17
+Oesophageal Cancer,Female,25-year,75+,Northern HSCT,32
+Oesophageal Cancer,Female,25-year,75+,South Eastern HSCT,18
+Oesophageal Cancer,Female,25-year,75+,Southern HSCT,19
+Oesophageal Cancer,Female,25-year,75+,Western HSCT,20
+Oral Cancer,Female,25-year,0-54,Belfast HSCT,23
+Oral Cancer,Female,25-year,0-54,Northern HSCT,29
+Oral Cancer,Female,25-year,0-54,South Eastern HSCT,30
+Oral Cancer,Female,25-year,0-54,Southern HSCT,20
+Oral Cancer,Female,25-year,0-54,Western HSCT,21
+Oral Cancer,Female,25-year,55-64,Belfast HSCT,30
+Oral Cancer,Female,25-year,55-64,Northern HSCT,39
+Oral Cancer,Female,25-year,55-64,South Eastern HSCT,39
+Oral Cancer,Female,25-year,55-64,Southern HSCT,26
+Oral Cancer,Female,25-year,55-64,Western HSCT,28
+Oral Cancer,Female,25-year,65-74,Belfast HSCT,31
+Oral Cancer,Female,25-year,65-74,Northern HSCT,39
+Oral Cancer,Female,25-year,65-74,South Eastern HSCT,39
+Oral Cancer,Female,25-year,65-74,Southern HSCT,27
+Oral Cancer,Female,25-year,65-74,Western HSCT,28
+Oral Cancer,Female,25-year,75+,Belfast HSCT,28
+Oral Cancer,Female,25-year,75+,Northern HSCT,35
+Oral Cancer,Female,25-year,75+,South Eastern HSCT,35
+Oral Cancer,Female,25-year,75+,Southern HSCT,24
+Oral Cancer,Female,25-year,75+,Western HSCT,25
+Pancreatic Cancer,Female,25-year,0-54,Belfast HSCT,4
+Pancreatic Cancer,Female,25-year,0-54,Northern HSCT,3
+Pancreatic Cancer,Female,25-year,0-54,South Eastern HSCT,6
+Pancreatic Cancer,Female,25-year,0-54,Southern HSCT,3
+Pancreatic Cancer,Female,25-year,0-54,Western HSCT,3
+Pancreatic Cancer,Female,25-year,55-64,Belfast HSCT,2
+Pancreatic Cancer,Female,25-year,55-64,Northern HSCT,5
+Pancreatic Cancer,Female,25-year,55-64,South Eastern HSCT,6
+Pancreatic Cancer,Female,25-year,55-64,Southern HSCT,4
+Pancreatic Cancer,Female,25-year,55-64,Western HSCT,4
+Pancreatic Cancer,Female,25-year,65-74,Belfast HSCT,10
+Pancreatic Cancer,Female,25-year,65-74,Northern HSCT,15
+Pancreatic Cancer,Female,25-year,65-74,South Eastern HSCT,18
+Pancreatic Cancer,Female,25-year,65-74,Southern HSCT,11
+Pancreatic Cancer,Female,25-year,65-74,Western HSCT,10
+Pancreatic Cancer,Female,25-year,75+,Belfast HSCT,9
+Pancreatic Cancer,Female,25-year,75+,Northern HSCT,13
+Pancreatic Cancer,Female,25-year,75+,South Eastern HSCT,17
+Pancreatic Cancer,Female,25-year,75+,Southern HSCT,10
+Pancreatic Cancer,Female,25-year,75+,Western HSCT,12
+Stomach Cancer,Female,25-year,0-54,Belfast HSCT,-14
+Stomach Cancer,Female,25-year,0-54,Northern HSCT,7
+Stomach Cancer,Female,25-year,0-54,South Eastern HSCT,5
+Stomach Cancer,Female,25-year,0-54,Southern HSCT,26
+Stomach Cancer,Female,25-year,0-54,Western HSCT,5
+Stomach Cancer,Female,25-year,55-64,Belfast HSCT,8
+Stomach Cancer,Female,25-year,55-64,Northern HSCT,7
+Stomach Cancer,Female,25-year,55-64,South Eastern HSCT,7
+Stomach Cancer,Female,25-year,55-64,Southern HSCT,7
+Stomach Cancer,Female,25-year,55-64,Western HSCT,7
+Stomach Cancer,Female,25-year,65-74,Belfast HSCT,32
+Stomach Cancer,Female,25-year,65-74,Northern HSCT,12
+Stomach Cancer,Female,25-year,65-74,South Eastern HSCT,10
+Stomach Cancer,Female,25-year,65-74,Southern HSCT,-10
+Stomach Cancer,Female,25-year,65-74,Western HSCT,10
+Stomach Cancer,Female,25-year,75+,Belfast HSCT,29
+Stomach Cancer,Female,25-year,75+,Northern HSCT,31
+Stomach Cancer,Female,25-year,75+,South Eastern HSCT,25
+Stomach Cancer,Female,25-year,75+,Southern HSCT,26
+Stomach Cancer,Female,25-year,75+,Western HSCT,25
+All Cancers,All,10-year,0-54,Belfast HSCT,2118
+All Cancers,All,10-year,0-54,Northern HSCT,3113
+All Cancers,All,10-year,0-54,South Eastern HSCT,2549
+All Cancers,All,10-year,0-54,Southern HSCT,2224
+All Cancers,All,10-year,0-54,Western HSCT,1852
+All Cancers,All,10-year,55-64,Belfast HSCT,2466
+All Cancers,All,10-year,55-64,Northern HSCT,3626
+All Cancers,All,10-year,55-64,South Eastern HSCT,2968
+All Cancers,All,10-year,55-64,Southern HSCT,2591
+All Cancers,All,10-year,55-64,Western HSCT,2157
+All Cancers,All,10-year,65-74,Belfast HSCT,3503
+All Cancers,All,10-year,65-74,Northern HSCT,5150
+All Cancers,All,10-year,65-74,South Eastern HSCT,4216
+All Cancers,All,10-year,65-74,Southern HSCT,3680
+All Cancers,All,10-year,65-74,Western HSCT,3064
+All Cancers,All,10-year,75+,Belfast HSCT,4854
+All Cancers,All,10-year,75+,Northern HSCT,7136
+All Cancers,All,10-year,75+,South Eastern HSCT,5842
+All Cancers,All,10-year,75+,Southern HSCT,5098
+All Cancers,All,10-year,75+,Western HSCT,4246
+Bladder Cancer,All,10-year,0-54,Belfast HSCT,8
+Bladder Cancer,All,10-year,0-54,Northern HSCT,11
+Bladder Cancer,All,10-year,0-54,South Eastern HSCT,9
+Bladder Cancer,All,10-year,0-54,Southern HSCT,8
+Bladder Cancer,All,10-year,0-54,Western HSCT,7
+Bladder Cancer,All,10-year,55-64,Belfast HSCT,30
+Bladder Cancer,All,10-year,55-64,Northern HSCT,39
+Bladder Cancer,All,10-year,55-64,South Eastern HSCT,33
+Bladder Cancer,All,10-year,55-64,Southern HSCT,21
+Bladder Cancer,All,10-year,55-64,Western HSCT,25
+Bladder Cancer,All,10-year,65-74,Belfast HSCT,56
+Bladder Cancer,All,10-year,65-74,Northern HSCT,76
+Bladder Cancer,All,10-year,65-74,South Eastern HSCT,65
+Bladder Cancer,All,10-year,65-74,Southern HSCT,43
+Bladder Cancer,All,10-year,65-74,Western HSCT,49
+Bladder Cancer,All,10-year,75+,Belfast HSCT,107
+Bladder Cancer,All,10-year,75+,Northern HSCT,145
+Bladder Cancer,All,10-year,75+,South Eastern HSCT,120
+Bladder Cancer,All,10-year,75+,Southern HSCT,85
+Bladder Cancer,All,10-year,75+,Western HSCT,92
+Blood Leukaemia,All,10-year,0-54,Belfast HSCT,71
+Blood Leukaemia,All,10-year,0-54,Northern HSCT,102
+Blood Leukaemia,All,10-year,0-54,South Eastern HSCT,85
+Blood Leukaemia,All,10-year,0-54,Southern HSCT,76
+Blood Leukaemia,All,10-year,0-54,Western HSCT,61
+Blood Leukaemia,All,10-year,55-64,Belfast HSCT,42
+Blood Leukaemia,All,10-year,55-64,Northern HSCT,61
+Blood Leukaemia,All,10-year,55-64,South Eastern HSCT,52
+Blood Leukaemia,All,10-year,55-64,Southern HSCT,46
+Blood Leukaemia,All,10-year,55-64,Western HSCT,36
+Blood Leukaemia,All,10-year,65-74,Belfast HSCT,53
+Blood Leukaemia,All,10-year,65-74,Northern HSCT,91
+Blood Leukaemia,All,10-year,65-74,South Eastern HSCT,75
+Blood Leukaemia,All,10-year,65-74,Southern HSCT,68
+Blood Leukaemia,All,10-year,65-74,Western HSCT,64
+Blood Leukaemia,All,10-year,75+,Belfast HSCT,84
+Blood Leukaemia,All,10-year,75+,Northern HSCT,107
+Blood Leukaemia,All,10-year,75+,South Eastern HSCT,88
+Blood Leukaemia,All,10-year,75+,Southern HSCT,80
+Blood Leukaemia,All,10-year,75+,Western HSCT,53
+Blood Lymphoma,All,10-year,0-54,Belfast HSCT,107
+Blood Lymphoma,All,10-year,0-54,Northern HSCT,172
+Blood Lymphoma,All,10-year,0-54,South Eastern HSCT,127
+Blood Lymphoma,All,10-year,0-54,Southern HSCT,122
+Blood Lymphoma,All,10-year,0-54,Western HSCT,99
+Blood Lymphoma,All,10-year,55-64,Belfast HSCT,81
+Blood Lymphoma,All,10-year,55-64,Northern HSCT,130
+Blood Lymphoma,All,10-year,55-64,South Eastern HSCT,96
+Blood Lymphoma,All,10-year,55-64,Southern HSCT,93
+Blood Lymphoma,All,10-year,55-64,Western HSCT,75
+Blood Lymphoma,All,10-year,65-74,Belfast HSCT,106
+Blood Lymphoma,All,10-year,65-74,Northern HSCT,171
+Blood Lymphoma,All,10-year,65-74,South Eastern HSCT,126
+Blood Lymphoma,All,10-year,65-74,Southern HSCT,122
+Blood Lymphoma,All,10-year,65-74,Western HSCT,98
+Blood Lymphoma,All,10-year,75+,Belfast HSCT,139
+Blood Lymphoma,All,10-year,75+,Northern HSCT,224
+Blood Lymphoma,All,10-year,75+,South Eastern HSCT,166
+Blood Lymphoma,All,10-year,75+,Southern HSCT,159
+Blood Lymphoma,All,10-year,75+,Western HSCT,129
+Blood Multiple Myeloma,All,10-year,0-54,Belfast HSCT,12
+Blood Multiple Myeloma,All,10-year,0-54,Northern HSCT,19
+Blood Multiple Myeloma,All,10-year,0-54,South Eastern HSCT,13
+Blood Multiple Myeloma,All,10-year,0-54,Southern HSCT,17
+Blood Multiple Myeloma,All,10-year,0-54,Western HSCT,12
+Blood Multiple Myeloma,All,10-year,55-64,Belfast HSCT,27
+Blood Multiple Myeloma,All,10-year,55-64,Northern HSCT,43
+Blood Multiple Myeloma,All,10-year,55-64,South Eastern HSCT,29
+Blood Multiple Myeloma,All,10-year,55-64,Southern HSCT,39
+Blood Multiple Myeloma,All,10-year,55-64,Western HSCT,27
+Blood Multiple Myeloma,All,10-year,65-74,Belfast HSCT,42
+Blood Multiple Myeloma,All,10-year,65-74,Northern HSCT,67
+Blood Multiple Myeloma,All,10-year,65-74,South Eastern HSCT,46
+Blood Multiple Myeloma,All,10-year,65-74,Southern HSCT,61
+Blood Multiple Myeloma,All,10-year,65-74,Western HSCT,41
+Blood Multiple Myeloma,All,10-year,75+,Belfast HSCT,55
+Blood Multiple Myeloma,All,10-year,75+,Northern HSCT,89
+Blood Multiple Myeloma,All,10-year,75+,South Eastern HSCT,61
+Blood Multiple Myeloma,All,10-year,75+,Southern HSCT,80
+Blood Multiple Myeloma,All,10-year,75+,Western HSCT,55
+Brain Cancer,All,10-year,0-54,Belfast HSCT,51
+Brain Cancer,All,10-year,0-54,Northern HSCT,79
+Brain Cancer,All,10-year,0-54,South Eastern HSCT,59
+Brain Cancer,All,10-year,0-54,Southern HSCT,44
+Brain Cancer,All,10-year,0-54,Western HSCT,38
+Brain Cancer,All,10-year,55-64,Belfast HSCT,12
+Brain Cancer,All,10-year,55-64,Northern HSCT,16
+Brain Cancer,All,10-year,55-64,South Eastern HSCT,24
+Brain Cancer,All,10-year,55-64,Southern HSCT,13
+Brain Cancer,All,10-year,55-64,Western HSCT,-1
+Brain Cancer,All,10-year,65-74,Belfast HSCT,8
+Brain Cancer,All,10-year,65-74,Northern HSCT,1
+Brain Cancer,All,10-year,65-74,South Eastern HSCT,9
+Brain Cancer,All,10-year,65-74,Southern HSCT,19
+Brain Cancer,All,10-year,65-74,Western HSCT,6
+Brain Cancer,All,10-year,75+,Belfast HSCT,4
+Brain Cancer,All,10-year,75+,Northern HSCT,5
+Brain Cancer,All,10-year,75+,South Eastern HSCT,-6
+Brain Cancer,All,10-year,75+,Southern HSCT,4
+Brain Cancer,All,10-year,75+,Western HSCT,13
+Colorectal Cancer,All,10-year,0-54,Belfast HSCT,102
+Colorectal Cancer,All,10-year,0-54,Northern HSCT,145
+Colorectal Cancer,All,10-year,0-54,South Eastern HSCT,123
+Colorectal Cancer,All,10-year,0-54,Southern HSCT,111
+Colorectal Cancer,All,10-year,0-54,Western HSCT,99
+Colorectal Cancer,All,10-year,55-64,Belfast HSCT,214
+Colorectal Cancer,All,10-year,55-64,Northern HSCT,304
+Colorectal Cancer,All,10-year,55-64,South Eastern HSCT,258
+Colorectal Cancer,All,10-year,55-64,Southern HSCT,232
+Colorectal Cancer,All,10-year,55-64,Western HSCT,208
+Colorectal Cancer,All,10-year,65-74,Belfast HSCT,333
+Colorectal Cancer,All,10-year,65-74,Northern HSCT,474
+Colorectal Cancer,All,10-year,65-74,South Eastern HSCT,402
+Colorectal Cancer,All,10-year,65-74,Southern HSCT,362
+Colorectal Cancer,All,10-year,65-74,Western HSCT,323
+Colorectal Cancer,All,10-year,75+,Belfast HSCT,490
+Colorectal Cancer,All,10-year,75+,Northern HSCT,697
+Colorectal Cancer,All,10-year,75+,South Eastern HSCT,592
+Colorectal Cancer,All,10-year,75+,Southern HSCT,532
+Colorectal Cancer,All,10-year,75+,Western HSCT,475
+Female Breast Cancer,All,10-year,0-54,Belfast HSCT,476
+Female Breast Cancer,All,10-year,0-54,Northern HSCT,671
+Female Breast Cancer,All,10-year,0-54,South Eastern HSCT,530
+Female Breast Cancer,All,10-year,0-54,Southern HSCT,502
+Female Breast Cancer,All,10-year,0-54,Western HSCT,424
+Female Breast Cancer,All,10-year,55-64,Belfast HSCT,540
+Female Breast Cancer,All,10-year,55-64,Northern HSCT,762
+Female Breast Cancer,All,10-year,55-64,South Eastern HSCT,601
+Female Breast Cancer,All,10-year,55-64,Southern HSCT,569
+Female Breast Cancer,All,10-year,55-64,Western HSCT,482
+Female Breast Cancer,All,10-year,65-74,Belfast HSCT,520
+Female Breast Cancer,All,10-year,65-74,Northern HSCT,732
+Female Breast Cancer,All,10-year,65-74,South Eastern HSCT,578
+Female Breast Cancer,All,10-year,65-74,Southern HSCT,547
+Female Breast Cancer,All,10-year,65-74,Western HSCT,463
+Female Breast Cancer,All,10-year,75+,Belfast HSCT,497
+Female Breast Cancer,All,10-year,75+,Northern HSCT,701
+Female Breast Cancer,All,10-year,75+,South Eastern HSCT,553
+Female Breast Cancer,All,10-year,75+,Southern HSCT,523
+Female Breast Cancer,All,10-year,75+,Western HSCT,443
+Female Breast Insitu Tumour,All,10-year,0-54,Belfast HSCT,85
+Female Breast Insitu Tumour,All,10-year,0-54,Northern HSCT,153
+Female Breast Insitu Tumour,All,10-year,0-54,South Eastern HSCT,104
+Female Breast Insitu Tumour,All,10-year,0-54,Southern HSCT,88
+Female Breast Insitu Tumour,All,10-year,0-54,Western HSCT,78
+Female Breast Insitu Tumour,All,10-year,55-64,Belfast HSCT,113
+Female Breast Insitu Tumour,All,10-year,55-64,Northern HSCT,202
+Female Breast Insitu Tumour,All,10-year,55-64,South Eastern HSCT,136
+Female Breast Insitu Tumour,All,10-year,55-64,Southern HSCT,117
+Female Breast Insitu Tumour,All,10-year,55-64,Western HSCT,103
+Female Breast Insitu Tumour,All,10-year,65-74,Belfast HSCT,91
+Female Breast Insitu Tumour,All,10-year,65-74,Northern HSCT,165
+Female Breast Insitu Tumour,All,10-year,65-74,South Eastern HSCT,113
+Female Breast Insitu Tumour,All,10-year,65-74,Southern HSCT,95
+Female Breast Insitu Tumour,All,10-year,65-74,Western HSCT,84
+Female Breast Insitu Tumour,All,10-year,75+,Belfast HSCT,53
+Female Breast Insitu Tumour,All,10-year,75+,Northern HSCT,98
+Female Breast Insitu Tumour,All,10-year,75+,South Eastern HSCT,66
+Female Breast Insitu Tumour,All,10-year,75+,Southern HSCT,58
+Female Breast Insitu Tumour,All,10-year,75+,Western HSCT,50
+Gallbladder And Other Biliary Cancer,All,10-year,0-54,Belfast HSCT,2
+Gallbladder And Other Biliary Cancer,All,10-year,0-54,Northern HSCT,2
+Gallbladder And Other Biliary Cancer,All,10-year,0-54,South Eastern HSCT,3
+Gallbladder And Other Biliary Cancer,All,10-year,0-54,Southern HSCT,2
+Gallbladder And Other Biliary Cancer,All,10-year,0-54,Western HSCT,1
+Gallbladder And Other Biliary Cancer,All,10-year,55-64,Belfast HSCT,5
+Gallbladder And Other Biliary Cancer,All,10-year,55-64,Northern HSCT,6
+Gallbladder And Other Biliary Cancer,All,10-year,55-64,South Eastern HSCT,4
+Gallbladder And Other Biliary Cancer,All,10-year,55-64,Southern HSCT,-6
+Gallbladder And Other Biliary Cancer,All,10-year,55-64,Western HSCT,13
+Gallbladder And Other Biliary Cancer,All,10-year,65-74,Belfast HSCT,10
+Gallbladder And Other Biliary Cancer,All,10-year,65-74,Northern HSCT,11
+Gallbladder And Other Biliary Cancer,All,10-year,65-74,South Eastern HSCT,11
+Gallbladder And Other Biliary Cancer,All,10-year,65-74,Southern HSCT,20
+Gallbladder And Other Biliary Cancer,All,10-year,65-74,Western HSCT,-4
+Gallbladder And Other Biliary Cancer,All,10-year,75+,Belfast HSCT,16
+Gallbladder And Other Biliary Cancer,All,10-year,75+,Northern HSCT,15
+Gallbladder And Other Biliary Cancer,All,10-year,75+,South Eastern HSCT,17
+Gallbladder And Other Biliary Cancer,All,10-year,75+,Southern HSCT,16
+Gallbladder And Other Biliary Cancer,All,10-year,75+,Western HSCT,10
+Kidney Cancer,All,10-year,0-54,Belfast HSCT,60
+Kidney Cancer,All,10-year,0-54,Northern HSCT,88
+Kidney Cancer,All,10-year,0-54,South Eastern HSCT,61
+Kidney Cancer,All,10-year,0-54,Southern HSCT,58
+Kidney Cancer,All,10-year,0-54,Western HSCT,49
+Kidney Cancer,All,10-year,55-64,Belfast HSCT,78
+Kidney Cancer,All,10-year,55-64,Northern HSCT,115
+Kidney Cancer,All,10-year,55-64,South Eastern HSCT,80
+Kidney Cancer,All,10-year,55-64,Southern HSCT,77
+Kidney Cancer,All,10-year,55-64,Western HSCT,64
+Kidney Cancer,All,10-year,65-74,Belfast HSCT,106
+Kidney Cancer,All,10-year,65-74,Northern HSCT,155
+Kidney Cancer,All,10-year,65-74,South Eastern HSCT,108
+Kidney Cancer,All,10-year,65-74,Southern HSCT,103
+Kidney Cancer,All,10-year,65-74,Western HSCT,86
+Kidney Cancer,All,10-year,75+,Belfast HSCT,108
+Kidney Cancer,All,10-year,75+,Northern HSCT,158
+Kidney Cancer,All,10-year,75+,South Eastern HSCT,111
+Kidney Cancer,All,10-year,75+,Southern HSCT,106
+Kidney Cancer,All,10-year,75+,Western HSCT,88
+Liver Cancer,All,10-year,0-54,Belfast HSCT,6
+Liver Cancer,All,10-year,0-54,Northern HSCT,6
+Liver Cancer,All,10-year,0-54,South Eastern HSCT,6
+Liver Cancer,All,10-year,0-54,Southern HSCT,4
+Liver Cancer,All,10-year,0-54,Western HSCT,4
+Liver Cancer,All,10-year,55-64,Belfast HSCT,10
+Liver Cancer,All,10-year,55-64,Northern HSCT,10
+Liver Cancer,All,10-year,55-64,South Eastern HSCT,9
+Liver Cancer,All,10-year,55-64,Southern HSCT,7
+Liver Cancer,All,10-year,55-64,Western HSCT,6
+Liver Cancer,All,10-year,65-74,Belfast HSCT,23
+Liver Cancer,All,10-year,65-74,Northern HSCT,24
+Liver Cancer,All,10-year,65-74,South Eastern HSCT,22
+Liver Cancer,All,10-year,65-74,Southern HSCT,18
+Liver Cancer,All,10-year,65-74,Western HSCT,15
+Liver Cancer,All,10-year,75+,Belfast HSCT,22
+Liver Cancer,All,10-year,75+,Northern HSCT,23
+Liver Cancer,All,10-year,75+,South Eastern HSCT,21
+Liver Cancer,All,10-year,75+,Southern HSCT,17
+Liver Cancer,All,10-year,75+,Western HSCT,15
+Lung Cancer,All,10-year,0-54,Belfast HSCT,28
+Lung Cancer,All,10-year,0-54,Northern HSCT,35
+Lung Cancer,All,10-year,0-54,South Eastern HSCT,25
+Lung Cancer,All,10-year,0-54,Southern HSCT,27
+Lung Cancer,All,10-year,0-54,Western HSCT,24
+Lung Cancer,All,10-year,55-64,Belfast HSCT,82
+Lung Cancer,All,10-year,55-64,Northern HSCT,101
+Lung Cancer,All,10-year,55-64,South Eastern HSCT,70
+Lung Cancer,All,10-year,55-64,Southern HSCT,76
+Lung Cancer,All,10-year,55-64,Western HSCT,70
+Lung Cancer,All,10-year,65-74,Belfast HSCT,192
+Lung Cancer,All,10-year,65-74,Northern HSCT,237
+Lung Cancer,All,10-year,65-74,South Eastern HSCT,165
+Lung Cancer,All,10-year,65-74,Southern HSCT,180
+Lung Cancer,All,10-year,65-74,Western HSCT,165
+Lung Cancer,All,10-year,75+,Belfast HSCT,213
+Lung Cancer,All,10-year,75+,Northern HSCT,264
+Lung Cancer,All,10-year,75+,South Eastern HSCT,184
+Lung Cancer,All,10-year,75+,Southern HSCT,200
+Lung Cancer,All,10-year,75+,Western HSCT,183
+Male Breast Cancer,All,10-year,0-54,Belfast HSCT,1
+Male Breast Cancer,All,10-year,0-54,Northern HSCT,3
+Male Breast Cancer,All,10-year,0-54,South Eastern HSCT,3
+Male Breast Cancer,All,10-year,0-54,Southern HSCT,1
+Male Breast Cancer,All,10-year,0-54,Western HSCT,1
+Male Breast Cancer,All,10-year,55-64,Belfast HSCT,4
+Male Breast Cancer,All,10-year,55-64,Northern HSCT,4
+Male Breast Cancer,All,10-year,55-64,South Eastern HSCT,3
+Male Breast Cancer,All,10-year,55-64,Southern HSCT,2
+Male Breast Cancer,All,10-year,55-64,Western HSCT,1
+Male Breast Cancer,All,10-year,65-74,Belfast HSCT,3
+Male Breast Cancer,All,10-year,65-74,Northern HSCT,3
+Male Breast Cancer,All,10-year,65-74,South Eastern HSCT,1
+Male Breast Cancer,All,10-year,65-74,Southern HSCT,2
+Male Breast Cancer,All,10-year,65-74,Western HSCT,2
+Male Breast Cancer,All,10-year,75+,Belfast HSCT,8
+Male Breast Cancer,All,10-year,75+,Northern HSCT,10
+Male Breast Cancer,All,10-year,75+,South Eastern HSCT,7
+Male Breast Cancer,All,10-year,75+,Southern HSCT,5
+Male Breast Cancer,All,10-year,75+,Western HSCT,1
+Oesophageal Cancer,All,10-year,0-54,Belfast HSCT,6
+Oesophageal Cancer,All,10-year,0-54,Northern HSCT,18
+Oesophageal Cancer,All,10-year,0-54,South Eastern HSCT,10
+Oesophageal Cancer,All,10-year,0-54,Southern HSCT,2
+Oesophageal Cancer,All,10-year,0-54,Western HSCT,8
+Oesophageal Cancer,All,10-year,55-64,Belfast HSCT,19
+Oesophageal Cancer,All,10-year,55-64,Northern HSCT,31
+Oesophageal Cancer,All,10-year,55-64,South Eastern HSCT,30
+Oesophageal Cancer,All,10-year,55-64,Southern HSCT,24
+Oesophageal Cancer,All,10-year,55-64,Western HSCT,23
+Oesophageal Cancer,All,10-year,65-74,Belfast HSCT,38
+Oesophageal Cancer,All,10-year,65-74,Northern HSCT,44
+Oesophageal Cancer,All,10-year,65-74,South Eastern HSCT,49
+Oesophageal Cancer,All,10-year,65-74,Southern HSCT,39
+Oesophageal Cancer,All,10-year,65-74,Western HSCT,39
+Oesophageal Cancer,All,10-year,75+,Belfast HSCT,21
+Oesophageal Cancer,All,10-year,75+,Northern HSCT,46
+Oesophageal Cancer,All,10-year,75+,South Eastern HSCT,45
+Oesophageal Cancer,All,10-year,75+,Southern HSCT,42
+Oesophageal Cancer,All,10-year,75+,Western HSCT,36
+Oral Cancer,All,10-year,0-54,Belfast HSCT,48
+Oral Cancer,All,10-year,0-54,Northern HSCT,53
+Oral Cancer,All,10-year,0-54,South Eastern HSCT,46
+Oral Cancer,All,10-year,0-54,Southern HSCT,42
+Oral Cancer,All,10-year,0-54,Western HSCT,38
+Oral Cancer,All,10-year,55-64,Belfast HSCT,79
+Oral Cancer,All,10-year,55-64,Northern HSCT,86
+Oral Cancer,All,10-year,55-64,South Eastern HSCT,76
+Oral Cancer,All,10-year,55-64,Southern HSCT,69
+Oral Cancer,All,10-year,55-64,Western HSCT,63
+Oral Cancer,All,10-year,65-74,Belfast HSCT,74
+Oral Cancer,All,10-year,65-74,Northern HSCT,80
+Oral Cancer,All,10-year,65-74,South Eastern HSCT,70
+Oral Cancer,All,10-year,65-74,Southern HSCT,64
+Oral Cancer,All,10-year,65-74,Western HSCT,59
+Oral Cancer,All,10-year,75+,Belfast HSCT,47
+Oral Cancer,All,10-year,75+,Northern HSCT,52
+Oral Cancer,All,10-year,75+,South Eastern HSCT,45
+Oral Cancer,All,10-year,75+,Southern HSCT,42
+Oral Cancer,All,10-year,75+,Western HSCT,38
+Ovarian Cancer,All,10-year,0-54,Belfast HSCT,63
+Ovarian Cancer,All,10-year,0-54,Northern HSCT,76
+Ovarian Cancer,All,10-year,0-54,South Eastern HSCT,69
+Ovarian Cancer,All,10-year,0-54,Southern HSCT,62
+Ovarian Cancer,All,10-year,0-54,Western HSCT,49
+Ovarian Cancer,All,10-year,55-64,Belfast HSCT,52
+Ovarian Cancer,All,10-year,55-64,Northern HSCT,64
+Ovarian Cancer,All,10-year,55-64,South Eastern HSCT,58
+Ovarian Cancer,All,10-year,55-64,Southern HSCT,52
+Ovarian Cancer,All,10-year,55-64,Western HSCT,41
+Ovarian Cancer,All,10-year,65-74,Belfast HSCT,43
+Ovarian Cancer,All,10-year,65-74,Northern HSCT,52
+Ovarian Cancer,All,10-year,65-74,South Eastern HSCT,47
+Ovarian Cancer,All,10-year,65-74,Southern HSCT,43
+Ovarian Cancer,All,10-year,65-74,Western HSCT,34
+Ovarian Cancer,All,10-year,75+,Belfast HSCT,39
+Ovarian Cancer,All,10-year,75+,Northern HSCT,47
+Ovarian Cancer,All,10-year,75+,South Eastern HSCT,43
+Ovarian Cancer,All,10-year,75+,Southern HSCT,39
+Ovarian Cancer,All,10-year,75+,Western HSCT,30
+Pancreatic Cancer,All,10-year,0-54,Belfast HSCT,6
+Pancreatic Cancer,All,10-year,0-54,Northern HSCT,9
+Pancreatic Cancer,All,10-year,0-54,South Eastern HSCT,9
+Pancreatic Cancer,All,10-year,0-54,Southern HSCT,8
+Pancreatic Cancer,All,10-year,0-54,Western HSCT,8
+Pancreatic Cancer,All,10-year,55-64,Belfast HSCT,9
+Pancreatic Cancer,All,10-year,55-64,Northern HSCT,14
+Pancreatic Cancer,All,10-year,55-64,South Eastern HSCT,14
+Pancreatic Cancer,All,10-year,55-64,Southern HSCT,13
+Pancreatic Cancer,All,10-year,55-64,Western HSCT,9
+Pancreatic Cancer,All,10-year,65-74,Belfast HSCT,20
+Pancreatic Cancer,All,10-year,65-74,Northern HSCT,28
+Pancreatic Cancer,All,10-year,65-74,South Eastern HSCT,28
+Pancreatic Cancer,All,10-year,65-74,Southern HSCT,23
+Pancreatic Cancer,All,10-year,65-74,Western HSCT,21
+Pancreatic Cancer,All,10-year,75+,Belfast HSCT,18
+Pancreatic Cancer,All,10-year,75+,Northern HSCT,23
+Pancreatic Cancer,All,10-year,75+,South Eastern HSCT,23
+Pancreatic Cancer,All,10-year,75+,Southern HSCT,21
+Pancreatic Cancer,All,10-year,75+,Western HSCT,17
+Prostate Cancer,All,10-year,0-54,Belfast HSCT,26
+Prostate Cancer,All,10-year,0-54,Northern HSCT,49
+Prostate Cancer,All,10-year,0-54,South Eastern HSCT,36
+Prostate Cancer,All,10-year,0-54,Southern HSCT,28
+Prostate Cancer,All,10-year,0-54,Western HSCT,30
+Prostate Cancer,All,10-year,55-64,Belfast HSCT,218
+Prostate Cancer,All,10-year,55-64,Northern HSCT,409
+Prostate Cancer,All,10-year,55-64,South Eastern HSCT,300
+Prostate Cancer,All,10-year,55-64,Southern HSCT,233
+Prostate Cancer,All,10-year,55-64,Western HSCT,249
+Prostate Cancer,All,10-year,65-74,Belfast HSCT,559
+Prostate Cancer,All,10-year,65-74,Northern HSCT,1045
+Prostate Cancer,All,10-year,65-74,South Eastern HSCT,768
+Prostate Cancer,All,10-year,65-74,Southern HSCT,596
+Prostate Cancer,All,10-year,65-74,Western HSCT,637
+Prostate Cancer,All,10-year,75+,Belfast HSCT,606
+Prostate Cancer,All,10-year,75+,Northern HSCT,1134
+Prostate Cancer,All,10-year,75+,South Eastern HSCT,833
+Prostate Cancer,All,10-year,75+,Southern HSCT,646
+Prostate Cancer,All,10-year,75+,Western HSCT,691
+Stomach Cancer,All,10-year,0-54,Belfast HSCT,8
+Stomach Cancer,All,10-year,0-54,Northern HSCT,8
+Stomach Cancer,All,10-year,0-54,South Eastern HSCT,8
+Stomach Cancer,All,10-year,0-54,Southern HSCT,6
+Stomach Cancer,All,10-year,0-54,Western HSCT,8
+Stomach Cancer,All,10-year,55-64,Belfast HSCT,13
+Stomach Cancer,All,10-year,55-64,Northern HSCT,14
+Stomach Cancer,All,10-year,55-64,South Eastern HSCT,13
+Stomach Cancer,All,10-year,55-64,Southern HSCT,11
+Stomach Cancer,All,10-year,55-64,Western HSCT,13
+Stomach Cancer,All,10-year,65-74,Belfast HSCT,20
+Stomach Cancer,All,10-year,65-74,Northern HSCT,23
+Stomach Cancer,All,10-year,65-74,South Eastern HSCT,21
+Stomach Cancer,All,10-year,65-74,Southern HSCT,17
+Stomach Cancer,All,10-year,65-74,Western HSCT,21
+Stomach Cancer,All,10-year,75+,Belfast HSCT,43
+Stomach Cancer,All,10-year,75+,Northern HSCT,49
+Stomach Cancer,All,10-year,75+,South Eastern HSCT,45
+Stomach Cancer,All,10-year,75+,Southern HSCT,36
+Stomach Cancer,All,10-year,75+,Western HSCT,45
+Uterine Cancer,All,10-year,0-54,Belfast HSCT,39
+Uterine Cancer,All,10-year,0-54,Northern HSCT,49
+Uterine Cancer,All,10-year,0-54,South Eastern HSCT,37
+Uterine Cancer,All,10-year,0-54,Southern HSCT,42
+Uterine Cancer,All,10-year,0-54,Western HSCT,24
+Uterine Cancer,All,10-year,55-64,Belfast HSCT,78
+Uterine Cancer,All,10-year,55-64,Northern HSCT,143
+Uterine Cancer,All,10-year,55-64,South Eastern HSCT,92
+Uterine Cancer,All,10-year,55-64,Southern HSCT,113
+Uterine Cancer,All,10-year,55-64,Western HSCT,93
+Uterine Cancer,All,10-year,65-74,Belfast HSCT,89
+Uterine Cancer,All,10-year,65-74,Northern HSCT,141
+Uterine Cancer,All,10-year,65-74,South Eastern HSCT,126
+Uterine Cancer,All,10-year,65-74,Southern HSCT,130
+Uterine Cancer,All,10-year,65-74,Western HSCT,106
+Uterine Cancer,All,10-year,75+,Belfast HSCT,67
+Uterine Cancer,All,10-year,75+,Northern HSCT,132
+Uterine Cancer,All,10-year,75+,South Eastern HSCT,100
+Uterine Cancer,All,10-year,75+,Southern HSCT,113
+Uterine Cancer,All,10-year,75+,Western HSCT,102
+All Cancers,All,25-year,0-54,Belfast HSCT,2886
+All Cancers,All,25-year,0-54,Northern HSCT,4242
+All Cancers,All,25-year,0-54,South Eastern HSCT,3519
+All Cancers,All,25-year,0-54,Southern HSCT,3067
+All Cancers,All,25-year,0-54,Western HSCT,2518
+All Cancers,All,25-year,55-64,Belfast HSCT,3438
+All Cancers,All,25-year,55-64,Northern HSCT,5054
+All Cancers,All,25-year,55-64,South Eastern HSCT,4189
+All Cancers,All,25-year,55-64,Southern HSCT,3653
+All Cancers,All,25-year,55-64,Western HSCT,2998
+All Cancers,All,25-year,65-74,Belfast HSCT,4951
+All Cancers,All,25-year,65-74,Northern HSCT,7278
+All Cancers,All,25-year,65-74,South Eastern HSCT,6035
+All Cancers,All,25-year,65-74,Southern HSCT,5260
+All Cancers,All,25-year,65-74,Western HSCT,4317
+All Cancers,All,25-year,75+,Belfast HSCT,7300
+All Cancers,All,25-year,75+,Northern HSCT,10732
+All Cancers,All,25-year,75+,South Eastern HSCT,8898
+All Cancers,All,25-year,75+,Southern HSCT,7759
+All Cancers,All,25-year,75+,Western HSCT,6364
+Bladder Cancer,All,25-year,0-54,Belfast HSCT,13
+Bladder Cancer,All,25-year,0-54,Northern HSCT,15
+Bladder Cancer,All,25-year,0-54,South Eastern HSCT,13
+Bladder Cancer,All,25-year,0-54,Southern HSCT,11
+Bladder Cancer,All,25-year,0-54,Western HSCT,9
+Bladder Cancer,All,25-year,55-64,Belfast HSCT,37
+Bladder Cancer,All,25-year,55-64,Northern HSCT,51
+Bladder Cancer,All,25-year,55-64,South Eastern HSCT,40
+Bladder Cancer,All,25-year,55-64,Southern HSCT,33
+Bladder Cancer,All,25-year,55-64,Western HSCT,29
+Bladder Cancer,All,25-year,65-74,Belfast HSCT,78
+Bladder Cancer,All,25-year,65-74,Northern HSCT,108
+Bladder Cancer,All,25-year,65-74,South Eastern HSCT,87
+Bladder Cancer,All,25-year,65-74,Southern HSCT,69
+Bladder Cancer,All,25-year,65-74,Western HSCT,59
+Bladder Cancer,All,25-year,75+,Belfast HSCT,164
+Bladder Cancer,All,25-year,75+,Northern HSCT,227
+Bladder Cancer,All,25-year,75+,South Eastern HSCT,185
+Bladder Cancer,All,25-year,75+,Southern HSCT,148
+Bladder Cancer,All,25-year,75+,Western HSCT,130
+Blood Leukaemia,All,25-year,0-54,Belfast HSCT,119
+Blood Leukaemia,All,25-year,0-54,Northern HSCT,168
+Blood Leukaemia,All,25-year,0-54,South Eastern HSCT,148
+Blood Leukaemia,All,25-year,0-54,Southern HSCT,128
+Blood Leukaemia,All,25-year,0-54,Western HSCT,108
+Blood Leukaemia,All,25-year,55-64,Belfast HSCT,58
+Blood Leukaemia,All,25-year,55-64,Northern HSCT,82
+Blood Leukaemia,All,25-year,55-64,South Eastern HSCT,72
+Blood Leukaemia,All,25-year,55-64,Southern HSCT,62
+Blood Leukaemia,All,25-year,55-64,Western HSCT,53
+Blood Leukaemia,All,25-year,65-74,Belfast HSCT,83
+Blood Leukaemia,All,25-year,65-74,Northern HSCT,117
+Blood Leukaemia,All,25-year,65-74,South Eastern HSCT,103
+Blood Leukaemia,All,25-year,65-74,Southern HSCT,89
+Blood Leukaemia,All,25-year,65-74,Western HSCT,76
+Blood Leukaemia,All,25-year,75+,Belfast HSCT,108
+Blood Leukaemia,All,25-year,75+,Northern HSCT,152
+Blood Leukaemia,All,25-year,75+,South Eastern HSCT,134
+Blood Leukaemia,All,25-year,75+,Southern HSCT,115
+Blood Leukaemia,All,25-year,75+,Western HSCT,98
+Blood Lymphoma,All,25-year,0-54,Belfast HSCT,189
+Blood Lymphoma,All,25-year,0-54,Northern HSCT,267
+Blood Lymphoma,All,25-year,0-54,South Eastern HSCT,201
+Blood Lymphoma,All,25-year,0-54,Southern HSCT,203
+Blood Lymphoma,All,25-year,0-54,Western HSCT,154
+Blood Lymphoma,All,25-year,55-64,Belfast HSCT,127
+Blood Lymphoma,All,25-year,55-64,Northern HSCT,223
+Blood Lymphoma,All,25-year,55-64,South Eastern HSCT,153
+Blood Lymphoma,All,25-year,55-64,Southern HSCT,155
+Blood Lymphoma,All,25-year,55-64,Western HSCT,116
+Blood Lymphoma,All,25-year,65-74,Belfast HSCT,168
+Blood Lymphoma,All,25-year,65-74,Northern HSCT,259
+Blood Lymphoma,All,25-year,65-74,South Eastern HSCT,187
+Blood Lymphoma,All,25-year,65-74,Southern HSCT,190
+Blood Lymphoma,All,25-year,65-74,Western HSCT,142
+Blood Lymphoma,All,25-year,75+,Belfast HSCT,228
+Blood Lymphoma,All,25-year,75+,Northern HSCT,352
+Blood Lymphoma,All,25-year,75+,South Eastern HSCT,255
+Blood Lymphoma,All,25-year,75+,Southern HSCT,258
+Blood Lymphoma,All,25-year,75+,Western HSCT,193
+Blood Multiple Myeloma,All,25-year,0-54,Belfast HSCT,12
+Blood Multiple Myeloma,All,25-year,0-54,Northern HSCT,21
+Blood Multiple Myeloma,All,25-year,0-54,South Eastern HSCT,16
+Blood Multiple Myeloma,All,25-year,0-54,Southern HSCT,18
+Blood Multiple Myeloma,All,25-year,0-54,Western HSCT,12
+Blood Multiple Myeloma,All,25-year,55-64,Belfast HSCT,30
+Blood Multiple Myeloma,All,25-year,55-64,Northern HSCT,51
+Blood Multiple Myeloma,All,25-year,55-64,South Eastern HSCT,39
+Blood Multiple Myeloma,All,25-year,55-64,Southern HSCT,42
+Blood Multiple Myeloma,All,25-year,55-64,Western HSCT,32
+Blood Multiple Myeloma,All,25-year,65-74,Belfast HSCT,48
+Blood Multiple Myeloma,All,25-year,65-74,Northern HSCT,80
+Blood Multiple Myeloma,All,25-year,65-74,South Eastern HSCT,60
+Blood Multiple Myeloma,All,25-year,65-74,Southern HSCT,68
+Blood Multiple Myeloma,All,25-year,65-74,Western HSCT,44
+Blood Multiple Myeloma,All,25-year,75+,Belfast HSCT,63
+Blood Multiple Myeloma,All,25-year,75+,Northern HSCT,107
+Blood Multiple Myeloma,All,25-year,75+,South Eastern HSCT,79
+Blood Multiple Myeloma,All,25-year,75+,Southern HSCT,94
+Blood Multiple Myeloma,All,25-year,75+,Western HSCT,62
+Brain Cancer,All,25-year,0-54,Belfast HSCT,86
+Brain Cancer,All,25-year,0-54,Northern HSCT,130
+Brain Cancer,All,25-year,0-54,South Eastern HSCT,97
+Brain Cancer,All,25-year,0-54,Southern HSCT,83
+Brain Cancer,All,25-year,0-54,Western HSCT,75
+Brain Cancer,All,25-year,55-64,Belfast HSCT,19
+Brain Cancer,All,25-year,55-64,Northern HSCT,27
+Brain Cancer,All,25-year,55-64,South Eastern HSCT,20
+Brain Cancer,All,25-year,55-64,Southern HSCT,17
+Brain Cancer,All,25-year,55-64,Western HSCT,13
+Brain Cancer,All,25-year,65-74,Belfast HSCT,13
+Brain Cancer,All,25-year,65-74,Northern HSCT,20
+Brain Cancer,All,25-year,65-74,South Eastern HSCT,15
+Brain Cancer,All,25-year,65-74,Southern HSCT,13
+Brain Cancer,All,25-year,65-74,Western HSCT,12
+Brain Cancer,All,25-year,75+,Belfast HSCT,5
+Brain Cancer,All,25-year,75+,Northern HSCT,8
+Brain Cancer,All,25-year,75+,South Eastern HSCT,6
+Brain Cancer,All,25-year,75+,Southern HSCT,5
+Brain Cancer,All,25-year,75+,Western HSCT,6
+Colorectal Cancer,All,25-year,0-54,Belfast HSCT,121
+Colorectal Cancer,All,25-year,0-54,Northern HSCT,178
+Colorectal Cancer,All,25-year,0-54,South Eastern HSCT,143
+Colorectal Cancer,All,25-year,0-54,Southern HSCT,128
+Colorectal Cancer,All,25-year,0-54,Western HSCT,116
+Colorectal Cancer,All,25-year,55-64,Belfast HSCT,267
+Colorectal Cancer,All,25-year,55-64,Northern HSCT,393
+Colorectal Cancer,All,25-year,55-64,South Eastern HSCT,324
+Colorectal Cancer,All,25-year,55-64,Southern HSCT,284
+Colorectal Cancer,All,25-year,55-64,Western HSCT,260
+Colorectal Cancer,All,25-year,65-74,Belfast HSCT,465
+Colorectal Cancer,All,25-year,65-74,Northern HSCT,686
+Colorectal Cancer,All,25-year,65-74,South Eastern HSCT,562
+Colorectal Cancer,All,25-year,65-74,Southern HSCT,496
+Colorectal Cancer,All,25-year,65-74,Western HSCT,448
+Colorectal Cancer,All,25-year,75+,Belfast HSCT,822
+Colorectal Cancer,All,25-year,75+,Northern HSCT,1206
+Colorectal Cancer,All,25-year,75+,South Eastern HSCT,992
+Colorectal Cancer,All,25-year,75+,Southern HSCT,869
+Colorectal Cancer,All,25-year,75+,Western HSCT,787
+Female Breast Cancer,All,25-year,0-54,Belfast HSCT,548
+Female Breast Cancer,All,25-year,0-54,Northern HSCT,799
+Female Breast Cancer,All,25-year,0-54,South Eastern HSCT,660
+Female Breast Cancer,All,25-year,0-54,Southern HSCT,586
+Female Breast Cancer,All,25-year,0-54,Western HSCT,481
+Female Breast Cancer,All,25-year,55-64,Belfast HSCT,818
+Female Breast Cancer,All,25-year,55-64,Northern HSCT,1193
+Female Breast Cancer,All,25-year,55-64,South Eastern HSCT,986
+Female Breast Cancer,All,25-year,55-64,Southern HSCT,871
+Female Breast Cancer,All,25-year,55-64,Western HSCT,720
+Female Breast Cancer,All,25-year,65-74,Belfast HSCT,906
+Female Breast Cancer,All,25-year,65-74,Northern HSCT,1321
+Female Breast Cancer,All,25-year,65-74,South Eastern HSCT,1091
+Female Breast Cancer,All,25-year,65-74,Southern HSCT,963
+Female Breast Cancer,All,25-year,65-74,Western HSCT,797
+Female Breast Cancer,All,25-year,75+,Belfast HSCT,975
+Female Breast Cancer,All,25-year,75+,Northern HSCT,1422
+Female Breast Cancer,All,25-year,75+,South Eastern HSCT,1174
+Female Breast Cancer,All,25-year,75+,Southern HSCT,1038
+Female Breast Cancer,All,25-year,75+,Western HSCT,858
+Female Breast Insitu Tumour,All,25-year,0-54,Belfast HSCT,93
+Female Breast Insitu Tumour,All,25-year,0-54,Northern HSCT,166
+Female Breast Insitu Tumour,All,25-year,0-54,South Eastern HSCT,121
+Female Breast Insitu Tumour,All,25-year,0-54,Southern HSCT,101
+Female Breast Insitu Tumour,All,25-year,0-54,Western HSCT,85
+Female Breast Insitu Tumour,All,25-year,55-64,Belfast HSCT,150
+Female Breast Insitu Tumour,All,25-year,55-64,Northern HSCT,271
+Female Breast Insitu Tumour,All,25-year,55-64,South Eastern HSCT,194
+Female Breast Insitu Tumour,All,25-year,55-64,Southern HSCT,166
+Female Breast Insitu Tumour,All,25-year,55-64,Western HSCT,138
+Female Breast Insitu Tumour,All,25-year,65-74,Belfast HSCT,168
+Female Breast Insitu Tumour,All,25-year,65-74,Northern HSCT,301
+Female Breast Insitu Tumour,All,25-year,65-74,South Eastern HSCT,218
+Female Breast Insitu Tumour,All,25-year,65-74,Southern HSCT,184
+Female Breast Insitu Tumour,All,25-year,65-74,Western HSCT,153
+Female Breast Insitu Tumour,All,25-year,75+,Belfast HSCT,123
+Female Breast Insitu Tumour,All,25-year,75+,Northern HSCT,220
+Female Breast Insitu Tumour,All,25-year,75+,South Eastern HSCT,158
+Female Breast Insitu Tumour,All,25-year,75+,Southern HSCT,137
+Female Breast Insitu Tumour,All,25-year,75+,Western HSCT,115
+Gallbladder And Other Biliary Cancer,All,25-year,0-54,Belfast HSCT,2
+Gallbladder And Other Biliary Cancer,All,25-year,0-54,Northern HSCT,3
+Gallbladder And Other Biliary Cancer,All,25-year,0-54,South Eastern HSCT,3
+Gallbladder And Other Biliary Cancer,All,25-year,0-54,Southern HSCT,3
+Gallbladder And Other Biliary Cancer,All,25-year,0-54,Western HSCT,2
+Gallbladder And Other Biliary Cancer,All,25-year,55-64,Belfast HSCT,5
+Gallbladder And Other Biliary Cancer,All,25-year,55-64,Northern HSCT,5
+Gallbladder And Other Biliary Cancer,All,25-year,55-64,South Eastern HSCT,5
+Gallbladder And Other Biliary Cancer,All,25-year,55-64,Southern HSCT,6
+Gallbladder And Other Biliary Cancer,All,25-year,55-64,Western HSCT,3
+Gallbladder And Other Biliary Cancer,All,25-year,65-74,Belfast HSCT,11
+Gallbladder And Other Biliary Cancer,All,25-year,65-74,Northern HSCT,12
+Gallbladder And Other Biliary Cancer,All,25-year,65-74,South Eastern HSCT,13
+Gallbladder And Other Biliary Cancer,All,25-year,65-74,Southern HSCT,15
+Gallbladder And Other Biliary Cancer,All,25-year,65-74,Western HSCT,8
+Gallbladder And Other Biliary Cancer,All,25-year,75+,Belfast HSCT,17
+Gallbladder And Other Biliary Cancer,All,25-year,75+,Northern HSCT,18
+Gallbladder And Other Biliary Cancer,All,25-year,75+,South Eastern HSCT,19
+Gallbladder And Other Biliary Cancer,All,25-year,75+,Southern HSCT,22
+Gallbladder And Other Biliary Cancer,All,25-year,75+,Western HSCT,11
+Kidney Cancer,All,25-year,0-54,Belfast HSCT,71
+Kidney Cancer,All,25-year,0-54,Northern HSCT,105
+Kidney Cancer,All,25-year,0-54,South Eastern HSCT,77
+Kidney Cancer,All,25-year,0-54,Southern HSCT,73
+Kidney Cancer,All,25-year,0-54,Western HSCT,61
+Kidney Cancer,All,25-year,55-64,Belfast HSCT,92
+Kidney Cancer,All,25-year,55-64,Northern HSCT,136
+Kidney Cancer,All,25-year,55-64,South Eastern HSCT,100
+Kidney Cancer,All,25-year,55-64,Southern HSCT,95
+Kidney Cancer,All,25-year,55-64,Western HSCT,80
+Kidney Cancer,All,25-year,65-74,Belfast HSCT,135
+Kidney Cancer,All,25-year,65-74,Northern HSCT,200
+Kidney Cancer,All,25-year,65-74,South Eastern HSCT,147
+Kidney Cancer,All,25-year,65-74,Southern HSCT,140
+Kidney Cancer,All,25-year,65-74,Western HSCT,117
+Kidney Cancer,All,25-year,75+,Belfast HSCT,155
+Kidney Cancer,All,25-year,75+,Northern HSCT,230
+Kidney Cancer,All,25-year,75+,South Eastern HSCT,170
+Kidney Cancer,All,25-year,75+,Southern HSCT,161
+Kidney Cancer,All,25-year,75+,Western HSCT,135
+Liver Cancer,All,25-year,0-54,Belfast HSCT,10
+Liver Cancer,All,25-year,0-54,Northern HSCT,9
+Liver Cancer,All,25-year,0-54,South Eastern HSCT,9
+Liver Cancer,All,25-year,0-54,Southern HSCT,7
+Liver Cancer,All,25-year,0-54,Western HSCT,6
+Liver Cancer,All,25-year,55-64,Belfast HSCT,12
+Liver Cancer,All,25-year,55-64,Northern HSCT,11
+Liver Cancer,All,25-year,55-64,South Eastern HSCT,11
+Liver Cancer,All,25-year,55-64,Southern HSCT,8
+Liver Cancer,All,25-year,55-64,Western HSCT,7
+Liver Cancer,All,25-year,65-74,Belfast HSCT,27
+Liver Cancer,All,25-year,65-74,Northern HSCT,25
+Liver Cancer,All,25-year,65-74,South Eastern HSCT,25
+Liver Cancer,All,25-year,65-74,Southern HSCT,18
+Liver Cancer,All,25-year,65-74,Western HSCT,17
+Liver Cancer,All,25-year,75+,Belfast HSCT,26
+Liver Cancer,All,25-year,75+,Northern HSCT,25
+Liver Cancer,All,25-year,75+,South Eastern HSCT,25
+Liver Cancer,All,25-year,75+,Southern HSCT,18
+Liver Cancer,All,25-year,75+,Western HSCT,16
+Lung Cancer,All,25-year,0-54,Belfast HSCT,35
+Lung Cancer,All,25-year,0-54,Northern HSCT,41
+Lung Cancer,All,25-year,0-54,South Eastern HSCT,30
+Lung Cancer,All,25-year,0-54,Southern HSCT,31
+Lung Cancer,All,25-year,0-54,Western HSCT,30
+Lung Cancer,All,25-year,55-64,Belfast HSCT,92
+Lung Cancer,All,25-year,55-64,Northern HSCT,113
+Lung Cancer,All,25-year,55-64,South Eastern HSCT,81
+Lung Cancer,All,25-year,55-64,Southern HSCT,86
+Lung Cancer,All,25-year,55-64,Western HSCT,82
+Lung Cancer,All,25-year,65-74,Belfast HSCT,212
+Lung Cancer,All,25-year,65-74,Northern HSCT,254
+Lung Cancer,All,25-year,65-74,South Eastern HSCT,183
+Lung Cancer,All,25-year,65-74,Southern HSCT,192
+Lung Cancer,All,25-year,65-74,Western HSCT,184
+Lung Cancer,All,25-year,75+,Belfast HSCT,247
+Lung Cancer,All,25-year,75+,Northern HSCT,300
+Lung Cancer,All,25-year,75+,South Eastern HSCT,215
+Lung Cancer,All,25-year,75+,Southern HSCT,229
+Lung Cancer,All,25-year,75+,Western HSCT,218
+Male Breast Cancer,All,25-year,0-54,Belfast HSCT,2
+Male Breast Cancer,All,25-year,0-54,Northern HSCT,2
+Male Breast Cancer,All,25-year,0-54,South Eastern HSCT,3
+Male Breast Cancer,All,25-year,0-54,Southern HSCT,1
+Male Breast Cancer,All,25-year,0-54,Western HSCT,1
+Male Breast Cancer,All,25-year,55-64,Belfast HSCT,4
+Male Breast Cancer,All,25-year,55-64,Northern HSCT,4
+Male Breast Cancer,All,25-year,55-64,South Eastern HSCT,3
+Male Breast Cancer,All,25-year,55-64,Southern HSCT,4
+Male Breast Cancer,All,25-year,55-64,Western HSCT,1
+Male Breast Cancer,All,25-year,65-74,Belfast HSCT,5
+Male Breast Cancer,All,25-year,65-74,Northern HSCT,6
+Male Breast Cancer,All,25-year,65-74,South Eastern HSCT,4
+Male Breast Cancer,All,25-year,65-74,Southern HSCT,2
+Male Breast Cancer,All,25-year,65-74,Western HSCT,1
+Male Breast Cancer,All,25-year,75+,Belfast HSCT,12
+Male Breast Cancer,All,25-year,75+,Northern HSCT,12
+Male Breast Cancer,All,25-year,75+,South Eastern HSCT,8
+Male Breast Cancer,All,25-year,75+,Southern HSCT,8
+Male Breast Cancer,All,25-year,75+,Western HSCT,4
+Oesophageal Cancer,All,25-year,0-54,Belfast HSCT,7
+Oesophageal Cancer,All,25-year,0-54,Northern HSCT,11
+Oesophageal Cancer,All,25-year,0-54,South Eastern HSCT,10
+Oesophageal Cancer,All,25-year,0-54,Southern HSCT,9
+Oesophageal Cancer,All,25-year,0-54,Western HSCT,9
+Oesophageal Cancer,All,25-year,55-64,Belfast HSCT,23
+Oesophageal Cancer,All,25-year,55-64,Northern HSCT,35
+Oesophageal Cancer,All,25-year,55-64,South Eastern HSCT,31
+Oesophageal Cancer,All,25-year,55-64,Southern HSCT,26
+Oesophageal Cancer,All,25-year,55-64,Western HSCT,27
+Oesophageal Cancer,All,25-year,65-74,Belfast HSCT,41
+Oesophageal Cancer,All,25-year,65-74,Northern HSCT,64
+Oesophageal Cancer,All,25-year,65-74,South Eastern HSCT,56
+Oesophageal Cancer,All,25-year,65-74,Southern HSCT,47
+Oesophageal Cancer,All,25-year,65-74,Western HSCT,49
+Oesophageal Cancer,All,25-year,75+,Belfast HSCT,45
+Oesophageal Cancer,All,25-year,75+,Northern HSCT,69
+Oesophageal Cancer,All,25-year,75+,South Eastern HSCT,60
+Oesophageal Cancer,All,25-year,75+,Southern HSCT,51
+Oesophageal Cancer,All,25-year,75+,Western HSCT,53
+Oral Cancer,All,25-year,0-54,Belfast HSCT,59
+Oral Cancer,All,25-year,0-54,Northern HSCT,68
+Oral Cancer,All,25-year,0-54,South Eastern HSCT,62
+Oral Cancer,All,25-year,0-54,Southern HSCT,55
+Oral Cancer,All,25-year,0-54,Western HSCT,53
+Oral Cancer,All,25-year,55-64,Belfast HSCT,96
+Oral Cancer,All,25-year,55-64,Northern HSCT,110
+Oral Cancer,All,25-year,55-64,South Eastern HSCT,100
+Oral Cancer,All,25-year,55-64,Southern HSCT,89
+Oral Cancer,All,25-year,55-64,Western HSCT,84
+Oral Cancer,All,25-year,65-74,Belfast HSCT,96
+Oral Cancer,All,25-year,65-74,Northern HSCT,113
+Oral Cancer,All,25-year,65-74,South Eastern HSCT,103
+Oral Cancer,All,25-year,65-74,Southern HSCT,91
+Oral Cancer,All,25-year,65-74,Western HSCT,88
+Oral Cancer,All,25-year,75+,Belfast HSCT,72
+Oral Cancer,All,25-year,75+,Northern HSCT,83
+Oral Cancer,All,25-year,75+,South Eastern HSCT,76
+Oral Cancer,All,25-year,75+,Southern HSCT,67
+Oral Cancer,All,25-year,75+,Western HSCT,66
+Ovarian Cancer,All,25-year,0-54,Belfast HSCT,89
+Ovarian Cancer,All,25-year,0-54,Northern HSCT,123
+Ovarian Cancer,All,25-year,0-54,South Eastern HSCT,104
+Ovarian Cancer,All,25-year,0-54,Southern HSCT,96
+Ovarian Cancer,All,25-year,0-54,Western HSCT,74
+Ovarian Cancer,All,25-year,55-64,Belfast HSCT,83
+Ovarian Cancer,All,25-year,55-64,Northern HSCT,121
+Ovarian Cancer,All,25-year,55-64,South Eastern HSCT,96
+Ovarian Cancer,All,25-year,55-64,Southern HSCT,88
+Ovarian Cancer,All,25-year,55-64,Western HSCT,62
+Ovarian Cancer,All,25-year,65-74,Belfast HSCT,75
+Ovarian Cancer,All,25-year,65-74,Northern HSCT,95
+Ovarian Cancer,All,25-year,65-74,South Eastern HSCT,87
+Ovarian Cancer,All,25-year,65-74,Southern HSCT,87
+Ovarian Cancer,All,25-year,65-74,Western HSCT,61
+Ovarian Cancer,All,25-year,75+,Belfast HSCT,78
+Ovarian Cancer,All,25-year,75+,Northern HSCT,104
+Ovarian Cancer,All,25-year,75+,South Eastern HSCT,88
+Ovarian Cancer,All,25-year,75+,Southern HSCT,74
+Ovarian Cancer,All,25-year,75+,Western HSCT,69
+Pancreatic Cancer,All,25-year,0-54,Belfast HSCT,7
+Pancreatic Cancer,All,25-year,0-54,Northern HSCT,10
+Pancreatic Cancer,All,25-year,0-54,South Eastern HSCT,10
+Pancreatic Cancer,All,25-year,0-54,Southern HSCT,8
+Pancreatic Cancer,All,25-year,0-54,Western HSCT,7
+Pancreatic Cancer,All,25-year,55-64,Belfast HSCT,12
+Pancreatic Cancer,All,25-year,55-64,Northern HSCT,16
+Pancreatic Cancer,All,25-year,55-64,South Eastern HSCT,16
+Pancreatic Cancer,All,25-year,55-64,Southern HSCT,13
+Pancreatic Cancer,All,25-year,55-64,Western HSCT,11
+Pancreatic Cancer,All,25-year,65-74,Belfast HSCT,22
+Pancreatic Cancer,All,25-year,65-74,Northern HSCT,31
+Pancreatic Cancer,All,25-year,65-74,South Eastern HSCT,29
+Pancreatic Cancer,All,25-year,65-74,Southern HSCT,25
+Pancreatic Cancer,All,25-year,65-74,Western HSCT,21
+Pancreatic Cancer,All,25-year,75+,Belfast HSCT,21
+Pancreatic Cancer,All,25-year,75+,Northern HSCT,29
+Pancreatic Cancer,All,25-year,75+,South Eastern HSCT,28
+Pancreatic Cancer,All,25-year,75+,Southern HSCT,24
+Pancreatic Cancer,All,25-year,75+,Western HSCT,20
+Prostate Cancer,All,25-year,0-54,Belfast HSCT,27
+Prostate Cancer,All,25-year,0-54,Northern HSCT,51
+Prostate Cancer,All,25-year,0-54,South Eastern HSCT,37
+Prostate Cancer,All,25-year,0-54,Southern HSCT,34
+Prostate Cancer,All,25-year,0-54,Western HSCT,31
+Prostate Cancer,All,25-year,55-64,Belfast HSCT,216
+Prostate Cancer,All,25-year,55-64,Northern HSCT,435
+Prostate Cancer,All,25-year,55-64,South Eastern HSCT,325
+Prostate Cancer,All,25-year,55-64,Southern HSCT,279
+Prostate Cancer,All,25-year,55-64,Western HSCT,267
+Prostate Cancer,All,25-year,65-74,Belfast HSCT,689
+Prostate Cancer,All,25-year,65-74,Northern HSCT,1300
+Prostate Cancer,All,25-year,65-74,South Eastern HSCT,971
+Prostate Cancer,All,25-year,65-74,Southern HSCT,796
+Prostate Cancer,All,25-year,65-74,Western HSCT,794
+Prostate Cancer,All,25-year,75+,Belfast HSCT,955
+Prostate Cancer,All,25-year,75+,Northern HSCT,1830
+Prostate Cancer,All,25-year,75+,South Eastern HSCT,1365
+Prostate Cancer,All,25-year,75+,Southern HSCT,1135
+Prostate Cancer,All,25-year,75+,Western HSCT,1116
+Stomach Cancer,All,25-year,0-54,Belfast HSCT,13
+Stomach Cancer,All,25-year,0-54,Northern HSCT,8
+Stomach Cancer,All,25-year,0-54,South Eastern HSCT,9
+Stomach Cancer,All,25-year,0-54,Southern HSCT,7
+Stomach Cancer,All,25-year,0-54,Western HSCT,10
+Stomach Cancer,All,25-year,55-64,Belfast HSCT,17
+Stomach Cancer,All,25-year,55-64,Northern HSCT,20
+Stomach Cancer,All,25-year,55-64,South Eastern HSCT,14
+Stomach Cancer,All,25-year,55-64,Southern HSCT,15
+Stomach Cancer,All,25-year,55-64,Western HSCT,18
+Stomach Cancer,All,25-year,65-74,Belfast HSCT,26
+Stomach Cancer,All,25-year,65-74,Northern HSCT,31
+Stomach Cancer,All,25-year,65-74,South Eastern HSCT,26
+Stomach Cancer,All,25-year,65-74,Southern HSCT,24
+Stomach Cancer,All,25-year,65-74,Western HSCT,29
+Stomach Cancer,All,25-year,75+,Belfast HSCT,71
+Stomach Cancer,All,25-year,75+,Northern HSCT,79
+Stomach Cancer,All,25-year,75+,South Eastern HSCT,63
+Stomach Cancer,All,25-year,75+,Southern HSCT,59
+Stomach Cancer,All,25-year,75+,Western HSCT,72
+Uterine Cancer,All,25-year,0-54,Belfast HSCT,37
+Uterine Cancer,All,25-year,0-54,Northern HSCT,57
+Uterine Cancer,All,25-year,0-54,South Eastern HSCT,47
+Uterine Cancer,All,25-year,0-54,Southern HSCT,49
+Uterine Cancer,All,25-year,0-54,Western HSCT,39
+Uterine Cancer,All,25-year,55-64,Belfast HSCT,108
+Uterine Cancer,All,25-year,55-64,Northern HSCT,168
+Uterine Cancer,All,25-year,55-64,South Eastern HSCT,140
+Uterine Cancer,All,25-year,55-64,Southern HSCT,145
+Uterine Cancer,All,25-year,55-64,Western HSCT,115
+Uterine Cancer,All,25-year,65-74,Belfast HSCT,154
+Uterine Cancer,All,25-year,65-74,Northern HSCT,240
+Uterine Cancer,All,25-year,65-74,South Eastern HSCT,197
+Uterine Cancer,All,25-year,65-74,Southern HSCT,207
+Uterine Cancer,All,25-year,65-74,Western HSCT,163
+Uterine Cancer,All,25-year,75+,Belfast HSCT,178
+Uterine Cancer,All,25-year,75+,Northern HSCT,278
+Uterine Cancer,All,25-year,75+,South Eastern HSCT,230
+Uterine Cancer,All,25-year,75+,Southern HSCT,240
+Uterine Cancer,All,25-year,75+,Western HSCT,188

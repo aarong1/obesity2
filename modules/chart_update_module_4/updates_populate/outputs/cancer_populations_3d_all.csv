@@ -1,0 +1,1201 @@
+cancer_site,period,age,HSCT,sex,prevalence
+All Cancers,10-year,0-54,Belfast HSCT,Male,751.1343499063107
+All Cancers,10-year,0-54,Northern HSCT,Male,1157.0619255880306
+All Cancers,10-year,0-54,South Eastern HSCT,Male,944.1182832502565
+All Cancers,10-year,0-54,Southern HSCT,Male,810.7729984661843
+All Cancers,10-year,0-54,Western HSCT,Male,699.7922068920648
+All Cancers,10-year,55-64,Belfast HSCT,Male,1094.249353198375
+All Cancers,10-year,55-64,Northern HSCT,Male,1685.6029335405733
+All Cancers,10-year,55-64,South Eastern HSCT,Male,1375.3875334262273
+All Cancers,10-year,55-64,Southern HSCT,Male,1181.1306849074185
+All Cancers,10-year,55-64,Western HSCT,Male,1019.4543357795012
+All Cancers,10-year,65-74,Belfast HSCT,Male,1890.1453191889489
+All Cancers,10-year,65-74,Northern HSCT,Male,2911.6165209789106
+All Cancers,10-year,65-74,South Eastern HSCT,Male,2375.7677359167
+All Cancers,10-year,65-74,Southern HSCT,Male,2040.219287224441
+All Cancers,10-year,65-74,Western HSCT,Male,1760.9485765454913
+All Cancers,10-year,75+,Belfast HSCT,Male,2511.6431425127585
+All Cancers,10-year,75+,Northern HSCT,Male,3868.9838259004755
+All Cancers,10-year,75+,South Eastern HSCT,Male,3156.9428453674054
+All Cancers,10-year,75+,Southern HSCT,Male,2711.0628637687737
+All Cancers,10-year,75+,Western HSCT,Male,2339.9652776411485
+All Cancers,10-year,0-54,Belfast HSCT,Female,1386.9249837785135
+All Cancers,10-year,0-54,Northern HSCT,Female,1947.5791526020353
+All Cancers,10-year,0-54,South Eastern HSCT,Female,1600.12274420697
+All Cancers,10-year,0-54,Southern HSCT,Female,1419.0393208692917
+All Cancers,10-year,0-54,Western HSCT,Female,1139.126615000637
+All Cancers,10-year,55-64,Belfast HSCT,Female,1379.3360441902416
+All Cancers,10-year,55-64,Northern HSCT,Female,1936.922440302998
+All Cancers,10-year,55-64,South Eastern HSCT,Female,1591.367234729793
+All Cancers,10-year,55-64,Southern HSCT,Female,1411.2746588973655
+All Cancers,10-year,55-64,Western HSCT,Female,1132.893571998498
+All Cancers,10-year,65-74,Belfast HSCT,Female,1598.1196196374863
+All Cancers,10-year,65-74,Northern HSCT,Female,2244.1476582898667
+All Cancers,10-year,65-74,South Eastern HSCT,Female,1843.7821664864512
+All Cancers,10-year,65-74,Southern HSCT,Female,1635.1241820880107
+All Cancers,10-year,65-74,Western HSCT,Female,1312.5876409869877
+All Cancers,10-year,75+,Belfast HSCT,Female,2329.804453599379
+All Cancers,10-year,75+,Northern HSCT,Female,3271.610675804326
+All Cancers,10-year,75+,South Eastern HSCT,Female,2687.9414094932777
+All Cancers,10-year,75+,Southern HSCT,Female,2383.751225381259
+All Cancers,10-year,75+,Western HSCT,Female,1913.5442016566153
+Bladder Cancer,10-year,0-54,Belfast HSCT,Male,5.4375
+Bladder Cancer,10-year,0-54,Northern HSCT,Male,7.891927083333333
+Bladder Cancer,10-year,0-54,South Eastern HSCT,Male,6.419270833333335
+Bladder Cancer,10-year,0-54,Southern HSCT,Male,4.115885416666667
+Bladder Cancer,10-year,0-54,Western HSCT,Male,5.135416666666667
+Bladder Cancer,10-year,55-64,Belfast HSCT,Male,19.500000000000004
+Bladder Cancer,10-year,55-64,Northern HSCT,Male,28.302083333333336
+Bladder Cancer,10-year,55-64,South Eastern HSCT,Male,23.020833333333336
+Bladder Cancer,10-year,55-64,Southern HSCT,Male,14.760416666666668
+Bladder Cancer,10-year,55-64,Western HSCT,Male,18.416666666666668
+Bladder Cancer,10-year,65-74,Belfast HSCT,Male,40.5
+Bladder Cancer,10-year,65-74,Northern HSCT,Male,58.78124999999999
+Bladder Cancer,10-year,65-74,South Eastern HSCT,Male,47.8125
+Bladder Cancer,10-year,65-74,Southern HSCT,Male,30.656249999999996
+Bladder Cancer,10-year,65-74,Western HSCT,Male,38.24999999999999
+Bladder Cancer,10-year,75+,Belfast HSCT,Male,78.5625
+Bladder Cancer,10-year,75+,Northern HSCT,Male,114.02473958333333
+Bladder Cancer,10-year,75+,South Eastern HSCT,Male,92.74739583333334
+Bladder Cancer,10-year,75+,Southern HSCT,Male,59.467447916666664
+Bladder Cancer,10-year,75+,Western HSCT,Male,74.19791666666667
+Bladder Cancer,10-year,0-54,Belfast HSCT,Female,3.0574712643678166
+Bladder Cancer,10-year,0-54,Northern HSCT,Female,3.3256704980842913
+Bladder Cancer,10-year,0-54,South Eastern HSCT,Female,3.0574712643678166
+Bladder Cancer,10-year,0-54,Southern HSCT,Female,2.574712643678161
+Bladder Cancer,10-year,0-54,Western HSCT,Female,1.9846743295019156
+Bladder Cancer,10-year,55-64,Belfast HSCT,Female,9.60919540229885
+Bladder Cancer,10-year,55-64,Northern HSCT,Female,10.452107279693486
+Bladder Cancer,10-year,55-64,South Eastern HSCT,Female,9.60919540229885
+Bladder Cancer,10-year,55-64,Southern HSCT,Female,8.091954022988505
+Bladder Cancer,10-year,55-64,Western HSCT,Female,6.237547892720306
+Bladder Cancer,10-year,65-74,Belfast HSCT,Female,15.942528735632186
+Bladder Cancer,10-year,65-74,Northern HSCT,Female,17.340996168582375
+Bladder Cancer,10-year,65-74,South Eastern HSCT,Female,15.942528735632186
+Bladder Cancer,10-year,65-74,Southern HSCT,Female,13.425287356321839
+Bladder Cancer,10-year,65-74,Western HSCT,Female,10.348659003831417
+Bladder Cancer,10-year,75+,Belfast HSCT,Female,28.390804597701155
+Bladder Cancer,10-year,75+,Northern HSCT,Female,30.881226053639846
+Bladder Cancer,10-year,75+,South Eastern HSCT,Female,28.390804597701155
+Bladder Cancer,10-year,75+,Southern HSCT,Female,23.908045977011493
+Bladder Cancer,10-year,75+,Western HSCT,Female,18.42911877394636
+Blood Leukaemia,10-year,0-54,Belfast HSCT,Male,44.74673008323424
+Blood Leukaemia,10-year,0-54,Northern HSCT,Male,67.27229488703924
+Blood Leukaemia,10-year,0-54,South Eastern HSCT,Male,53.87871581450654
+Blood Leukaemia,10-year,0-54,Southern HSCT,Male,51.139120095124845
+Blood Leukaemia,10-year,0-54,Western HSCT,Male,38.96313912009513
+Blood Leukaemia,10-year,55-64,Belfast HSCT,Male,27.267538644470868
+Blood Leukaemia,10-year,55-64,Northern HSCT,Male,40.99405469678954
+Blood Leukaemia,10-year,55-64,South Eastern HSCT,Male,32.83234244946493
+Blood Leukaemia,10-year,55-64,Southern HSCT,Male,31.162901307966706
+Blood Leukaemia,10-year,55-64,Western HSCT,Male,23.743162901307972
+Blood Leukaemia,10-year,65-74,Belfast HSCT,Male,36.53151010701545
+Blood Leukaemia,10-year,65-74,Northern HSCT,Male,54.92152199762187
+Blood Leukaemia,10-year,65-74,South Eastern HSCT,Male,43.986920332936975
+Blood Leukaemia,10-year,65-74,Southern HSCT,Male,41.75029726516052
+Blood Leukaemia,10-year,65-74,Western HSCT,Male,31.809750297265165
+Blood Leukaemia,10-year,75+,Belfast HSCT,Male,38.45422116527942
+Blood Leukaemia,10-year,75+,Northern HSCT,Male,57.81212841854934
+Blood Leukaemia,10-year,75+,South Eastern HSCT,Male,46.30202140309156
+Blood Leukaemia,10-year,75+,Southern HSCT,Male,43.947681331747916
+Blood Leukaemia,10-year,75+,Western HSCT,Male,33.48394768133175
+Blood Leukaemia,10-year,0-54,Belfast HSCT,Female,25.819678342602533
+Blood Leukaemia,10-year,0-54,Northern HSCT,Female,35.094708426838395
+Blood Leukaemia,10-year,0-54,South Eastern HSCT,Female,30.833208117865166
+Blood Leukaemia,10-year,0-54,Southern HSCT,Female,25.569001853839406
+Blood Leukaemia,10-year,0-54,Western HSCT,Female,21.5581780336293
+Blood Leukaemia,10-year,55-64,Belfast HSCT,Female,15.045999609718017
+Blood Leukaemia,10-year,55-64,Northern HSCT,Female,20.4508732559274
+Blood Leukaemia,10-year,55-64,South Eastern HSCT,Female,17.967552931993364
+Blood Leukaemia,10-year,55-64,Southern HSCT,Female,14.899921943604253
+Blood Leukaemia,10-year,55-64,Western HSCT,Female,12.562679285783975
+Blood Leukaemia,10-year,65-74,Belfast HSCT,Female,26.562690669008358
+Blood Leukaemia,10-year,65-74,Northern HSCT,Female,36.104628093797764
+Blood Leukaemia,10-year,65-74,South Eastern HSCT,Female,31.720494682408045
+Blood Leukaemia,10-year,65-74,Southern HSCT,Female,26.304800468338378
+Blood Leukaemia,10-year,65-74,Western HSCT,Female,22.17855725761863
+Blood Leukaemia,10-year,75+,Belfast HSCT,Female,35.664591667479755
+Blood Leukaemia,10-year,75+,Northern HSCT,Female,48.47614401405015
+Blood Leukaemia,10-year,75+,South Eastern HSCT,Female,42.589755098058355
+Blood Leukaemia,10-year,75+,Southern HSCT,Female,35.31833349595083
+Blood Leukaemia,10-year,75+,Western HSCT,Female,29.778202751487953
+Blood Lymphoma,10-year,0-54,Belfast HSCT,Male,62.26745810055866
+Blood Lymphoma,10-year,0-54,Northern HSCT,Male,102.60265363128492
+Blood Lymphoma,10-year,0-54,South Eastern HSCT,Male,73.86382681564245
+Blood Lymphoma,10-year,0-54,Southern HSCT,Male,68.82192737430168
+Blood Lymphoma,10-year,0-54,Western HSCT,Male,53.4441340782123
+Blood Lymphoma,10-year,55-64,Belfast HSCT,Male,51.055865921787706
+Blood Lymphoma,10-year,55-64,Northern HSCT,Male,84.12849162011173
+Blood Lymphoma,10-year,55-64,South Eastern HSCT,Male,60.564245810055866
+Blood Lymphoma,10-year,55-64,Southern HSCT,Male,56.43016759776537
+Blood Lymphoma,10-year,55-64,Western HSCT,Male,43.821229050279335
+Blood Lymphoma,10-year,65-74,Belfast HSCT,Male,60.715083798882695
+Blood Lymphoma,10-year,65-74,Northern HSCT,Male,100.04469273743018
+Blood Lymphoma,10-year,65-74,South Eastern HSCT,Male,72.0223463687151
+Blood Lymphoma,10-year,65-74,Southern HSCT,Male,67.10614525139667
+Blood Lymphoma,10-year,65-74,Western HSCT,Male,52.11173184357544
+Blood Lymphoma,10-year,75+,Belfast HSCT,Male,72.96159217877094
+Blood Lymphoma,10-year,75+,Northern HSCT,Male,120.22416201117318
+Blood Lymphoma,10-year,75+,South Eastern HSCT,Male,86.54958100558659
+Blood Lymphoma,10-year,75+,Southern HSCT,Male,80.6417597765363
+Blood Lymphoma,10-year,75+,Western HSCT,Male,62.622905027932966
+Blood Lymphoma,10-year,0-54,Belfast HSCT,Female,44.333333333333336
+Blood Lymphoma,10-year,0-54,Northern HSCT,Female,69.73513513513514
+Blood Lymphoma,10-year,0-54,South Eastern HSCT,Female,53.2
+Blood Lymphoma,10-year,0-54,Southern HSCT,Female,53.43963963963965
+Blood Lymphoma,10-year,0-54,Western HSCT,Female,45.29189189189189
+Blood Lymphoma,10-year,55-64,Belfast HSCT,Female,29.83333333333334
+Blood Lymphoma,10-year,55-64,Northern HSCT,Female,46.92702702702703
+Blood Lymphoma,10-year,55-64,South Eastern HSCT,Female,35.800000000000004
+Blood Lymphoma,10-year,55-64,Southern HSCT,Female,35.96126126126127
+Blood Lymphoma,10-year,55-64,Western HSCT,Female,30.47837837837838
+Blood Lymphoma,10-year,65-74,Belfast HSCT,Female,45.166666666666664
+Blood Lymphoma,10-year,65-74,Northern HSCT,Female,71.04594594594593
+Blood Lymphoma,10-year,65-74,South Eastern HSCT,Female,54.19999999999999
+Blood Lymphoma,10-year,65-74,Southern HSCT,Female,54.44414414414415
+Blood Lymphoma,10-year,65-74,Western HSCT,Female,46.143243243243234
+Blood Lymphoma,10-year,75+,Belfast HSCT,Female,65.66666666666667
+Blood Lymphoma,10-year,75+,Northern HSCT,Female,103.29189189189188
+Blood Lymphoma,10-year,75+,South Eastern HSCT,Female,78.8
+Blood Lymphoma,10-year,75+,Southern HSCT,Female,79.15495495495496
+Blood Lymphoma,10-year,75+,Western HSCT,Female,67.08648648648648
+Blood Multiple Myeloma,10-year,0-54,Belfast HSCT,Male,6.367139959432049
+Blood Multiple Myeloma,10-year,0-54,Northern HSCT,Male,11.774847870182555
+Blood Multiple Myeloma,10-year,0-54,South Eastern HSCT,Male,7.937119675456389
+Blood Multiple Myeloma,10-year,0-54,Southern HSCT,Male,10.117647058823527
+Blood Multiple Myeloma,10-year,0-54,Western HSCT,Male,6.803245436105476
+Blood Multiple Myeloma,10-year,55-64,Belfast HSCT,Male,14.215010141987833
+Blood Multiple Myeloma,10-year,55-64,Northern HSCT,Male,26.28803245436106
+Blood Multiple Myeloma,10-year,55-64,South Eastern HSCT,Male,17.720081135902635
+Blood Multiple Myeloma,10-year,55-64,Southern HSCT,Male,22.58823529411765
+Blood Multiple Myeloma,10-year,55-64,Western HSCT,Male,15.188640973630832
+Blood Multiple Myeloma,10-year,65-74,Belfast HSCT,Male,25.024340770791074
+Blood Multiple Myeloma,10-year,65-74,Northern HSCT,Male,46.27789046653144
+Blood Multiple Myeloma,10-year,65-74,South Eastern HSCT,Male,31.194726166328593
+Blood Multiple Myeloma,10-year,65-74,Southern HSCT,Male,39.764705882352935
+Blood Multiple Myeloma,10-year,65-74,Western HSCT,Male,26.738336713995935
+Blood Multiple Myeloma,10-year,75+,Belfast HSCT,Male,27.393509127789052
+Blood Multiple Myeloma,10-year,75+,Northern HSCT,Male,50.659229208924955
+Blood Multiple Myeloma,10-year,75+,South Eastern HSCT,Male,34.148073022312374
+Blood Multiple Myeloma,10-year,75+,Southern HSCT,Male,43.529411764705884
+Blood Multiple Myeloma,10-year,75+,Western HSCT,Male,29.269776876267752
+Blood Multiple Myeloma,10-year,0-54,Belfast HSCT,Female,5.438596491228071
+Blood Multiple Myeloma,10-year,0-54,Northern HSCT,Female,7.36842105263158
+Blood Multiple Myeloma,10-year,0-54,South Eastern HSCT,Female,5.087719298245614
+Blood Multiple Myeloma,10-year,0-54,Southern HSCT,Female,7.105263157894738
+Blood Multiple Myeloma,10-year,0-54,Western HSCT,Female,5.000000000000001
+Blood Multiple Myeloma,10-year,55-64,Belfast HSCT,Female,12.508771929824563
+Blood Multiple Myeloma,10-year,55-64,Northern HSCT,Female,16.94736842105263
+Blood Multiple Myeloma,10-year,55-64,South Eastern HSCT,Female,11.701754385964911
+Blood Multiple Myeloma,10-year,55-64,Southern HSCT,Female,16.342105263157894
+Blood Multiple Myeloma,10-year,55-64,Western HSCT,Female,11.5
+Blood Multiple Myeloma,10-year,65-74,Belfast HSCT,Female,15.953216374269008
+Blood Multiple Myeloma,10-year,65-74,Northern HSCT,Female,21.614035087719298
+Blood Multiple Myeloma,10-year,65-74,South Eastern HSCT,Female,14.923976608187134
+Blood Multiple Myeloma,10-year,65-74,Southern HSCT,Female,20.842105263157894
+Blood Multiple Myeloma,10-year,65-74,Western HSCT,Female,14.666666666666666
+Blood Multiple Myeloma,10-year,75+,Belfast HSCT,Female,28.099415204678365
+Blood Multiple Myeloma,10-year,75+,Northern HSCT,Female,38.070175438596486
+Blood Multiple Myeloma,10-year,75+,South Eastern HSCT,Female,26.286549707602337
+Blood Multiple Myeloma,10-year,75+,Southern HSCT,Female,36.71052631578947
+Blood Multiple Myeloma,10-year,75+,Western HSCT,Female,25.833333333333332
+Brain Cancer,10-year,0-54,Belfast HSCT,Male,36.30434782608695
+Brain Cancer,10-year,0-54,Northern HSCT,Male,39.93478260869565
+Brain Cancer,10-year,0-54,South Eastern HSCT,Male,36.30434782608695
+Brain Cancer,10-year,0-54,Southern HSCT,Male,30.49565217391304
+Brain Cancer,10-year,0-54,Western HSCT,Male,23.96086956521739
+Brain Cancer,10-year,55-64,Belfast HSCT,Male,6.304347826086957
+Brain Cancer,10-year,55-64,Northern HSCT,Male,6.934782608695652
+Brain Cancer,10-year,55-64,South Eastern HSCT,Male,6.304347826086957
+Brain Cancer,10-year,55-64,Southern HSCT,Male,5.295652173913043
+Brain Cancer,10-year,55-64,Western HSCT,Male,4.160869565217391
+Brain Cancer,10-year,65-74,Belfast HSCT,Male,4.999999999999999
+Brain Cancer,10-year,65-74,Northern HSCT,Male,5.499999999999999
+Brain Cancer,10-year,65-74,South Eastern HSCT,Male,4.999999999999999
+Brain Cancer,10-year,65-74,Southern HSCT,Male,4.199999999999999
+Brain Cancer,10-year,65-74,Western HSCT,Male,3.2999999999999994
+Brain Cancer,10-year,75+,Belfast HSCT,Male,2.3913043478260865
+Brain Cancer,10-year,75+,Northern HSCT,Male,2.6304347826086953
+Brain Cancer,10-year,75+,South Eastern HSCT,Male,2.3913043478260865
+Brain Cancer,10-year,75+,Southern HSCT,Male,2.0086956521739125
+Brain Cancer,10-year,75+,Western HSCT,Male,1.578260869565217
+Brain Cancer,10-year,0-54,Belfast HSCT,Female,15.476190476190476
+Brain Cancer,10-year,0-54,Northern HSCT,Female,28.476190476190478
+Brain Cancer,10-year,0-54,South Eastern HSCT,Female,22.285714285714285
+Brain Cancer,10-year,0-54,Southern HSCT,Female,23.523809523809526
+Brain Cancer,10-year,0-54,Western HSCT,Female,14.238095238095239
+Brain Cancer,10-year,55-64,Belfast HSCT,Female,5.208333333333334
+Brain Cancer,10-year,55-64,Northern HSCT,Female,9.583333333333334
+Brain Cancer,10-year,55-64,South Eastern HSCT,Female,7.5
+Brain Cancer,10-year,55-64,Southern HSCT,Female,7.916666666666666
+Brain Cancer,10-year,55-64,Western HSCT,Female,4.791666666666667
+Brain Cancer,10-year,65-74,Belfast HSCT,Female,3.125
+Brain Cancer,10-year,65-74,Northern HSCT,Female,5.75
+Brain Cancer,10-year,65-74,South Eastern HSCT,Female,4.5
+Brain Cancer,10-year,65-74,Southern HSCT,Female,4.75
+Brain Cancer,10-year,65-74,Western HSCT,Female,2.875
+Brain Cancer,10-year,75+,Belfast HSCT,Female,1.1904761904761905
+Brain Cancer,10-year,75+,Northern HSCT,Female,2.1904761904761907
+Brain Cancer,10-year,75+,South Eastern HSCT,Female,1.7142857142857144
+Brain Cancer,10-year,75+,Southern HSCT,Female,1.8095238095238095
+Brain Cancer,10-year,75+,Western HSCT,Female,1.0952380952380953
+Colorectal Cancer,10-year,0-54,Belfast HSCT,Male,47.135720233139054
+Colorectal Cancer,10-year,0-54,Northern HSCT,Male,66.54454621149043
+Colorectal Cancer,10-year,0-54,South Eastern HSCT,Male,55.603663613655286
+Colorectal Cancer,10-year,0-54,Southern HSCT,Male,52.00666111573689
+Colorectal Cancer,10-year,0-54,Western HSCT,Male,48.70940882597836
+Colorectal Cancer,10-year,55-64,Belfast HSCT,Male,122.37829586455732
+Colorectal Cancer,10-year,55-64,Northern HSCT,Male,172.76935886761032
+Colorectal Cancer,10-year,55-64,South Eastern HSCT,Male,144.36358590063836
+Colorectal Cancer,10-year,55-64,Southern HSCT,Male,135.0247016375243
+Colorectal Cancer,10-year,55-64,Western HSCT,Male,126.46405772966972
+Colorectal Cancer,10-year,65-74,Belfast HSCT,Male,197.27171801276717
+Colorectal Cancer,10-year,65-74,Northern HSCT,Male,278.50124895920067
+Colorectal Cancer,10-year,65-74,South Eastern HSCT,Male,232.71162919789066
+Colorectal Cancer,10-year,65-74,Southern HSCT,Male,217.65750763252845
+Colorectal Cancer,10-year,65-74,Western HSCT,Male,203.85789619761312
+Colorectal Cancer,10-year,75+,Belfast HSCT,Male,262.21426588953653
+Colorectal Cancer,10-year,75+,Northern HSCT,Male,370.1848459616986
+Colorectal Cancer,10-year,75+,South Eastern HSCT,Male,309.32112128781574
+Colorectal Cancer,10-year,75+,Southern HSCT,Male,289.3111296142104
+Colorectal Cancer,10-year,75+,Western HSCT,Male,270.96863724673887
+Colorectal Cancer,10-year,0-54,Belfast HSCT,Female,54.92168465019144
+Colorectal Cancer,10-year,0-54,Northern HSCT,Female,78.98364079359554
+Colorectal Cancer,10-year,0-54,South Eastern HSCT,Female,68.40932822833275
+Colorectal Cancer,10-year,0-54,Southern HSCT,Female,58.590323703445875
+Colorectal Cancer,10-year,0-54,Western HSCT,Female,49.095022624434385
+Colorectal Cancer,10-year,55-64,Belfast HSCT,Female,91.240863209189
+Colorectal Cancer,10-year,55-64,Northern HSCT,Female,131.21475809258615
+Colorectal Cancer,10-year,55-64,South Eastern HSCT,Female,113.64775495997215
+Colorectal Cancer,10-year,55-64,Southern HSCT,Female,97.33553776540201
+Colorectal Cancer,10-year,55-64,Western HSCT,Female,81.56108597285068
+Colorectal Cancer,10-year,65-74,Belfast HSCT,Female,135.35537765402017
+Colorectal Cancer,10-year,65-74,Northern HSCT,Female,194.65645666550643
+Colorectal Cancer,10-year,65-74,South Eastern HSCT,Female,168.5958927949878
+Colorectal Cancer,10-year,65-74,Southern HSCT,Female,144.39679777236336
+Colorectal Cancer,10-year,65-74,Western HSCT,Female,120.99547511312215
+Colorectal Cancer,10-year,75+,Belfast HSCT,Female,227.48207448659937
+Colorectal Cancer,10-year,75+,Northern HSCT,Female,327.1451444483119
+Colorectal Cancer,10-year,75+,South Eastern HSCT,Female,283.3470240167073
+Colorectal Cancer,10-year,75+,Southern HSCT,Female,242.67734075878872
+Colorectal Cancer,10-year,75+,Western HSCT,Female,203.34841628959276
+Gallbladder And Other Biliary Cancer,10-year,0-54,Belfast HSCT,Male,0.9714285714285714
+Gallbladder And Other Biliary Cancer,10-year,0-54,Northern HSCT,Male,0.9714285714285714
+Gallbladder And Other Biliary Cancer,10-year,0-54,South Eastern HSCT,Male,0.7428571428571428
+Gallbladder And Other Biliary Cancer,10-year,0-54,Southern HSCT,Male,0.6285714285714286
+Gallbladder And Other Biliary Cancer,10-year,0-54,Western HSCT,Male,0.6857142857142857
+Gallbladder And Other Biliary Cancer,10-year,55-64,Belfast HSCT,Male,2.1857142857142855
+Gallbladder And Other Biliary Cancer,10-year,55-64,Northern HSCT,Male,2.1857142857142855
+Gallbladder And Other Biliary Cancer,10-year,55-64,South Eastern HSCT,Male,1.6714285714285713
+Gallbladder And Other Biliary Cancer,10-year,55-64,Southern HSCT,Male,1.4142857142857144
+Gallbladder And Other Biliary Cancer,10-year,55-64,Western HSCT,Male,1.5428571428571427
+Gallbladder And Other Biliary Cancer,10-year,65-74,Belfast HSCT,Male,6.071428571428573
+Gallbladder And Other Biliary Cancer,10-year,65-74,Northern HSCT,Male,6.071428571428573
+Gallbladder And Other Biliary Cancer,10-year,65-74,South Eastern HSCT,Male,4.642857142857143
+Gallbladder And Other Biliary Cancer,10-year,65-74,Southern HSCT,Male,3.9285714285714293
+Gallbladder And Other Biliary Cancer,10-year,65-74,Western HSCT,Male,4.2857142857142865
+Gallbladder And Other Biliary Cancer,10-year,75+,Belfast HSCT,Male,7.771428571428571
+Gallbladder And Other Biliary Cancer,10-year,75+,Northern HSCT,Male,7.771428571428571
+Gallbladder And Other Biliary Cancer,10-year,75+,South Eastern HSCT,Male,5.942857142857142
+Gallbladder And Other Biliary Cancer,10-year,75+,Southern HSCT,Male,5.0285714285714285
+Gallbladder And Other Biliary Cancer,10-year,75+,Western HSCT,Male,5.485714285714286
+Gallbladder And Other Biliary Cancer,10-year,0-54,Belfast HSCT,Female,1.3333333333333333
+Gallbladder And Other Biliary Cancer,10-year,0-54,Northern HSCT,Female,1.4166666666666665
+Gallbladder And Other Biliary Cancer,10-year,0-54,South Eastern HSCT,Female,1.8333333333333333
+Gallbladder And Other Biliary Cancer,10-year,0-54,Southern HSCT,Female,1.75
+Gallbladder And Other Biliary Cancer,10-year,0-54,Western HSCT,Female,0.6666666666666666
+Gallbladder And Other Biliary Cancer,10-year,55-64,Belfast HSCT,Female,2.2857142857142856
+Gallbladder And Other Biliary Cancer,10-year,55-64,Northern HSCT,Female,2.4285714285714284
+Gallbladder And Other Biliary Cancer,10-year,55-64,South Eastern HSCT,Female,3.142857142857143
+Gallbladder And Other Biliary Cancer,10-year,55-64,Southern HSCT,Female,3
+Gallbladder And Other Biliary Cancer,10-year,55-64,Western HSCT,Female,1.1428571428571428
+Gallbladder And Other Biliary Cancer,10-year,65-74,Belfast HSCT,Female,4.380952380952381
+Gallbladder And Other Biliary Cancer,10-year,65-74,Northern HSCT,Female,4.654761904761905
+Gallbladder And Other Biliary Cancer,10-year,65-74,South Eastern HSCT,Female,6.023809523809525
+Gallbladder And Other Biliary Cancer,10-year,65-74,Southern HSCT,Female,5.750000000000001
+Gallbladder And Other Biliary Cancer,10-year,65-74,Western HSCT,Female,2.1904761904761907
+Gallbladder And Other Biliary Cancer,10-year,75+,Belfast HSCT,Female,8
+Gallbladder And Other Biliary Cancer,10-year,75+,Northern HSCT,Female,8.5
+Gallbladder And Other Biliary Cancer,10-year,75+,South Eastern HSCT,Female,11
+Gallbladder And Other Biliary Cancer,10-year,75+,Southern HSCT,Female,10.5
+Gallbladder And Other Biliary Cancer,10-year,75+,Western HSCT,Female,4
+Kidney Cancer,10-year,0-54,Belfast HSCT,Male,31.777583187390544
+Kidney Cancer,10-year,0-54,Northern HSCT,Male,49.57968476357268
+Kidney Cancer,10-year,0-54,South Eastern HSCT,Male,40.928196147110334
+Kidney Cancer,10-year,0-54,Southern HSCT,Male,36.768826619964976
+Kidney Cancer,10-year,0-54,Western HSCT,Male,30.94570928196147
+Kidney Cancer,10-year,55-64,Belfast HSCT,Male,45.492119089316986
+Kidney Cancer,10-year,55-64,Northern HSCT,Male,70.97723292469351
+Kidney Cancer,10-year,55-64,South Eastern HSCT,Male,58.591943957968475
+Kidney Cancer,10-year,55-64,Southern HSCT,Male,52.63747810858143
+Kidney Cancer,10-year,55-64,Western HSCT,Male,44.30122591943958
+Kidney Cancer,10-year,65-74,Belfast HSCT,Male,60.54465849387041
+Kidney Cancer,10-year,65-74,Northern HSCT,Male,94.46234676007006
+Kidney Cancer,10-year,65-74,South Eastern HSCT,Male,77.97898423817864
+Kidney Cancer,10-year,65-74,Southern HSCT,Male,70.05429071803853
+Kidney Cancer,10-year,65-74,Western HSCT,Male,58.95971978984239
+Kidney Cancer,10-year,75+,Belfast HSCT,Male,53.18563922942208
+Kidney Cancer,10-year,75+,Northern HSCT,Male,82.98073555166376
+Kidney Cancer,10-year,75+,South Eastern HSCT,Male,68.50087565674256
+Kidney Cancer,10-year,75+,Southern HSCT,Male,61.539404553415075
+Kidney Cancer,10-year,75+,Western HSCT,Male,51.79334500875658
+Kidney Cancer,10-year,0-54,Belfast HSCT,Female,28.292887029288707
+Kidney Cancer,10-year,0-54,Northern HSCT,Female,38.13389121338912
+Kidney Cancer,10-year,0-54,South Eastern HSCT,Female,20.209205020920503
+Kidney Cancer,10-year,0-54,Southern HSCT,Female,21.615062761506277
+Kidney Cancer,10-year,0-54,Western HSCT,Female,17.748953974895397
+Kidney Cancer,10-year,55-64,Belfast HSCT,Female,31.885634588563455
+Kidney Cancer,10-year,55-64,Northern HSCT,Female,42.976290097629004
+Kidney Cancer,10-year,55-64,South Eastern HSCT,Female,22.775453277545324
+Kidney Cancer,10-year,55-64,Southern HSCT,Female,24.35983263598326
+Kidney Cancer,10-year,55-64,Western HSCT,Female,20.002789400278935
+Kidney Cancer,10-year,65-74,Belfast HSCT,Female,44.01115760111575
+Kidney Cancer,10-year,65-74,Northern HSCT,Female,59.31938633193862
+Kidney Cancer,10-year,65-74,South Eastern HSCT,Female,31.43654114365411
+Kidney Cancer,10-year,65-74,Southern HSCT,Female,33.62343096234309
+Kidney Cancer,10-year,65-74,Western HSCT,Female,27.609483960948392
+Kidney Cancer,10-year,75+,Belfast HSCT,Female,56.81032078103209
+Kidney Cancer,10-year,75+,Northern HSCT,Female,76.57043235704325
+Kidney Cancer,10-year,75+,South Eastern HSCT,Female,40.57880055788006
+Kidney Cancer,10-year,75+,Southern HSCT,Female,43.401673640167374
+Kidney Cancer,10-year,75+,Western HSCT,Female,35.63877266387727
+Liver Cancer,10-year,0-54,Belfast HSCT,Male,3.2361809045226133
+Liver Cancer,10-year,0-54,Northern HSCT,Male,3.1658291457286434
+Liver Cancer,10-year,0-54,South Eastern HSCT,Male,3.0954773869346734
+Liver Cancer,10-year,0-54,Southern HSCT,Male,2.4623115577889445
+Liver Cancer,10-year,0-54,Western HSCT,Male,2.040201005025126
+Liver Cancer,10-year,55-64,Belfast HSCT,Male,7.165829145728644
+Liver Cancer,10-year,55-64,Northern HSCT,Male,7.010050251256282
+Liver Cancer,10-year,55-64,South Eastern HSCT,Male,6.85427135678392
+Liver Cancer,10-year,55-64,Southern HSCT,Male,5.452261306532663
+Liver Cancer,10-year,55-64,Western HSCT,Male,4.517587939698493
+Liver Cancer,10-year,65-74,Belfast HSCT,Male,18.261306532663315
+Liver Cancer,10-year,65-74,Northern HSCT,Male,17.8643216080402
+Liver Cancer,10-year,65-74,South Eastern HSCT,Male,17.467336683417084
+Liver Cancer,10-year,65-74,Southern HSCT,Male,13.894472361809044
+Liver Cancer,10-year,65-74,Western HSCT,Male,11.512562814070352
+Liver Cancer,10-year,75+,Belfast HSCT,Male,17.33668341708543
+Liver Cancer,10-year,75+,Northern HSCT,Male,16.959798994974875
+Liver Cancer,10-year,75+,South Eastern HSCT,Male,16.582914572864322
+Liver Cancer,10-year,75+,Southern HSCT,Male,13.190954773869347
+Liver Cancer,10-year,75+,Western HSCT,Male,10.929648241206031
+Liver Cancer,10-year,0-54,Belfast HSCT,Female,2.6086956521739135
+Liver Cancer,10-year,0-54,Northern HSCT,Female,3.130434782608696
+Liver Cancer,10-year,0-54,South Eastern HSCT,Female,2.4347826086956528
+Liver Cancer,10-year,0-54,Southern HSCT,Female,1.9130434782608696
+Liver Cancer,10-year,0-54,Western HSCT,Female,1.9130434782608696
+Liver Cancer,10-year,55-64,Belfast HSCT,Female,2.391304347826087
+Liver Cancer,10-year,55-64,Northern HSCT,Female,2.869565217391304
+Liver Cancer,10-year,55-64,South Eastern HSCT,Female,2.2318840579710146
+Liver Cancer,10-year,55-64,Southern HSCT,Female,1.7536231884057973
+Liver Cancer,10-year,55-64,Western HSCT,Female,1.7536231884057973
+Liver Cancer,10-year,65-74,Belfast HSCT,Female,4.999999999999999
+Liver Cancer,10-year,65-74,Northern HSCT,Female,5.999999999999999
+Liver Cancer,10-year,65-74,South Eastern HSCT,Female,4.666666666666667
+Liver Cancer,10-year,65-74,Southern HSCT,Female,3.6666666666666665
+Liver Cancer,10-year,65-74,Western HSCT,Female,3.6666666666666665
+Liver Cancer,10-year,75+,Belfast HSCT,Female,4.999999999999999
+Liver Cancer,10-year,75+,Northern HSCT,Female,5.999999999999999
+Liver Cancer,10-year,75+,South Eastern HSCT,Female,4.666666666666667
+Liver Cancer,10-year,75+,Southern HSCT,Female,3.6666666666666665
+Liver Cancer,10-year,75+,Western HSCT,Female,3.6666666666666665
+Lung Cancer,10-year,0-54,Belfast HSCT,Male,12.931877729257643
+Lung Cancer,10-year,0-54,Northern HSCT,Male,16.501310043668123
+Lung Cancer,10-year,0-54,South Eastern HSCT,Male,11.703056768558953
+Lung Cancer,10-year,0-54,Southern HSCT,Male,14.570305676855899
+Lung Cancer,10-year,0-54,Western HSCT,Male,11.293449781659389
+Lung Cancer,10-year,55-64,Belfast HSCT,Male,34.74235807860262
+Lung Cancer,10-year,55-64,Northern HSCT,Male,44.33187772925764
+Lung Cancer,10-year,55-64,South Eastern HSCT,Male,31.4410480349345
+Lung Cancer,10-year,55-64,Southern HSCT,Male,39.144104803493455
+Lung Cancer,10-year,55-64,Western HSCT,Male,30.34061135371179
+Lung Cancer,10-year,65-74,Belfast HSCT,Male,82.41659388646288
+Lung Cancer,10-year,65-74,Northern HSCT,Male,105.1650655021834
+Lung Cancer,10-year,65-74,South Eastern HSCT,Male,74.58515283842794
+Lung Cancer,10-year,65-74,Southern HSCT,Male,92.8585152838428
+Lung Cancer,10-year,65-74,Western HSCT,Male,71.97467248908296
+Lung Cancer,10-year,75+,Belfast HSCT,Male,90.90917030567685
+Lung Cancer,10-year,75+,Northern HSCT,Male,116.00174672489082
+Lung Cancer,10-year,75+,South Eastern HSCT,Male,82.27074235807859
+Lung Cancer,10-year,75+,Southern HSCT,Male,102.42707423580788
+Lung Cancer,10-year,75+,Western HSCT,Male,79.39126637554584
+Lung Cancer,10-year,0-54,Belfast HSCT,Female,15.383720930232558
+Lung Cancer,10-year,0-54,Northern HSCT,Female,18.575581395348838
+Lung Cancer,10-year,0-54,South Eastern HSCT,Female,12.767441860465118
+Lung Cancer,10-year,0-54,Southern HSCT,Female,12.24418604651163
+Lung Cancer,10-year,0-54,Western HSCT,Female,13.029069767441861
+Lung Cancer,10-year,55-64,Belfast HSCT,Female,46.79215116279069
+Lung Cancer,10-year,55-64,Northern HSCT,Female,56.50072674418604
+Lung Cancer,10-year,55-64,South Eastern HSCT,Female,38.83430232558138
+Lung Cancer,10-year,55-64,Southern HSCT,Female,37.24273255813953
+Lung Cancer,10-year,55-64,Western HSCT,Female,39.63008720930232
+Lung Cancer,10-year,65-74,Belfast HSCT,Female,109.39534883720931
+Lung Cancer,10-year,65-74,Northern HSCT,Female,132.09302325581396
+Lung Cancer,10-year,65-74,South Eastern HSCT,Female,90.79069767441861
+Lung Cancer,10-year,65-74,Southern HSCT,Female,87.06976744186048
+Lung Cancer,10-year,65-74,Western HSCT,Female,92.65116279069768
+Lung Cancer,10-year,75+,Belfast HSCT,Female,122.42877906976744
+Lung Cancer,10-year,75+,Northern HSCT,Female,147.83066860465115
+Lung Cancer,10-year,75+,South Eastern HSCT,Female,101.60755813953489
+Lung Cancer,10-year,75+,Southern HSCT,Female,97.44331395348837
+Lung Cancer,10-year,75+,Western HSCT,Female,103.68968023255813
+Oesophageal Cancer,10-year,0-54,Belfast HSCT,Male,5.990338164251208
+Oesophageal Cancer,10-year,0-54,Northern HSCT,Male,9.178743961352657
+Oesophageal Cancer,10-year,0-54,South Eastern HSCT,Male,9.758454106280194
+Oesophageal Cancer,10-year,0-54,Southern HSCT,Male,7.632850241545894
+Oesophageal Cancer,10-year,0-54,Western HSCT,Male,7.4396135265700485
+Oesophageal Cancer,10-year,55-64,Belfast HSCT,Male,13.777777777777777
+Oesophageal Cancer,10-year,55-64,Northern HSCT,Male,21.11111111111111
+Oesophageal Cancer,10-year,55-64,South Eastern HSCT,Male,22.444444444444443
+Oesophageal Cancer,10-year,55-64,Southern HSCT,Male,17.555555555555554
+Oesophageal Cancer,10-year,55-64,Western HSCT,Male,17.11111111111111
+Oesophageal Cancer,10-year,65-74,Belfast HSCT,Male,24.410628019323664
+Oesophageal Cancer,10-year,65-74,Northern HSCT,Male,37.40338164251207
+Oesophageal Cancer,10-year,65-74,South Eastern HSCT,Male,39.765700483091784
+Oesophageal Cancer,10-year,65-74,Southern HSCT,Male,31.103864734299513
+Oesophageal Cancer,10-year,65-74,Western HSCT,Male,30.31642512077294
+Oesophageal Cancer,10-year,75+,Belfast HSCT,Male,17.821256038647345
+Oesophageal Cancer,10-year,75+,Northern HSCT,Male,27.306763285024154
+Oesophageal Cancer,10-year,75+,South Eastern HSCT,Male,29.03140096618358
+Oesophageal Cancer,10-year,75+,Southern HSCT,Male,22.707729468599034
+Oesophageal Cancer,10-year,75+,Western HSCT,Male,22.132850241545896
+Oesophageal Cancer,10-year,0-54,Belfast HSCT,Female,0.5641025641025642
+Oesophageal Cancer,10-year,0-54,Northern HSCT,Female,1.1282051282051284
+Oesophageal Cancer,10-year,0-54,South Eastern HSCT,Female,0.8461538461538463
+Oesophageal Cancer,10-year,0-54,Southern HSCT,Female,0.7179487179487181
+Oesophageal Cancer,10-year,0-54,Western HSCT,Female,0.7435897435897436
+Oesophageal Cancer,10-year,55-64,Belfast HSCT,Female,4.794871794871795
+Oesophageal Cancer,10-year,55-64,Northern HSCT,Female,9.58974358974359
+Oesophageal Cancer,10-year,55-64,South Eastern HSCT,Female,7.1923076923076925
+Oesophageal Cancer,10-year,55-64,Southern HSCT,Female,6.102564102564102
+Oesophageal Cancer,10-year,55-64,Western HSCT,Female,6.32051282051282
+Oesophageal Cancer,10-year,65-74,Belfast HSCT,Female,6.628205128205128
+Oesophageal Cancer,10-year,65-74,Northern HSCT,Female,13.256410256410255
+Oesophageal Cancer,10-year,65-74,South Eastern HSCT,Female,9.942307692307692
+Oesophageal Cancer,10-year,65-74,Southern HSCT,Female,8.435897435897434
+Oesophageal Cancer,10-year,65-74,Western HSCT,Female,8.737179487179485
+Oesophageal Cancer,10-year,75+,Belfast HSCT,Female,10.012820512820513
+Oesophageal Cancer,10-year,75+,Northern HSCT,Female,20.025641025641026
+Oesophageal Cancer,10-year,75+,South Eastern HSCT,Female,15.019230769230768
+Oesophageal Cancer,10-year,75+,Southern HSCT,Female,12.743589743589743
+Oesophageal Cancer,10-year,75+,Western HSCT,Female,13.198717948717949
+Oral Cancer,10-year,0-54,Belfast HSCT,Male,31.541069100391127
+Oral Cancer,10-year,0-54,Northern HSCT,Male,32.667535853976524
+Oral Cancer,10-year,0-54,South Eastern HSCT,Male,26.65971316818774
+Oral Cancer,10-year,0-54,Southern HSCT,Male,28.912646675358534
+Oral Cancer,10-year,0-54,Western HSCT,Male,24.219035202086044
+Oral Cancer,10-year,55-64,Belfast HSCT,Male,55.41590612777053
+Oral Cancer,10-year,55-64,Northern HSCT,Male,57.39504563233377
+Oral Cancer,10-year,55-64,South Eastern HSCT,Male,46.839634941329855
+Oral Cancer,10-year,55-64,Southern HSCT,Male,50.797913950456326
+Oral Cancer,10-year,55-64,Western HSCT,Male,42.551499348109516
+Oral Cancer,10-year,65-74,Belfast HSCT,Male,50.15906127770534
+Oral Cancer,10-year,65-74,Northern HSCT,Male,51.950456323337676
+Oral Cancer,10-year,65-74,South Eastern HSCT,Male,42.396349413298566
+Oral Cancer,10-year,65-74,Southern HSCT,Male,45.97913950456323
+Oral Cancer,10-year,65-74,Western HSCT,Male,38.514993481095175
+Oral Cancer,10-year,75+,Belfast HSCT,Male,30.883963494132985
+Oral Cancer,10-year,75+,Northern HSCT,Male,31.98696219035202
+Oral Cancer,10-year,75+,South Eastern HSCT,Male,26.104302477183833
+Oral Cancer,10-year,75+,Southern HSCT,Male,28.310299869621904
+Oral Cancer,10-year,75+,Western HSCT,Male,23.714471968709255
+Oral Cancer,10-year,0-54,Belfast HSCT,Female,16.435643564356436
+Oral Cancer,10-year,0-54,Northern HSCT,Female,19.928217821782177
+Oral Cancer,10-year,0-54,South Eastern HSCT,Female,19.51732673267327
+Oral Cancer,10-year,0-54,Southern HSCT,Female,12.943069306930692
+Oral Cancer,10-year,0-54,Western HSCT,Female,14.175742574257425
+Oral Cancer,10-year,55-64,Belfast HSCT,Female,23.762376237623762
+Oral Cancer,10-year,55-64,Northern HSCT,Female,28.81188118811881
+Oral Cancer,10-year,55-64,South Eastern HSCT,Female,28.217821782178223
+Oral Cancer,10-year,55-64,Southern HSCT,Female,18.712871287128714
+Oral Cancer,10-year,55-64,Western HSCT,Female,20.495049504950497
+Oral Cancer,10-year,65-74,Belfast HSCT,Female,23.366336633663366
+Oral Cancer,10-year,65-74,Northern HSCT,Female,28.33168316831683
+Oral Cancer,10-year,65-74,South Eastern HSCT,Female,27.747524752475247
+Oral Cancer,10-year,65-74,Southern HSCT,Female,18.4009900990099
+Oral Cancer,10-year,65-74,Western HSCT,Female,20.153465346534652
+Oral Cancer,10-year,75+,Belfast HSCT,Female,16.435643564356436
+Oral Cancer,10-year,75+,Northern HSCT,Female,19.928217821782177
+Oral Cancer,10-year,75+,South Eastern HSCT,Female,19.51732673267327
+Oral Cancer,10-year,75+,Southern HSCT,Female,12.943069306930692
+Oral Cancer,10-year,75+,Western HSCT,Female,14.175742574257425
+Pancreatic Cancer,10-year,0-54,Belfast HSCT,Male,4.074285714285715
+Pancreatic Cancer,10-year,0-54,Northern HSCT,Male,6.177142857142858
+Pancreatic Cancer,10-year,0-54,South Eastern HSCT,Male,3.9428571428571426
+Pancreatic Cancer,10-year,0-54,Southern HSCT,Male,5.388571428571429
+Pancreatic Cancer,10-year,0-54,Western HSCT,Male,3.4171428571428573
+Pancreatic Cancer,10-year,55-64,Belfast HSCT,Male,6.90857142857143
+Pancreatic Cancer,10-year,55-64,Northern HSCT,Male,10.474285714285715
+Pancreatic Cancer,10-year,55-64,South Eastern HSCT,Male,6.685714285714286
+Pancreatic Cancer,10-year,55-64,Southern HSCT,Male,9.137142857142857
+Pancreatic Cancer,10-year,55-64,Western HSCT,Male,5.7942857142857145
+Pancreatic Cancer,10-year,65-74,Belfast HSCT,Male,10.805714285714286
+Pancreatic Cancer,10-year,65-74,Northern HSCT,Male,16.382857142857144
+Pancreatic Cancer,10-year,65-74,South Eastern HSCT,Male,10.457142857142856
+Pancreatic Cancer,10-year,65-74,Southern HSCT,Male,14.291428571428572
+Pancreatic Cancer,10-year,65-74,Western HSCT,Male,9.062857142857142
+Pancreatic Cancer,10-year,75+,Belfast HSCT,Male,9.211428571428572
+Pancreatic Cancer,10-year,75+,Northern HSCT,Male,13.965714285714284
+Pancreatic Cancer,10-year,75+,South Eastern HSCT,Male,8.914285714285713
+Pancreatic Cancer,10-year,75+,Southern HSCT,Male,12.18285714285714
+Pancreatic Cancer,10-year,75+,Western HSCT,Male,7.725714285714285
+Pancreatic Cancer,10-year,0-54,Belfast HSCT,Female,2.5616438356164384
+Pancreatic Cancer,10-year,0-54,Northern HSCT,Female,3.1438356164383565
+Pancreatic Cancer,10-year,0-54,South Eastern HSCT,Female,5.123287671232877
+Pancreatic Cancer,10-year,0-54,Southern HSCT,Female,2.7945205479452055
+Pancreatic Cancer,10-year,0-54,Western HSCT,Female,3.3767123287671246
+Pancreatic Cancer,10-year,55-64,Belfast HSCT,Female,3.013698630136986
+Pancreatic Cancer,10-year,55-64,Northern HSCT,Female,3.698630136986301
+Pancreatic Cancer,10-year,55-64,South Eastern HSCT,Female,6.027397260273972
+Pancreatic Cancer,10-year,55-64,Southern HSCT,Female,3.287671232876712
+Pancreatic Cancer,10-year,55-64,Western HSCT,Female,3.9726027397260277
+Pancreatic Cancer,10-year,65-74,Belfast HSCT,Female,8.89041095890411
+Pancreatic Cancer,10-year,65-74,Northern HSCT,Female,10.910958904109588
+Pancreatic Cancer,10-year,65-74,South Eastern HSCT,Female,17.78082191780822
+Pancreatic Cancer,10-year,65-74,Southern HSCT,Female,9.698630136986301
+Pancreatic Cancer,10-year,65-74,Western HSCT,Female,11.719178082191782
+Pancreatic Cancer,10-year,75+,Belfast HSCT,Female,7.534246575342465
+Pancreatic Cancer,10-year,75+,Northern HSCT,Female,9.246575342465754
+Pancreatic Cancer,10-year,75+,South Eastern HSCT,Female,15.06849315068493
+Pancreatic Cancer,10-year,75+,Southern HSCT,Female,8.21917808219178
+Pancreatic Cancer,10-year,75+,Western HSCT,Female,9.931506849315069
+Stomach Cancer,10-year,0-54,Belfast HSCT,Male,3.433198380566802
+Stomach Cancer,10-year,0-54,Northern HSCT,Male,3.433198380566802
+Stomach Cancer,10-year,0-54,South Eastern HSCT,Male,3.303643724696357
+Stomach Cancer,10-year,0-54,Southern HSCT,Male,2.2672064777327936
+Stomach Cancer,10-year,0-54,Western HSCT,Male,3.562753036437247
+Stomach Cancer,10-year,55-64,Belfast HSCT,Male,8.368421052631579
+Stomach Cancer,10-year,55-64,Northern HSCT,Male,8.368421052631579
+Stomach Cancer,10-year,55-64,South Eastern HSCT,Male,8.052631578947368
+Stomach Cancer,10-year,55-64,Southern HSCT,Male,5.526315789473684
+Stomach Cancer,10-year,55-64,Western HSCT,Male,8.68421052631579
+Stomach Cancer,10-year,65-74,Belfast HSCT,Male,12.445344129554654
+Stomach Cancer,10-year,65-74,Northern HSCT,Male,12.445344129554654
+Stomach Cancer,10-year,65-74,South Eastern HSCT,Male,11.97570850202429
+Stomach Cancer,10-year,65-74,Southern HSCT,Male,8.218623481781375
+Stomach Cancer,10-year,65-74,Western HSCT,Male,12.914979757085016
+Stomach Cancer,10-year,75+,Belfast HSCT,Male,28.753036437246966
+Stomach Cancer,10-year,75+,Northern HSCT,Male,28.753036437246966
+Stomach Cancer,10-year,75+,South Eastern HSCT,Male,27.668016194331987
+Stomach Cancer,10-year,75+,Southern HSCT,Male,18.98785425101215
+Stomach Cancer,10-year,75+,Western HSCT,Male,29.838056680161944
+Stomach Cancer,10-year,0-54,Belfast HSCT,Female,3.7714285714285714
+Stomach Cancer,10-year,0-54,Northern HSCT,Female,5.154285714285715
+Stomach Cancer,10-year,0-54,South Eastern HSCT,Female,4.651428571428572
+Stomach Cancer,10-year,0-54,Southern HSCT,Female,4.4
+Stomach Cancer,10-year,0-54,Western HSCT,Female,4.022857142857143
+Stomach Cancer,10-year,55-64,Belfast HSCT,Female,4.285714285714286
+Stomach Cancer,10-year,55-64,Northern HSCT,Female,5.857142857142858
+Stomach Cancer,10-year,55-64,South Eastern HSCT,Female,5.285714285714286
+Stomach Cancer,10-year,55-64,Southern HSCT,Female,5
+Stomach Cancer,10-year,55-64,Western HSCT,Female,4.571428571428571
+Stomach Cancer,10-year,65-74,Belfast HSCT,Female,7.542857142857143
+Stomach Cancer,10-year,65-74,Northern HSCT,Female,10.30857142857143
+Stomach Cancer,10-year,65-74,South Eastern HSCT,Female,9.302857142857144
+Stomach Cancer,10-year,65-74,Southern HSCT,Female,8.8
+Stomach Cancer,10-year,65-74,Western HSCT,Female,8.045714285714286
+Stomach Cancer,10-year,75+,Belfast HSCT,Female,14.4
+Stomach Cancer,10-year,75+,Northern HSCT,Female,19.680000000000003
+Stomach Cancer,10-year,75+,South Eastern HSCT,Female,17.76
+Stomach Cancer,10-year,75+,Southern HSCT,Female,16.8
+Stomach Cancer,10-year,75+,Western HSCT,Female,15.36
+All Cancers,25-year,0-54,Belfast HSCT,Male,1052.3780497054624
+All Cancers,25-year,0-54,Northern HSCT,Male,1629.4206577723307
+All Cancers,25-year,0-54,South Eastern HSCT,Male,1333.590312546122
+All Cancers,25-year,0-54,Southern HSCT,Male,1161.1464932182814
+All Cancers,25-year,0-54,Western HSCT,Male,980.0309301024034
+All Cancers,25-year,55-64,Belfast HSCT,Male,1404.6520728405865
+All Cancers,25-year,55-64,Northern HSCT,Male,2174.8544689902565
+All Cancers,25-year,55-64,South Eastern HSCT,Male,1779.997594364793
+All Cancers,25-year,55-64,Southern HSCT,Male,1549.8297679499487
+All Cancers,25-year,55-64,Western HSCT,Male,1308.0874100343592
+All Cancers,25-year,65-74,Belfast HSCT,Male,2468.3110956304345
+All Cancers,25-year,65-74,Northern HSCT,Male,3821.74171169242
+All Cancers,25-year,65-74,South Eastern HSCT,Male,3127.8833366052545
+All Cancers,25-year,65-74,Southern HSCT,Male,2723.423178262986
+All Cancers,25-year,65-74,Western HSCT,Male,2298.623787820173
+All Cancers,25-year,75+,Belfast HSCT,Male,3570.257057373348
+All Cancers,25-year,75+,Northern HSCT,Male,5527.909485065526
+All Cancers,25-year,75+,South Eastern HSCT,Male,4524.286900838622
+All Cancers,25-year,75+,Southern HSCT,Male,3939.2606708370085
+All Cancers,25-year,75+,Western HSCT,Male,3324.8150183496837
+All Cancers,25-year,0-54,Belfast HSCT,Female,1854.3859403234226
+All Cancers,25-year,0-54,Northern HSCT,Female,2603.722007505816
+All Cancers,25-year,0-54,South Eastern HSCT,Female,2184.704761686977
+All Cancers,25-year,0-54,Southern HSCT,Female,1907.0161257885907
+All Cancers,25-year,0-54,Western HSCT,Female,1524.251140587368
+All Cancers,25-year,55-64,Belfast HSCT,Female,2045.6223663279918
+All Cancers,25-year,55-64,Northern HSCT,Female,2872.2348775602613
+All Cancers,25-year,55-64,South Eastern HSCT,Female,2410.0058284257134
+All Cancers,25-year,55-64,Southern HSCT,Female,2103.680121291751
+All Cancers,25-year,55-64,Western HSCT,Female,1681.4419033734994
+All Cancers,25-year,65-74,Belfast HSCT,Female,2466.379315169614
+All Cancers,25-year,65-74,Northern HSCT,Female,3463.0148784692733
+All Cancers,25-year,65-74,South Eastern HSCT,Female,2905.7115440799494
+All Cancers,25-year,65-74,Southern HSCT,Female,2536.3787677982245
+All Cancers,25-year,65-74,Western HSCT,Female,2027.291839590147
+All Cancers,25-year,75+,Belfast HSCT,Female,3711.5327530145723
+All Cancers,25-year,75+,Northern HSCT,Female,5211.320524203948
+All Cancers,25-year,75+,South Eastern HSCT,Female,4372.662185550163
+All Cancers,25-year,75+,Southern HSCT,Female,3816.8714815411345
+All Cancers,25-year,75+,Western HSCT,Female,3050.7716377115903
+Bladder Cancer,25-year,0-54,Belfast HSCT,Male,7.886625332152347
+Bladder Cancer,25-year,0-54,Northern HSCT,Male,11.532329495128433
+Bladder Cancer,25-year,0-54,South Eastern HSCT,Male,8.965456155890166
+Bladder Cancer,25-year,0-54,Southern HSCT,Male,6.882196634189548
+Bladder Cancer,25-year,0-54,Western HSCT,Male,6.7333923826395035
+Bladder Cancer,25-year,55-64,Belfast HSCT,Male,24.974313551815765
+Bladder Cancer,25-year,55-64,Northern HSCT,Male,36.51904340124004
+Bladder Cancer,25-year,55-64,South Eastern HSCT,Male,28.390611160318862
+Bladder Cancer,25-year,55-64,Southern HSCT,Male,21.79362267493357
+Bladder Cancer,25-year,55-64,Western HSCT,Male,21.32240921169176
+Bladder Cancer,25-year,65-74,Belfast HSCT,Male,57.45969884853853
+Bladder Cancer,25-year,65-74,Northern HSCT,Male,84.02125775022144
+Bladder Cancer,25-year,65-74,South Eastern HSCT,Male,65.31975199291408
+Bladder Cancer,25-year,65-74,Southern HSCT,Male,50.14171833480957
+Bladder Cancer,25-year,65-74,Western HSCT,Male,49.05757307351638
+Bladder Cancer,25-year,75+,Belfast HSCT,Male,121.67936226749337
+Bladder Cancer,25-year,75+,Northern HSCT,Male,177.92736935341011
+Bladder Cancer,25-year,75+,South Eastern HSCT,Male,138.3241806908769
+Bladder Cancer,25-year,75+,Southern HSCT,Male,106.18246235606733
+Bladder Cancer,25-year,75+,Western HSCT,Male,103.88662533215236
+Bladder Cancer,25-year,0-54,Belfast HSCT,Female,4.03183023872679
+Bladder Cancer,25-year,0-54,Northern HSCT,Female,4.586206896551724
+Bladder Cancer,25-year,0-54,South Eastern HSCT,Female,4.23342175066313
+Bladder Cancer,25-year,0-54,Southern HSCT,Female,3.83023872679045
+Bladder Cancer,25-year,0-54,Western HSCT,Female,2.318302387267904
+Bladder Cancer,25-year,55-64,Belfast HSCT,Female,12.095490716180374
+Bladder Cancer,25-year,55-64,Northern HSCT,Female,13.758620689655176
+Bladder Cancer,25-year,55-64,South Eastern HSCT,Female,12.700265251989393
+Bladder Cancer,25-year,55-64,Southern HSCT,Female,11.490716180371354
+Bladder Cancer,25-year,55-64,Western HSCT,Female,6.954907161803715
+Bladder Cancer,25-year,65-74,Belfast HSCT,Female,20.159151193633953
+Bladder Cancer,25-year,65-74,Northern HSCT,Female,22.931034482758623
+Bladder Cancer,25-year,65-74,South Eastern HSCT,Female,21.167108753315652
+Bladder Cancer,25-year,65-74,Southern HSCT,Female,19.151193633952253
+Bladder Cancer,25-year,65-74,Western HSCT,Female,11.591511936339524
+Bladder Cancer,25-year,75+,Belfast HSCT,Female,43.713527851458885
+Bladder Cancer,25-year,75+,Northern HSCT,Female,49.724137931034484
+Bladder Cancer,25-year,75+,South Eastern HSCT,Female,45.89920424403183
+Bladder Cancer,25-year,75+,Southern HSCT,Female,41.52785145888594
+Bladder Cancer,25-year,75+,Western HSCT,Female,25.135278514588858
+Blood Leukaemia,25-year,0-54,Belfast HSCT,Male,71.11203319502074
+Blood Leukaemia,25-year,0-54,Northern HSCT,Male,104.7966804979253
+Blood Leukaemia,25-year,0-54,South Eastern HSCT,Male,90.16597510373444
+Blood Leukaemia,25-year,0-54,Southern HSCT,Male,79.27800829875517
+Blood Leukaemia,25-year,0-54,Western HSCT,Male,64.64730290456431
+Blood Leukaemia,25-year,55-64,Belfast HSCT,Male,34.34190871369295
+Blood Leukaemia,25-year,55-64,Northern HSCT,Male,50.6091286307054
+Blood Leukaemia,25-year,55-64,South Eastern HSCT,Male,43.54356846473029
+Blood Leukaemia,25-year,55-64,Southern HSCT,Male,38.285477178423236
+Blood Leukaemia,25-year,55-64,Western HSCT,Male,31.219917012448136
+Blood Leukaemia,25-year,65-74,Belfast HSCT,Male,48.39087136929461
+Blood Leukaemia,25-year,65-74,Northern HSCT,Male,71.31286307053942
+Blood Leukaemia,25-year,65-74,South Eastern HSCT,Male,61.356846473029044
+Blood Leukaemia,25-year,65-74,Southern HSCT,Male,53.94771784232365
+Blood Leukaemia,25-year,65-74,Western HSCT,Male,43.99170124481328
+Blood Leukaemia,25-year,75+,Belfast HSCT,Male,55.1551867219917
+Blood Leukaemia,25-year,75+,Northern HSCT,Male,81.28132780082987
+Blood Leukaemia,25-year,75+,South Eastern HSCT,Male,69.93360995850621
+Blood Leukaemia,25-year,75+,Southern HSCT,Male,61.48879668049791
+Blood Leukaemia,25-year,75+,Western HSCT,Male,50.141078838174266
+Blood Leukaemia,25-year,0-54,Belfast HSCT,Female,47.536615215346096
+Blood Leukaemia,25-year,0-54,Northern HSCT,Female,63.78330649147705
+Blood Leukaemia,25-year,0-54,South Eastern HSCT,Female,57.46514877298167
+Blood Leukaemia,25-year,0-54,Southern HSCT,Female,48.43920917513114
+Blood Leukaemia,25-year,0-54,Western HSCT,Female,43.6253747229442
+Blood Leukaemia,25-year,55-64,Belfast HSCT,Female,23.495108669653813
+Blood Leukaemia,25-year,55-64,Northern HSCT,Female,31.525082518776006
+Blood Leukaemia,25-year,55-64,South Eastern HSCT,Female,28.402314910784042
+Blood Leukaemia,25-year,55-64,Southern HSCT,Female,23.94121832793838
+Blood Leukaemia,25-year,55-64,Western HSCT,Female,21.56196681708736
+Blood Leukaemia,25-year,65-74,Belfast HSCT,Female,34.423066190423036
+Blood Leukaemia,25-year,65-74,Northern HSCT,Female,46.18791159727648
+Blood Leukaemia,25-year,65-74,South Eastern HSCT,Female,41.612693939055696
+Blood Leukaemia,25-year,65-74,Southern HSCT,Female,35.07666871302601
+Blood Leukaemia,25-year,65-74,Western HSCT,Female,31.590788592476837
+Blood Leukaemia,25-year,75+,Belfast HSCT,Female,52.636328725038396
+Blood Leukaemia,25-year,75+,Northern HSCT,Female,70.62596006144393
+Blood Leukaemia,25-year,75+,South Eastern HSCT,Female,63.62999231950845
+Blood Leukaemia,25-year,75+,Southern HSCT,Female,53.63575268817204
+Blood Leukaemia,25-year,75+,Western HSCT,Female,48.30549155145929
+Blood Lymphoma,25-year,0-54,Belfast HSCT,Male,101.06206252916475
+Blood Lymphoma,25-year,0-54,Northern HSCT,Male,158.85020998600092
+Blood Lymphoma,25-year,0-54,South Eastern HSCT,Male,118.80167988800746
+Blood Lymphoma,25-year,0-54,Southern HSCT,Male,112.88847410172657
+Blood Lymphoma,25-year,0-54,Western HSCT,Male,84.39757349510033
+Blood Lymphoma,25-year,55-64,Belfast HSCT,Male,79.8320111992534
+Blood Lymphoma,25-year,55-64,Northern HSCT,Male,125.48063462435839
+Blood Lymphoma,25-year,55-64,South Eastern HSCT,Male,93.84507699486701
+Blood Lymphoma,25-year,55-64,Southern HSCT,Male,89.17405506299582
+Blood Lymphoma,25-year,55-64,Western HSCT,Male,66.66822211852545
+Blood Lymphoma,25-year,65-74,Belfast HSCT,Male,90.18385440970603
+Blood Lymphoma,25-year,65-74,Northern HSCT,Male,141.7517498833411
+Blood Lymphoma,25-year,65-74,South Eastern HSCT,Male,106.01399906672887
+Blood Lymphoma,25-year,65-74,Southern HSCT,Male,100.7372841810546
+Blood Lymphoma,25-year,65-74,Western HSCT,Male,75.31311245916939
+Blood Lymphoma,25-year,75+,Belfast HSCT,Male,104.92207186187589
+Blood Lymphoma,25-year,75+,Northern HSCT,Male,164.91740550629956
+Blood Lymphoma,25-year,75+,South Eastern HSCT,Male,123.33924405039662
+Blood Lymphoma,25-year,75+,Southern HSCT,Male,117.20018665422306
+Blood Lymphoma,25-year,75+,Western HSCT,Male,87.62109192720484
+Blood Lymphoma,25-year,0-54,Belfast HSCT,Female,78.58499833102854
+Blood Lymphoma,25-year,0-54,Northern HSCT,Female,119.0469171145641
+Blood Lymphoma,25-year,0-54,South Eastern HSCT,Female,82.79490895590507
+Blood Lymphoma,25-year,0-54,Southern HSCT,Female,90.27919451124114
+Blood Lymphoma,25-year,0-54,Western HSCT,Female,68.06022176883722
+Blood Lymphoma,25-year,55-64,Belfast HSCT,Female,57.10390539316199
+Blood Lymphoma,25-year,55-64,Northern HSCT,Female,86.50561858666505
+Blood Lymphoma,25-year,55-64,South Eastern HSCT,Female,60.16304318208138
+Blood Lymphoma,25-year,55-64,Southern HSCT,Female,65.60151036238254
+Blood Lymphoma,25-year,55-64,Western HSCT,Female,49.456060920863514
+Blood Lymphoma,25-year,65-74,Belfast HSCT,Female,77.33193457631968
+Blood Lymphoma,25-year,65-74,Northern HSCT,Female,117.14867470043667
+Blood Lymphoma,25-year,65-74,South Eastern HSCT,Female,81.47471678576538
+Blood Lymphoma,25-year,65-74,Southern HSCT,Female,88.83966293589107
+Blood Lymphoma,25-year,65-74,Western HSCT,Female,66.97497905270544
+Blood Lymphoma,25-year,75+,Belfast HSCT,Female,123.15826617710171
+Blood Lymphoma,25-year,75+,Northern HSCT,Female,186.5701115599547
+Blood Lymphoma,25-year,75+,South Eastern HSCT,Female,129.7560304365893
+Blood Lymphoma,25-year,75+,Southern HSCT,Female,141.48538912012282
+Blood Lymphoma,25-year,75+,Western HSCT,Female,106.66385552838274
+Blood Multiple Myeloma,25-year,0-54,Belfast HSCT,Male,6.916666666666666
+Blood Multiple Myeloma,25-year,0-54,Northern HSCT,Male,12.916666666666663
+Blood Multiple Myeloma,25-year,0-54,South Eastern HSCT,Male,9.666666666666664
+Blood Multiple Myeloma,25-year,0-54,Southern HSCT,Male,10.999999999999998
+Blood Multiple Myeloma,25-year,0-54,Western HSCT,Male,7.5
+Blood Multiple Myeloma,25-year,55-64,Belfast HSCT,Male,16.28298611111111
+Blood Multiple Myeloma,25-year,55-64,Northern HSCT,Male,30.407986111111107
+Blood Multiple Myeloma,25-year,55-64,South Eastern HSCT,Male,22.756944444444443
+Blood Multiple Myeloma,25-year,55-64,Southern HSCT,Male,25.895833333333332
+Blood Multiple Myeloma,25-year,55-64,Western HSCT,Male,17.65625
+Blood Multiple Myeloma,25-year,65-74,Belfast HSCT,Male,28.098958333333332
+Blood Multiple Myeloma,25-year,65-74,Northern HSCT,Male,52.47395833333332
+Blood Multiple Myeloma,25-year,65-74,South Eastern HSCT,Male,39.27083333333333
+Blood Multiple Myeloma,25-year,65-74,Southern HSCT,Male,44.6875
+Blood Multiple Myeloma,25-year,65-74,Western HSCT,Male,30.46875
+Blood Multiple Myeloma,25-year,75+,Belfast HSCT,Male,31.701388888888893
+Blood Multiple Myeloma,25-year,75+,Northern HSCT,Male,59.20138888888889
+Blood Multiple Myeloma,25-year,75+,South Eastern HSCT,Male,44.30555555555556
+Blood Multiple Myeloma,25-year,75+,Southern HSCT,Male,50.41666666666668
+Blood Multiple Myeloma,25-year,75+,Western HSCT,Male,34.37500000000001
+Blood Multiple Myeloma,25-year,0-54,Belfast HSCT,Female,5.398009950248756
+Blood Multiple Myeloma,25-year,0-54,Northern HSCT,Female,8.019900497512438
+Blood Multiple Myeloma,25-year,0-54,South Eastern HSCT,Female,6.014925373134328
+Blood Multiple Myeloma,25-year,0-54,Southern HSCT,Female,6.940298507462686
+Blood Multiple Myeloma,25-year,0-54,Western HSCT,Female,4.626865671641791
+Blood Multiple Myeloma,25-year,55-64,Belfast HSCT,Female,14.1044776119403
+Blood Multiple Myeloma,25-year,55-64,Northern HSCT,Female,20.955223880597014
+Blood Multiple Myeloma,25-year,55-64,South Eastern HSCT,Female,15.716417910447763
+Blood Multiple Myeloma,25-year,55-64,Southern HSCT,Female,18.134328358208958
+Blood Multiple Myeloma,25-year,55-64,Western HSCT,Female,12.089552238805972
+Blood Multiple Myeloma,25-year,65-74,Belfast HSCT,Female,18.283582089552237
+Blood Multiple Myeloma,25-year,65-74,Northern HSCT,Female,27.16417910447761
+Blood Multiple Myeloma,25-year,65-74,South Eastern HSCT,Female,20.37313432835821
+Blood Multiple Myeloma,25-year,65-74,Southern HSCT,Female,23.507462686567163
+Blood Multiple Myeloma,25-year,65-74,Western HSCT,Female,15.671641791044774
+Blood Multiple Myeloma,25-year,75+,Belfast HSCT,Female,32.213930348258714
+Blood Multiple Myeloma,25-year,75+,Northern HSCT,Female,47.86069651741294
+Blood Multiple Myeloma,25-year,75+,South Eastern HSCT,Female,35.8955223880597
+Blood Multiple Myeloma,25-year,75+,Southern HSCT,Female,41.417910447761194
+Blood Multiple Myeloma,25-year,75+,Western HSCT,Female,27.611940298507466
+Brain Cancer,25-year,0-54,Belfast HSCT,Male,56.05249343832021
+Brain Cancer,25-year,0-54,Northern HSCT,Male,77.44094488188976
+Brain Cancer,25-year,0-54,South Eastern HSCT,Male,60.477690288713916
+Brain Cancer,25-year,0-54,Southern HSCT,Male,43.51443569553806
+Brain Cancer,25-year,0-54,Western HSCT,Male,43.51443569553806
+Brain Cancer,25-year,55-64,Belfast HSCT,Male,8.976377952755906
+Brain Cancer,25-year,55-64,Northern HSCT,Male,12.401574803149606
+Brain Cancer,25-year,55-64,South Eastern HSCT,Male,9.68503937007874
+Brain Cancer,25-year,55-64,Southern HSCT,Male,6.968503937007875
+Brain Cancer,25-year,55-64,Western HSCT,Male,6.968503937007875
+Brain Cancer,25-year,65-74,Belfast HSCT,Male,7.779527559055118
+Brain Cancer,25-year,65-74,Northern HSCT,Male,10.748031496062993
+Brain Cancer,25-year,65-74,South Eastern HSCT,Male,8.393700787401574
+Brain Cancer,25-year,65-74,Southern HSCT,Male,6.039370078740158
+Brain Cancer,25-year,65-74,Western HSCT,Male,6.039370078740158
+Brain Cancer,25-year,75+,Belfast HSCT,Male,3.1916010498687664
+Brain Cancer,25-year,75+,Northern HSCT,Male,4.409448818897638
+Brain Cancer,25-year,75+,South Eastern HSCT,Male,3.4435695538057747
+Brain Cancer,25-year,75+,Southern HSCT,Male,2.477690288713911
+Brain Cancer,25-year,75+,Western HSCT,Male,2.477690288713911
+Brain Cancer,25-year,0-54,Belfast HSCT,Female,30.899653979238753
+Brain Cancer,25-year,0-54,Northern HSCT,Female,52.59515570934257
+Brain Cancer,25-year,0-54,South Eastern HSCT,Female,36.81660899653979
+Brain Cancer,25-year,0-54,Southern HSCT,Female,38.78892733564014
+Brain Cancer,25-year,0-54,Western HSCT,Female,30.899653979238753
+Brain Cancer,25-year,55-64,Belfast HSCT,Female,8.294117647058822
+Brain Cancer,25-year,55-64,Northern HSCT,Female,14.117647058823533
+Brain Cancer,25-year,55-64,South Eastern HSCT,Female,9.882352941176471
+Brain Cancer,25-year,55-64,Southern HSCT,Female,10.411764705882355
+Brain Cancer,25-year,55-64,Western HSCT,Female,8.294117647058822
+Brain Cancer,25-year,65-74,Belfast HSCT,Female,5.529411764705882
+Brain Cancer,25-year,65-74,Northern HSCT,Female,9.411764705882355
+Brain Cancer,25-year,65-74,South Eastern HSCT,Female,6.588235294117648
+Brain Cancer,25-year,65-74,Southern HSCT,Female,6.941176470588237
+Brain Cancer,25-year,65-74,Western HSCT,Female,5.529411764705882
+Brain Cancer,25-year,75+,Belfast HSCT,Female,2.2768166089965396
+Brain Cancer,25-year,75+,Northern HSCT,Female,3.875432525951558
+Brain Cancer,25-year,75+,South Eastern HSCT,Female,2.7128027681660902
+Brain Cancer,25-year,75+,Southern HSCT,Female,2.858131487889274
+Brain Cancer,25-year,75+,Western HSCT,Female,2.2768166089965396
+Colorectal Cancer,25-year,0-54,Belfast HSCT,Male,56.16991963260619
+Colorectal Cancer,25-year,0-54,Northern HSCT,Male,83.20091848450055
+Colorectal Cancer,25-year,0-54,South Eastern HSCT,Male,68.07347876004592
+Colorectal Cancer,25-year,0-54,Southern HSCT,Male,60.94374282433982
+Colorectal Cancer,25-year,0-54,Western HSCT,Male,55.61194029850745
+Colorectal Cancer,25-year,55-64,Belfast HSCT,Male,148.7462686567164
+Colorectal Cancer,25-year,55-64,Northern HSCT,Male,220.3283582089552
+Colorectal Cancer,25-year,55-64,South Eastern HSCT,Male,180.26865671641792
+Colorectal Cancer,25-year,55-64,Southern HSCT,Male,161.38805970149252
+Colorectal Cancer,25-year,55-64,Western HSCT,Male,147.2686567164179
+Colorectal Cancer,25-year,65-74,Belfast HSCT,Male,265.7669345579793
+Colorectal Cancer,25-year,65-74,Northern HSCT,Male,393.6636050516648
+Colorectal Cancer,25-year,65-74,South Eastern HSCT,Male,322.0884041331803
+Colorectal Cancer,25-year,65-74,Southern HSCT,Male,288.35419058553384
+Colorectal Cancer,25-year,65-74,Western HSCT,Male,263.1268656716418
+Colorectal Cancer,25-year,75+,Belfast HSCT,Male,435.31687715269805
+Colorectal Cancer,25-year,75+,Northern HSCT,Male,644.8071182548794
+Colorectal Cancer,25-year,75+,South Eastern HSCT,Male,527.569460390356
+Colorectal Cancer,25-year,75+,Southern HSCT,Male,472.31400688863374
+Colorectal Cancer,25-year,75+,Western HSCT,Male,430.9925373134328
+Colorectal Cancer,25-year,0-54,Belfast HSCT,Female,64.42443878731774
+Colorectal Cancer,25-year,0-54,Northern HSCT,Female,93.91390881740337
+Colorectal Cancer,25-year,0-54,South Eastern HSCT,Female,77.3260819254802
+Colorectal Cancer,25-year,0-54,Southern HSCT,Female,66.51886137468176
+Colorectal Cancer,25-year,0-54,Western HSCT,Female,59.81670909511687
+Colorectal Cancer,25-year,55-64,Belfast HSCT,Female,119.23860217542234
+Colorectal Cancer,25-year,55-64,Northern HSCT,Female,173.81856051839853
+Colorectal Cancer,25-year,55-64,South Eastern HSCT,Female,143.1173339504744
+Colorectal Cancer,25-year,55-64,Southern HSCT,Female,123.11501967137235
+Colorectal Cancer,25-year,55-64,Western HSCT,Female,110.71048368433233
+Colorectal Cancer,25-year,65-74,Belfast HSCT,Female,200.0361027539921
+Colorectal Cancer,25-year,65-74,Northern HSCT,Female,291.6000925711641
+Colorectal Cancer,25-year,65-74,South Eastern HSCT,Female,240.09534829900485
+Colorectal Cancer,25-year,65-74,Southern HSCT,Female,206.53922703077987
+Colorectal Cancer,25-year,65-74,Western HSCT,Female,185.72922934505903
+Colorectal Cancer,25-year,75+,Belfast HSCT,Female,385.3008562832678
+Colorectal Cancer,25-year,75+,Northern HSCT,Female,561.6674380930341
+Colorectal Cancer,25-year,75+,South Eastern HSCT,Female,462.46123582504055
+Colorectal Cancer,25-year,75+,Southern HSCT,Female,397.826891923166
+Colorectal Cancer,25-year,75+,Western HSCT,Female,357.74357787549184
+Gallbladder And Other Biliary Cancer,25-year,0-54,Belfast HSCT,Male,1.3571428571428572
+Gallbladder And Other Biliary Cancer,25-year,0-54,Northern HSCT,Male,1.3571428571428572
+Gallbladder And Other Biliary Cancer,25-year,0-54,South Eastern HSCT,Male,1.0000000000000002
+Gallbladder And Other Biliary Cancer,25-year,0-54,Southern HSCT,Male,1.2857142857142856
+Gallbladder And Other Biliary Cancer,25-year,0-54,Western HSCT,Male,1.0000000000000002
+Gallbladder And Other Biliary Cancer,25-year,55-64,Belfast HSCT,Male,2.2619047619047614
+Gallbladder And Other Biliary Cancer,25-year,55-64,Northern HSCT,Male,2.2619047619047614
+Gallbladder And Other Biliary Cancer,25-year,55-64,South Eastern HSCT,Male,1.6666666666666667
+Gallbladder And Other Biliary Cancer,25-year,55-64,Southern HSCT,Male,2.1428571428571423
+Gallbladder And Other Biliary Cancer,25-year,55-64,Western HSCT,Male,1.6666666666666667
+Gallbladder And Other Biliary Cancer,25-year,65-74,Belfast HSCT,Male,6.785714285714286
+Gallbladder And Other Biliary Cancer,25-year,65-74,Northern HSCT,Male,6.785714285714286
+Gallbladder And Other Biliary Cancer,25-year,65-74,South Eastern HSCT,Male,5.000000000000001
+Gallbladder And Other Biliary Cancer,25-year,65-74,Southern HSCT,Male,6.428571428571429
+Gallbladder And Other Biliary Cancer,25-year,65-74,Western HSCT,Male,5.000000000000001
+Gallbladder And Other Biliary Cancer,25-year,75+,Belfast HSCT,Male,8.595238095238095
+Gallbladder And Other Biliary Cancer,25-year,75+,Northern HSCT,Male,8.595238095238095
+Gallbladder And Other Biliary Cancer,25-year,75+,South Eastern HSCT,Male,6.333333333333334
+Gallbladder And Other Biliary Cancer,25-year,75+,Southern HSCT,Male,8.142857142857142
+Gallbladder And Other Biliary Cancer,25-year,75+,Western HSCT,Male,6.333333333333334
+Gallbladder And Other Biliary Cancer,25-year,0-54,Belfast HSCT,Female,1.1313131313131315
+Gallbladder And Other Biliary Cancer,25-year,0-54,Northern HSCT,Female,1.272727272727273
+Gallbladder And Other Biliary Cancer,25-year,0-54,South Eastern HSCT,Female,1.8383838383838387
+Gallbladder And Other Biliary Cancer,25-year,0-54,Southern HSCT,Female,2.0505050505050506
+Gallbladder And Other Biliary Cancer,25-year,0-54,Western HSCT,Female,0.7070707070707072
+Gallbladder And Other Biliary Cancer,25-year,55-64,Belfast HSCT,Female,2.262626262626263
+Gallbladder And Other Biliary Cancer,25-year,55-64,Northern HSCT,Female,2.545454545454546
+Gallbladder And Other Biliary Cancer,25-year,55-64,South Eastern HSCT,Female,3.6767676767676774
+Gallbladder And Other Biliary Cancer,25-year,55-64,Southern HSCT,Female,4.101010101010101
+Gallbladder And Other Biliary Cancer,25-year,55-64,Western HSCT,Female,1.4141414141414144
+Gallbladder And Other Biliary Cancer,25-year,65-74,Belfast HSCT,Female,4.686868686868687
+Gallbladder And Other Biliary Cancer,25-year,65-74,Northern HSCT,Female,5.2727272727272725
+Gallbladder And Other Biliary Cancer,25-year,65-74,South Eastern HSCT,Female,7.616161616161616
+Gallbladder And Other Biliary Cancer,25-year,65-74,Southern HSCT,Female,8.494949494949495
+Gallbladder And Other Biliary Cancer,25-year,65-74,Western HSCT,Female,2.9292929292929295
+Gallbladder And Other Biliary Cancer,25-year,75+,Belfast HSCT,Female,7.91919191919192
+Gallbladder And Other Biliary Cancer,25-year,75+,Northern HSCT,Female,8.90909090909091
+Gallbladder And Other Biliary Cancer,25-year,75+,South Eastern HSCT,Female,12.86868686868687
+Gallbladder And Other Biliary Cancer,25-year,75+,Southern HSCT,Female,14.353535353535353
+Gallbladder And Other Biliary Cancer,25-year,75+,Western HSCT,Female,4.94949494949495
+Kidney Cancer,25-year,0-54,Belfast HSCT,Male,38.268716577540104
+Kidney Cancer,25-year,0-54,Northern HSCT,Male,60.158422459893046
+Kidney Cancer,25-year,0-54,South Eastern HSCT,Male,49.29010695187166
+Kidney Cancer,25-year,0-54,Southern HSCT,Male,45.31016042780749
+Kidney Cancer,25-year,0-54,Western HSCT,Male,35.9725935828877
+Kidney Cancer,25-year,55-64,Belfast HSCT,Male,54.31149732620321
+Kidney Cancer,25-year,55-64,Northern HSCT,Male,85.37767379679144
+Kidney Cancer,25-year,55-64,South Eastern HSCT,Male,69.95320855614973
+Kidney Cancer,25-year,55-64,Southern HSCT,Male,64.3048128342246
+Kidney Cancer,25-year,55-64,Western HSCT,Male,51.05280748663102
+Kidney Cancer,25-year,65-74,Belfast HSCT,Male,79.21122994652406
+Kidney Cancer,25-year,65-74,Northern HSCT,Male,124.52005347593582
+Kidney Cancer,25-year,65-74,South Eastern HSCT,Male,102.02406417112299
+Kidney Cancer,25-year,65-74,Southern HSCT,Male,93.7860962566845
+Kidney Cancer,25-year,65-74,Western HSCT,Male,74.45855614973262
+Kidney Cancer,25-year,75+,Belfast HSCT,Male,78.20855614973262
+Kidney Cancer,25-year,75+,Northern HSCT,Male,122.94385026737967
+Kidney Cancer,25-year,75+,South Eastern HSCT,Male,100.7326203208556
+Kidney Cancer,25-year,75+,Southern HSCT,Male,92.59893048128342
+Kidney Cancer,25-year,75+,Western HSCT,Male,73.51604278074866
+Kidney Cancer,25-year,0-54,Belfast HSCT,Female,32.59552845528455
+Kidney Cancer,25-year,0-54,Northern HSCT,Female,44.638211382113816
+Kidney Cancer,25-year,0-54,South Eastern HSCT,Female,27.617886178861788
+Kidney Cancer,25-year,0-54,Southern HSCT,Female,27.778455284552845
+Kidney Cancer,25-year,0-54,Western HSCT,Female,25.36991869918699
+Kidney Cancer,25-year,55-64,Belfast HSCT,Female,36.72154471544716
+Kidney Cancer,25-year,55-64,Northern HSCT,Female,50.28861788617885
+Kidney Cancer,25-year,55-64,South Eastern HSCT,Female,31.11382113821138
+Kidney Cancer,25-year,55-64,Southern HSCT,Female,31.29471544715447
+Kidney Cancer,25-year,55-64,Western HSCT,Female,28.581300813008127
+Kidney Cancer,25-year,65-74,Belfast HSCT,Female,54.66971544715447
+Kidney Cancer,25-year,65-74,Northern HSCT,Female,74.86788617886178
+Kidney Cancer,25-year,65-74,South Eastern HSCT,Female,46.32113821138211
+Kidney Cancer,25-year,65-74,Southern HSCT,Female,46.59044715447154
+Kidney Cancer,25-year,65-74,Western HSCT,Female,42.55081300813008
+Kidney Cancer,25-year,75+,Belfast HSCT,Female,79.01321138211382
+Kidney Cancer,25-year,75+,Northern HSCT,Female,108.20528455284553
+Kidney Cancer,25-year,75+,South Eastern HSCT,Female,66.94715447154472
+Kidney Cancer,25-year,75+,Southern HSCT,Female,67.33638211382114
+Kidney Cancer,25-year,75+,Western HSCT,Female,61.4979674796748
+Liver Cancer,25-year,0-54,Belfast HSCT,Male,5.451327433628319
+Liver Cancer,25-year,0-54,Northern HSCT,Male,4.672566371681416
+Liver Cancer,25-year,0-54,South Eastern HSCT,Male,5.159292035398229
+Liver Cancer,25-year,0-54,Southern HSCT,Male,3.699115044247788
+Liver Cancer,25-year,0-54,Western HSCT,Male,3.017699115044248
+Liver Cancer,25-year,55-64,Belfast HSCT,Male,8.672566371681416
+Liver Cancer,25-year,55-64,Northern HSCT,Male,7.433628318584072
+Liver Cancer,25-year,55-64,South Eastern HSCT,Male,8.20796460176991
+Liver Cancer,25-year,55-64,Southern HSCT,Male,5.88495575221239
+Liver Cancer,25-year,55-64,Western HSCT,Male,4.800884955752213
+Liver Cancer,25-year,65-74,Belfast HSCT,Male,21.557522123893808
+Liver Cancer,25-year,65-74,Northern HSCT,Male,18.47787610619469
+Liver Cancer,25-year,65-74,South Eastern HSCT,Male,20.402654867256636
+Liver Cancer,25-year,65-74,Southern HSCT,Male,14.628318584070797
+Liver Cancer,25-year,65-74,Western HSCT,Male,11.933628318584072
+Liver Cancer,25-year,75+,Belfast HSCT,Male,20.31858407079646
+Liver Cancer,25-year,75+,Northern HSCT,Male,17.41592920353982
+Liver Cancer,25-year,75+,South Eastern HSCT,Male,19.23008849557522
+Liver Cancer,25-year,75+,Southern HSCT,Male,13.787610619469026
+Liver Cancer,25-year,75+,Western HSCT,Male,11.247787610619469
+Liver Cancer,25-year,0-54,Belfast HSCT,Female,3.9767441860465116
+Liver Cancer,25-year,0-54,Northern HSCT,Female,5.0813953488372094
+Liver Cancer,25-year,0-54,South Eastern HSCT,Female,3.755813953488372
+Liver Cancer,25-year,0-54,Southern HSCT,Female,2.8720930232558137
+Liver Cancer,25-year,0-54,Western HSCT,Female,3.3139534883720936
+Liver Cancer,25-year,55-64,Belfast HSCT,Female,2.9302325581395348
+Liver Cancer,25-year,55-64,Northern HSCT,Female,3.744186046511628
+Liver Cancer,25-year,55-64,South Eastern HSCT,Female,2.7674418604651163
+Liver Cancer,25-year,55-64,Southern HSCT,Female,2.1162790697674416
+Liver Cancer,25-year,55-64,Western HSCT,Female,2.4418604651162794
+Liver Cancer,25-year,65-74,Belfast HSCT,Female,5.232558139534883
+Liver Cancer,25-year,65-74,Northern HSCT,Female,6.686046511627906
+Liver Cancer,25-year,65-74,South Eastern HSCT,Female,4.941860465116279
+Liver Cancer,25-year,65-74,Southern HSCT,Female,3.77906976744186
+Liver Cancer,25-year,65-74,Western HSCT,Female,4.3604651162790695
+Liver Cancer,25-year,75+,Belfast HSCT,Female,5.8604651162790695
+Liver Cancer,25-year,75+,Northern HSCT,Female,7.488372093023256
+Liver Cancer,25-year,75+,South Eastern HSCT,Female,5.534883720930233
+Liver Cancer,25-year,75+,Southern HSCT,Female,4.232558139534883
+Liver Cancer,25-year,75+,Western HSCT,Female,4.883720930232559
+Lung Cancer,25-year,0-54,Belfast HSCT,Male,15.781487101669201
+Lung Cancer,25-year,0-54,Northern HSCT,Male,19.180576631259488
+Lung Cancer,25-year,0-54,South Eastern HSCT,Male,14.44613050075873
+Lung Cancer,25-year,0-54,Southern HSCT,Male,16.63125948406677
+Lung Cancer,25-year,0-54,Western HSCT,Male,13.960546282245833
+Lung Cancer,25-year,55-64,Belfast HSCT,Male,40.44006069802732
+Lung Cancer,25-year,55-64,Northern HSCT,Male,49.150227617602425
+Lung Cancer,25-year,55-64,South Eastern HSCT,Male,37.01820940819424
+Lung Cancer,25-year,55-64,Southern HSCT,Male,42.61760242792109
+Lung Cancer,25-year,55-64,Western HSCT,Male,35.773899848254935
+Lung Cancer,25-year,65-74,Belfast HSCT,Male,93.70257966616086
+Lung Cancer,25-year,65-74,Northern HSCT,Male,113.88467374810318
+Lung Cancer,25-year,65-74,South Eastern HSCT,Male,85.77389984825494
+Lung Cancer,25-year,65-74,Southern HSCT,Male,98.74810318664643
+Lung Cancer,25-year,65-74,Western HSCT,Male,82.8907435508346
+Lung Cancer,25-year,75+,Belfast HSCT,Male,110.07587253414265
+Lung Cancer,25-year,75+,Northern HSCT,Male,133.7845220030349
+Lung Cancer,25-year,75+,South Eastern HSCT,Male,100.76176024279212
+Lung Cancer,25-year,75+,Southern HSCT,Male,116.0030349013657
+Lung Cancer,25-year,75+,Western HSCT,Male,97.37481031866466
+Lung Cancer,25-year,0-54,Belfast HSCT,Female,18.452830188679243
+Lung Cancer,25-year,0-54,Northern HSCT,Female,22.188679245283016
+Lung Cancer,25-year,0-54,South Eastern HSCT,Female,15.339622641509433
+Lung Cancer,25-year,0-54,Southern HSCT,Female,14.943396226415093
+Lung Cancer,25-year,0-54,Western HSCT,Female,16.07547169811321
+Lung Cancer,25-year,55-64,Belfast HSCT,Female,52.813272608978515
+Lung Cancer,25-year,55-64,Northern HSCT,Female,63.50553025374105
+Lung Cancer,25-year,55-64,South Eastern HSCT,Female,43.90305790500976
+Lung Cancer,25-year,55-64,Southern HSCT,Female,42.769030579050096
+Lung Cancer,25-year,55-64,Western HSCT,Female,46.00910865322056
+Lung Cancer,25-year,65-74,Belfast HSCT,Female,116.65582303188027
+Lung Cancer,25-year,65-74,Northern HSCT,Female,140.27325959661678
+Lung Cancer,25-year,65-74,South Eastern HSCT,Female,96.97462589459987
+Lung Cancer,25-year,65-74,Southern HSCT,Female,94.469746258946
+Lung Cancer,25-year,65-74,Western HSCT,Female,101.62654521795706
+Lung Cancer,25-year,75+,Belfast HSCT,Female,138.07807417046195
+Lung Cancer,25-year,75+,Northern HSCT,Female,166.03253090435913
+Lung Cancer,25-year,75+,South Eastern HSCT,Female,114.78269355888096
+Lung Cancer,25-year,75+,Southern HSCT,Female,111.81782693558883
+Lung Cancer,25-year,75+,Western HSCT,Female,120.2888744307092
+Oesophageal Cancer,25-year,0-54,Belfast HSCT,Male,6.575342465753425
+Oesophageal Cancer,25-year,0-54,Northern HSCT,Male,9.863013698630139
+Oesophageal Cancer,25-year,0-54,South Eastern HSCT,Male,9.780821917808222
+Oesophageal Cancer,25-year,0-54,Southern HSCT,Male,7.726027397260275
+Oesophageal Cancer,25-year,0-54,Western HSCT,Male,8.054794520547945
+Oesophageal Cancer,25-year,55-64,Belfast HSCT,Male,15.968688845401173
+Oesophageal Cancer,25-year,55-64,Northern HSCT,Male,23.95303326810176
+Oesophageal Cancer,25-year,55-64,South Eastern HSCT,Male,23.753424657534246
+Oesophageal Cancer,25-year,55-64,Southern HSCT,Male,18.763209393346376
+Oesophageal Cancer,25-year,55-64,Western HSCT,Male,19.561643835616433
+Oesophageal Cancer,25-year,65-74,Belfast HSCT,Male,30.52837573385519
+Oesophageal Cancer,25-year,65-74,Northern HSCT,Male,45.792563600782785
+Oesophageal Cancer,25-year,65-74,South Eastern HSCT,Male,45.4109589041096
+Oesophageal Cancer,25-year,65-74,Southern HSCT,Male,35.87084148727985
+Oesophageal Cancer,25-year,65-74,Western HSCT,Male,37.397260273972606
+Oesophageal Cancer,25-year,75+,Belfast HSCT,Male,26.927592954990214
+Oesophageal Cancer,25-year,75+,Northern HSCT,Male,40.39138943248532
+Oesophageal Cancer,25-year,75+,South Eastern HSCT,Male,40.054794520547944
+Oesophageal Cancer,25-year,75+,Southern HSCT,Male,31.6399217221135
+Oesophageal Cancer,25-year,75+,Western HSCT,Male,32.98630136986301
+Oesophageal Cancer,25-year,0-54,Belfast HSCT,Female,0.6792452830188679
+Oesophageal Cancer,25-year,0-54,Northern HSCT,Female,1.1132075471698113
+Oesophageal Cancer,25-year,0-54,South Eastern HSCT,Female,0.6981132075471698
+Oesophageal Cancer,25-year,0-54,Southern HSCT,Female,0.7358490566037735
+Oesophageal Cancer,25-year,0-54,Western HSCT,Female,0.7735849056603773
+Oesophageal Cancer,25-year,55-64,Belfast HSCT,Female,6.792452830188679
+Oesophageal Cancer,25-year,55-64,Northern HSCT,Female,11.132075471698112
+Oesophageal Cancer,25-year,55-64,South Eastern HSCT,Female,6.981132075471697
+Oesophageal Cancer,25-year,55-64,Southern HSCT,Female,7.358490566037735
+Oesophageal Cancer,25-year,55-64,Western HSCT,Female,7.735849056603772
+Oesophageal Cancer,25-year,65-74,Belfast HSCT,Female,10.528301886792454
+Oesophageal Cancer,25-year,65-74,Northern HSCT,Female,17.254716981132077
+Oesophageal Cancer,25-year,65-74,South Eastern HSCT,Female,10.820754716981133
+Oesophageal Cancer,25-year,65-74,Southern HSCT,Female,11.40566037735849
+Oesophageal Cancer,25-year,65-74,Western HSCT,Female,11.99056603773585
+Oesophageal Cancer,25-year,75+,Belfast HSCT,Female,18
+Oesophageal Cancer,25-year,75+,Northern HSCT,Female,29.500000000000004
+Oesophageal Cancer,25-year,75+,South Eastern HSCT,Female,18.5
+Oesophageal Cancer,25-year,75+,Southern HSCT,Female,19.5
+Oesophageal Cancer,25-year,75+,Western HSCT,Female,20.5
+Oral Cancer,25-year,0-54,Belfast HSCT,Male,35.472463768115944
+Oral Cancer,25-year,0-54,Northern HSCT,Male,39.00289855072464
+Oral Cancer,25-year,0-54,South Eastern HSCT,Male,33.286956521739135
+Oral Cancer,25-year,0-54,Southern HSCT,Male,34.463768115942024
+Oral Cancer,25-year,0-54,Western HSCT,Male,31.773913043478263
+Oral Cancer,25-year,55-64,Belfast HSCT,Male,64.62512077294684
+Oral Cancer,25-year,55-64,Northern HSCT,Male,71.05700483091786
+Oral Cancer,25-year,55-64,South Eastern HSCT,Male,60.643478260869564
+Oral Cancer,25-year,55-64,Southern HSCT,Male,62.78743961352656
+Oral Cancer,25-year,55-64,Western HSCT,Male,57.88695652173912
+Oral Cancer,25-year,65-74,Belfast HSCT,Male,66.66376811594202
+Oral Cancer,25-year,65-74,Northern HSCT,Male,73.29855072463768
+Oral Cancer,25-year,65-74,South Eastern HSCT,Male,62.55652173913044
+Oral Cancer,25-year,65-74,Southern HSCT,Male,64.76811594202897
+Oral Cancer,25-year,65-74,Western HSCT,Male,59.71304347826087
+Oral Cancer,25-year,75+,Belfast HSCT,Male,44.23864734299517
+Oral Cancer,25-year,75+,Northern HSCT,Male,48.64154589371981
+Oral Cancer,25-year,75+,South Eastern HSCT,Male,41.513043478260876
+Oral Cancer,25-year,75+,Southern HSCT,Male,42.98067632850241
+Oral Cancer,25-year,75+,Western HSCT,Male,39.626086956521746
+Oral Cancer,25-year,0-54,Belfast HSCT,Female,23.114093959731544
+Oral Cancer,25-year,0-54,Northern HSCT,Female,29.30536912751678
+Oral Cancer,25-year,0-54,South Eastern HSCT,Female,29.51174496644295
+Oral Cancer,25-year,0-54,Southern HSCT,Female,20.018456375838927
+Oral Cancer,25-year,0-54,Western HSCT,Female,21.050335570469798
+Oral Cancer,25-year,55-64,Belfast HSCT,Female,30.44295302013423
+Oral Cancer,25-year,55-64,Northern HSCT,Female,38.597315436241615
+Oral Cancer,25-year,55-64,South Eastern HSCT,Female,38.869127516778526
+Oral Cancer,25-year,55-64,Southern HSCT,Female,26.36577181208054
+Oral Cancer,25-year,55-64,Western HSCT,Female,27.7248322147651
+Oral Cancer,25-year,65-74,Belfast HSCT,Female,30.818791946308725
+Oral Cancer,25-year,65-74,Northern HSCT,Female,39.07382550335571
+Oral Cancer,25-year,65-74,South Eastern HSCT,Female,39.348993288590606
+Oral Cancer,25-year,65-74,Southern HSCT,Female,26.691275167785236
+Oral Cancer,25-year,65-74,Western HSCT,Female,28.06711409395973
+Oral Cancer,25-year,75+,Belfast HSCT,Female,27.624161073825505
+Oral Cancer,25-year,75+,Northern HSCT,Female,35.02348993288591
+Oral Cancer,25-year,75+,South Eastern HSCT,Female,35.27013422818792
+Oral Cancer,25-year,75+,Southern HSCT,Female,23.924496644295303
+Oral Cancer,25-year,75+,Western HSCT,Female,25.15771812080537
+Pancreatic Cancer,25-year,0-54,Belfast HSCT,Male,4.246153846153846
+Pancreatic Cancer,25-year,0-54,Northern HSCT,Male,5.897435897435897
+Pancreatic Cancer,25-year,0-54,South Eastern HSCT,Male,4.128205128205128
+Pancreatic Cancer,25-year,0-54,Southern HSCT,Male,5.0717948717948715
+Pancreatic Cancer,25-year,0-54,Western HSCT,Male,3.656410256410256
+Pancreatic Cancer,25-year,55-64,Belfast HSCT,Male,8.676923076923076
+Pancreatic Cancer,25-year,55-64,Northern HSCT,Male,12.05128205128205
+Pancreatic Cancer,25-year,55-64,South Eastern HSCT,Male,8.435897435897434
+Pancreatic Cancer,25-year,55-64,Southern HSCT,Male,10.364102564102563
+Pancreatic Cancer,25-year,55-64,Western HSCT,Male,7.471794871794871
+Pancreatic Cancer,25-year,65-74,Belfast HSCT,Male,11.815384615384616
+Pancreatic Cancer,25-year,65-74,Northern HSCT,Male,16.41025641025641
+Pancreatic Cancer,25-year,65-74,South Eastern HSCT,Male,11.487179487179489
+Pancreatic Cancer,25-year,65-74,Southern HSCT,Male,14.112820512820514
+Pancreatic Cancer,25-year,65-74,Western HSCT,Male,10.174358974358974
+Pancreatic Cancer,25-year,75+,Belfast HSCT,Male,11.261538461538462
+Pancreatic Cancer,25-year,75+,Northern HSCT,Male,15.64102564102564
+Pancreatic Cancer,25-year,75+,South Eastern HSCT,Male,10.948717948717949
+Pancreatic Cancer,25-year,75+,Southern HSCT,Male,13.451282051282051
+Pancreatic Cancer,25-year,75+,Western HSCT,Male,9.697435897435897
+Pancreatic Cancer,25-year,0-54,Belfast HSCT,Female,2.8787878787878785
+Pancreatic Cancer,25-year,0-54,Northern HSCT,Female,4.145454545454545
+Pancreatic Cancer,25-year,0-54,South Eastern HSCT,Female,5.412121212121212
+Pancreatic Cancer,25-year,0-54,Southern HSCT,Female,3.224242424242424
+Pancreatic Cancer,25-year,0-54,Western HSCT,Female,3.339393939393939
+Pancreatic Cancer,25-year,55-64,Belfast HSCT,Female,3.181818181818182
+Pancreatic Cancer,25-year,55-64,Northern HSCT,Female,4.581818181818182
+Pancreatic Cancer,25-year,55-64,South Eastern HSCT,Female,5.981818181818182
+Pancreatic Cancer,25-year,55-64,Southern HSCT,Female,3.563636363636364
+Pancreatic Cancer,25-year,55-64,Western HSCT,Female,3.6909090909090905
+Pancreatic Cancer,25-year,65-74,Belfast HSCT,Female,9.696969696969697
+Pancreatic Cancer,25-year,65-74,Northern HSCT,Female,13.963636363636363
+Pancreatic Cancer,25-year,65-74,South Eastern HSCT,Female,18.23030303030303
+Pancreatic Cancer,25-year,65-74,Southern HSCT,Female,10.860606060606061
+Pancreatic Cancer,25-year,65-74,Western HSCT,Female,11.248484848484848
+Pancreatic Cancer,25-year,75+,Belfast HSCT,Female,9.242424242424244
+Pancreatic Cancer,25-year,75+,Northern HSCT,Female,13.30909090909091
+Pancreatic Cancer,25-year,75+,South Eastern HSCT,Female,17.37575757575758
+Pancreatic Cancer,25-year,75+,Southern HSCT,Female,10.351515151515153
+Pancreatic Cancer,25-year,75+,Western HSCT,Female,10.72121212121212
+Stomach Cancer,25-year,0-54,Belfast HSCT,Male,3.438202247191011
+Stomach Cancer,25-year,0-54,Northern HSCT,Male,3.867977528089887
+Stomach Cancer,25-year,0-54,South Eastern HSCT,Male,3.103932584269663
+Stomach Cancer,25-year,0-54,Southern HSCT,Male,2.674157303370787
+Stomach Cancer,25-year,0-54,Western HSCT,Male,3.9157303370786516
+Stomach Cancer,25-year,55-64,Belfast HSCT,Male,9.707865168539326
+Stomach Cancer,25-year,55-64,Northern HSCT,Male,10.92134831460674
+Stomach Cancer,25-year,55-64,South Eastern HSCT,Male,8.764044943820224
+Stomach Cancer,25-year,55-64,Southern HSCT,Male,7.55056179775281
+Stomach Cancer,25-year,55-64,Western HSCT,Male,11.0561797752809
+Stomach Cancer,25-year,65-74,Belfast HSCT,Male,16.382022471910112
+Stomach Cancer,25-year,65-74,Northern HSCT,Male,18.429775280898873
+Stomach Cancer,25-year,65-74,South Eastern HSCT,Male,14.789325842696627
+Stomach Cancer,25-year,65-74,Southern HSCT,Male,12.741573033707867
+Stomach Cancer,25-year,65-74,Western HSCT,Male,18.657303370786515
+Stomach Cancer,25-year,75+,Belfast HSCT,Male,42.47191011235955
+Stomach Cancer,25-year,75+,Northern HSCT,Male,47.78089887640449
+Stomach Cancer,25-year,75+,South Eastern HSCT,Male,38.34269662921348
+Stomach Cancer,25-year,75+,Southern HSCT,Male,33.033707865168545
+Stomach Cancer,25-year,75+,Western HSCT,Male,48.37078651685393
+Stomach Cancer,25-year,0-54,Belfast HSCT,Female,6.470588235294118
+Stomach Cancer,25-year,0-54,Northern HSCT,Female,6.705882352941177
+Stomach Cancer,25-year,0-54,South Eastern HSCT,Female,5.529411764705882
+Stomach Cancer,25-year,0-54,Southern HSCT,Female,5.764705882352941
+Stomach Cancer,25-year,0-54,Western HSCT,Female,5.529411764705882
+Stomach Cancer,25-year,55-64,Belfast HSCT,Female,7.764705882352941
+Stomach Cancer,25-year,55-64,Northern HSCT,Female,8.047058823529412
+Stomach Cancer,25-year,55-64,South Eastern HSCT,Female,6.635294117647058
+Stomach Cancer,25-year,55-64,Southern HSCT,Female,6.91764705882353
+Stomach Cancer,25-year,55-64,Western HSCT,Female,6.635294117647058
+Stomach Cancer,25-year,65-74,Belfast HSCT,Female,11.862745098039214
+Stomach Cancer,25-year,65-74,Northern HSCT,Female,12.294117647058824
+Stomach Cancer,25-year,65-74,South Eastern HSCT,Female,10.137254901960784
+Stomach Cancer,25-year,65-74,Southern HSCT,Female,10.568627450980392
+Stomach Cancer,25-year,65-74,Western HSCT,Female,10.137254901960784
+Stomach Cancer,25-year,75+,Belfast HSCT,Female,28.901960784313726
+Stomach Cancer,25-year,75+,Northern HSCT,Female,29.95294117647059
+Stomach Cancer,25-year,75+,South Eastern HSCT,Female,24.698039215686272
+Stomach Cancer,25-year,75+,Southern HSCT,Female,25.749019607843138
+Stomach Cancer,25-year,75+,Western HSCT,Female,24.698039215686272

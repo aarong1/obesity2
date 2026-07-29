@@ -1,0 +1,60 @@
+Condition,Risk Factor,Associated Mortality,Complications,ICD-10 Range,ICD-10 code ,
+Atrial Fibrillation,,,,I48,I48: Atrial fibrillation and flutter,
+Coronary Heart Disease (CHD),,,,"I20-I25
+
+
+","I20: Angina pectoris
+",
+,,,,,I21: Acute myocardial infarction,
+,,,,,I22: Subsequent myocardial infarction,
+,,,,,I23: Complications following myocardial infarction,
+,,,,,"I24: Other acute ischemic heart diseases
+",
+,,,,,I25: Chronic ischemic heart disease,
+Heart Failure,,,,I50,I50: Heart failure (including congestive heart failure),
+Hypertension,,,,"I10-I15
+
+
+
+
+",I10: Essential (primary) hypertension,
+,,,,,I11: Hypertensive heart disease,
+,,,,,I12: Hypertensive chronic kidney disease,
+,,,,,I13: Hypertensive heart and chronic kidney disease,
+,,,,,I15: Secondary hypertension,
+Atherosclerosis,,,,"I70-I79
+
+
+
+","I70: Atherosclerosis
+",
+,,,,,I71: Aortic aneurysm and dissection,
+,,,,,I72: Other aneurysm,
+,,,,,I73: Other peripheral vascular diseases,
+,,,,,I74: Arterial embolism and thrombosis,
+Diabetes,,,,"E10-E14
+","E10: Type 1 diabetes mellitus
+",
+,,,,,"E11: Type 2 diabetes mellitus
+",
+,,,,,E13: Other specified diabetes mellitus,
+,,,,,E14: Unspecified diabetes mellitus,
+Stroke,,,,"I60-I69
+",I60: Subarachnoid hemorrhage,
+,,,,,"I61: Intracerebral hemorrhage
+",
+,,,,,"I62: Other nontraumatic intracranial hemorrhage
+",
+,,,,,"I63: Cerebral infarction
+",
+,,,,,"I64: Stroke, not specified as hemorrhage or infarction
+",
+,,,,,"I65: Occlusion and stenosis of precerebral arteries
+",
+,,,,,I66: Occlusion and stenosis of cerebral arteries,
+Venous Thromboembolism,,,,"I80-I82
+","I80: Phlebitis and thrombophlebitis
+",
+,,,,,"I81: Portal vein thrombosis
+",
+,,,,,I82: Other venous embolism and thrombosis,

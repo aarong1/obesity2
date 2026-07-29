@@ -1,0 +1,22 @@
+Pathology,study,paper,statistical model,risk duration(years),calculator,recommending body,used,Validity,implementation resources,Comments
+Atrial Fibrillation,Framingham Heart Study,https://pubmed.ncbi.nlm.nih.gov/19249635/,cox-ph,10,https://www.framinghamheartstudy.org/fhs-risk-functions/atrial-fibrillation-10-year-risk/,,1,"first AF only, 45yo - 90yo",,
+Coronary Heart Disease,Framingham Heart Study,https://www.nhlbi.nih.gov/sites/default/files/media/docs/risk-assessment.pdf table 4a/4b  https://pubmed.ncbi.nlm.nih.gov/9603539/,cox-ph,10,https://www.mdcalc.com/calc/38/framingham-risk-score-hard-coronary-heart-disease#when-to-use,,1,"Individuals free of CHD, intermittent claudication and diabetes, 30-79 years of age
+",,long term risk functions do better than picking up long term risk. HDL / Total_cholesterol gives the better predictive power than LDL HDL or tot_chol.
+Congestive Heart Failure,Framingham Heart Study,https://pubmed.ncbi.nlm.nih.gov/10371227/,pooled logistic regression (includes some time dependence ?),4,https://www.framinghamheartstudy.org/fhs-risk-functions/congestive-heart-failure/,,1,"Individuals 45 to 94 years old with coronary disease, hypertension or valvular disease
+",,
+Hypertension,Framingham Heart Study,https://pubmed.ncbi.nlm.nih.gov/18195335/,Weibull regression model,"1,2,4",https://www.framinghamheartstudy.org/fhs-risk-functions/hypertension/,,1,Non-hypertensive white individuals 20 to 69 years of age without diabetes at baseline,,"Incidence of hypertension (systolic blood pressure above 140 mmHg, diastolic blood pressure above 90 mmHg or antihypertensive treatment)"
+Intermittent Claudication,Framingham Heart Study,https://pubmed.ncbi.nlm.nih.gov/9236415/,logistic regression,4,https://www.framinghamheartstudy.org/fhs-risk-functions/intermittent-claudication/,,0,free of Intermittent Claudification,,
+Fatty Liver Disease (hepatic steatosis),Framingham Heart Study,https://pubmed.ncbi.nlm.nih.gov/29377504/,,,https://www.framinghamheartstudy.org/fhs-risk-functions/fatty-liver-disease/,,0,"Free of Fatty Liver Disease at baseline. This score is not applicable to patients with heavy alcohol use (>7 drinks per week for women or > 14 drinks per week for men), weight ≥ 160 kg, or age ≤ 40 years for women or age ≤ 35 for men. Triglycerides were measured fasting.
+",,"Incident fatty liver (on computed tomography scan)
+A risk factor - or preceding diagnosis of cirrhosis and possibly liver cancer"
+Diabetes,Qresearch2013,https://www.bmj.com/content/338/bmj.b880.full,cox-ph,10,none,,1,Only valid if you do not have type1 or ty2 diabetes,https://cran.r-project.org/web/packages/QDiabetes/QDiabetes.pdf,"2013 model and three versions of the 2018 model - A, B and C."
+Stroke,Qresearch,https://www.bmj.com/content/346/bmj.f2573,cox-ph,1-16,https://qstroke.org/index.php,National Institute for Health and Care Excellence (NICE),1,Predicts first time stroke or first time Transient ischaemic Attack ,,
+Venous Thromboembolism,Qresearch,https://www.bmj.com/content/343/bmj.d4656,cox-ph,1-5,https://qthrombosis.org,,1,"not suitable if history of venous thrombosis, a family history of thrombosis, are pregnant, are taking anticoagulants, or have symptoms suggestive of a thrombosis.",,
+Diabetes,Qresearch2018,https://www.bmj.com/content/359/bmj.j5019,cox-ph,,https://qdiabetes.org/index.php,,0,Only valid if you do not have type1 or ty2 diabetes,https://cran.r-project.org/web/packages/QDiabetes/QDiabetes.pdf,"2013 model and three versions of the 2018 model - A, B and C."
+Diabetes (amputation and blindness),Qresearch2018,,,,,,,,,
+Diabetes,Framingham Heart Study,,,,,,0,,,
+Stroke,Framingham Heart Study,,,,,,0,,,
+Stroke,CHADS2,,,,,,0,For patients with Atrial Fibrillation only,,
+Stroke +Coronary Heart Disease,Qresearch,,,,,,0,,,
+Atherosclerosis,Pooled Cohort equations,https://www.ahajournals.org/doi/10.1161/01.cir.0000437741.48606.98,,,https://www.mdcalc.com/calc/3398/ascvd-atherosclerotic-cardiovascular-disease-2013-risk-calculator-aha-acc#evidence,American Heart Association (AHA)/American College of Cardiology (ACA) Task Force,0,,https://cran.r-project.org/web/packages/PooledCohort/PooledCohort.pdf r package,
+Heart Failure,Pooled Cohort equations,https://pmc.ncbi.nlm.nih.gov/articles/PMC7183589/#glossary1,cox-ph,,spreadsheet,,,,,

@@ -1,0 +1,16 @@
+Condition,Estimated Total NHS Cost per Year,Estimated Mean Cost per Patient per Year,Notes
+Atrial fibrillation (AF),£1.4–2.5 billion,"£1,000–£1,800","Includes anticoagulation, monitoring, cardiology care, stroke prevention"
+Rheumatoid arthritis,£560 million,"£2,500–£6,000",High variation depending on biologic drug use
+Osteoarthritis,£8–10 billion,"£900–£1,400","Includes GP, physio, analgesia, imaging and surgery amortised"
+Epilepsy,£0.5–1 billion,"£1,200–£2,200",Higher cost in uncontrolled seizures
+Osteoporosis,£2–4 billion,"£1,200–£2,500",Most cost due to fractures and recovery
+Renal cancer,£0.3–0.6 billion,"£6,000–£12,000",Includes surgery and oncology
+Oesophageal cancer,£0.2–0.4 billion,"£10,000–£18,000",High‑intensity treatment costs
+Stomach cancer,£0.2–0.4 billion,"£8,000–£14,000",Includes surgical and oncology pathways
+Oral cancer,£0.15–0.35 billion,"£6,000–£10,000",ENT oncology and surgical care
+Pancreatic cancer,£0.3–0.6 billion,"£10,000–£20,000",High intensity but short duration
+Uterine cancer,£0.2–0.5 billion,"£5,000–£9,000",Includes surgery and oncology
+Ovarian cancer,£0.3–0.6 billion,"£8,000–£15,000",High recurrence and intensive care
+Multiple myeloma,£0.3–0.5 billion,"£12,000–£25,000",Very high drug and monitoring costs
+Lymphoma,£0.4–0.7 billion,"£8,000–£16,000",Varies by subtype
+Leukaemia,£0.5–0.9 billion,"£12,000–£30,000",Includes chemotherapy and transplant costs
