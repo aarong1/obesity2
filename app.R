@@ -14,7 +14,7 @@ library(tidyverse)
 library(sf)
 
 
-print(system('ls .'))
+print(system('ls ~'))
 print(resourcePaths())
 
 dot <- function(col){
