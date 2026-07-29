@@ -58,7 +58,7 @@ bed_days_estimator <- function( past_populations,stats2223_agg) {
 #     e_line(bed_days)
 }
 
-if(!interactive()){
+if(interactive()){
   print('yes')
 # unit_test <- function(){
 bed_days_estimator(total_pop,stats2223_agg ) |> 
