@@ -13,6 +13,8 @@ library(readxl)
 library(tidyverse)
 library(sf)
 
+
+print(system('ls'))
 dot <- function(col){
   div(style=paste0('display:inline-block;background:',col,';border-radius:50%;height:10px;width:10px;'),'')
 }
