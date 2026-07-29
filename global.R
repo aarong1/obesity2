@@ -197,9 +197,9 @@ pop <- pop %>%
 # load( file = "data/csv_pts_wgs84.RData") #csv_pts_wgs84
 print(paste('running','pages_prep.R'));source('pages_prep.R')
 print(paste('running','bed_days_estimate.R'));source("bed_days_estimate.R")
+print(paste('running','risk_stratification.R'));source('risk_stratification.R')
 print(paste('running','obesity_causes.R'));source('obesity_causes.R')
 print(paste('running','comorbidity.R'));source('comorbidity.R')
-print(paste('running','risk_stratification.R'));source('risk_stratification.R')
 print(paste('running','deprivation.R'));source('deprivation.R')
 # print(paste('running','tables.R')); source('tables.R')
 # print(paste('running','sick_days_estimate.R'));source("sick_days_estimate.R")

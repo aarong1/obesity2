@@ -15,9 +15,9 @@ library(sf)
 
 
 # print(system('ls ~'))
-print(system('ls /opt/R/4.5.1/lib/R/library/lib'))
+print(system('ls /opt/R/4.5.1/lib/R/library/'))
 print('#######')
-print(system('ls /opt/R/4.5.1/lib/R/lib'))
+print(system('ls /opt/R/4.5.1/lib/R/'))
 # print(system('ls ..'))
 
       
