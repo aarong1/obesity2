@@ -208,7 +208,7 @@ print(paste('running','obesity_prevalence_tables.R'));source('obesity_prevalence
 print(paste('running','app_prep.R'));source('app_prep.R')
 # print(paste('running','pages_prep_geo.R'));source('pages_prep_geo.R')
 print(paste('running','inequality_charts.R'));source('inequality_charts.R')
-print(paste('running','PAF.R'));source('PAF.R')
+# print(paste('running','PAF.R'));source('PAF.R')
 print(paste('running','obesigenic.R'));source('obesigenic.R')
 print(paste('running','INT.R'));source('INT.R')
 print(paste('running','pie_chart.R'));source('pie_chart.R')
