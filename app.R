@@ -15,6 +15,8 @@ library(sf)
 
 
 print(system('ls .'))
+print(resourcePaths())
+
 dot <- function(col){
   div(style=paste0('display:inline-block;background:',col,';border-radius:50%;height:10px;width:10px;'),'')
 }
