@@ -20,7 +20,7 @@ print('#######')
 print(system('ls /opt/R/4.5.1/lib/'))
 # print(system('ls ..'))
 
-      
+
 print(resourcePaths())
 
 dot <- function(col){
