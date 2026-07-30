@@ -85,7 +85,9 @@ dat <- reduced_pop |>
       
       
       
-    save(list = c('metric_cards_parks1',
+    save(list = c('parks',
+                  'fast_food',
+                  'metric_cards_parks1',
                   'metric_cards_parks',
                   'metric_cards_fast_food'),
          file = './preprocess/obesity_causes.RData')
