@@ -71,7 +71,7 @@ source('./components/sticky_side_bar.R')
 
 
 lapply(ls(),function(x){
-  y <<- x
+  # y <<- x
   obj <- get(x)
   if('echarts4r'%in%class(obj)){
     # print(T)
@@ -88,6 +88,8 @@ lapply(ls(),function(x){
     }
   }
 })
+print(system.file("htmlwidgets/lib/echarts-6.0.0/themes", package = "echarts4r"))
+print(bmi_sya_age$dependencies)
 
 graph_wrapper <- function(..., header =NULL){
   
