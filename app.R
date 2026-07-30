@@ -71,7 +71,7 @@ source('./components/sticky_side_bar.R')
 
 print(ls())
 
-lapply(ls(global_env())[1:200],function(x){
+lapply(ls(global_env()),function(x){
   y <<- x
   obj <- get(x)
   if('echarts4r'%in%class(obj)){
