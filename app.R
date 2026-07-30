@@ -72,20 +72,20 @@ source('./components/sticky_side_bar.R')
 print(ls())
 
 lapply(ls(global_env()),function(x){
-  # y <<- x
+  y <<- x
   obj <- get(x)
   if('echarts4r'%in%class(obj)){
     # print(T)
     
     if(!is.null(obj$x$theme) & obj$x$theme != ''){
-      print(T)
-      print(x)
+      print(obj$x$theme)
+      # print(x)
       # print(obj$x$theme)
-      obj$dependencies[[1]]$src$file <- htmltools::htmlDependency(name = obj$x$theme, version = "1.0.0", 
-                                                                  src = system.file("htmlwidgets/lib/echarts-6.0.0/themes", package = "echarts4r"),
-                                                                  script = paste0(obj$x$theme, ".js")
-                                                                  # x=obj
-      )
+      obj$dependencies[[1]]$src$file <- system.file("htmlwidgets/lib/echarts-6.0.0/themes", package = "echarts4r")#htmltools::htmlDependency(name = obj$x$theme, version = "1.0.0", 
+                                         #                         src = system.file("htmlwidgets/lib/echarts-6.0.0/themes", package = "echarts4r"),
+                                          #                        script = paste0(obj$x$theme, ".js")
+      # )
+                                                                  x=obj
     }
   }
 })
@@ -117,27 +117,6 @@ ui <- page_fluid( id = 'main-content',
                   #e_theme_register(paste0(theme_x,collapse =""), name = "myTheme"),
                   
                   # Include external dependencies
-                  
-                  div(
-                    lapply(ls(),function(x){
-                      # y <<- x
-                      obj <- get(x)
-                      if('echarts4r'%in%class(obj)){
-                        # print(T)
-
-                        if(!is.null(obj$x$theme) & obj$x$theme != ''){
-                          print(T)
-                          print(x)
-                          # print(obj$x$theme)
-                          obj$dependencies[[1]]$src$file <- htmltools::htmlDependency(name = obj$x$theme, version = "1.0.0",
-                                                                                      src = system.file("htmlwidgets/lib/echarts-6.0.0/themes", package = "echarts4r"),
-                                                                                      script = paste0(obj$x$theme, ".js")
-                                                                                      # x=obj
-                          )
-                        }
-                      }
-                    })
-                  ),
                   
                   startup_overlay_div(5000,7000),
                   # slide_panel_ui('main1'),
