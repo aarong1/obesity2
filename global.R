@@ -193,7 +193,6 @@ pop <- pop %>%
   mutate(corisk_modifiable = corisk_modifiable)
 
 
-
 # load( file = "data/csv_pts_wgs84.RData") #csv_pts_wgs84
 # print(paste('running','pages_prep.R'));source('pages_prep.R')
 # print(paste('running','bed_days_estimate.R'));source("bed_days_estimate.R")
