@@ -95,7 +95,9 @@ lapply(ls(global_env()),function(x){
                                                                   # x<<-obj
                                                                   print (obj)
                                                                   assign(x, obj,envir = global_env())
-    }
+    }}
+    if(!is.null(obj$dependencies[[1]])){
+      print(x)
   }
 })
 
@@ -908,8 +910,8 @@ ui <- page_fluid( id = 'main-content',
                                       div(class = 'mx-5 px-5',
                                           
                                           formatted_table
-                                      )
                                       
+                                      )
                                       )
                                       
                                       # div(class = "rounded-5 bg-light d-flex flex-row gap-3 m-5 flex-wrap justify-content-centre",
