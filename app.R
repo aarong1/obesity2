@@ -4006,47 +4006,47 @@ server <- function(input, output, session) {
   
 #End specify intervention ----
 
-#   start commented out production data ----
-#   output$geo_sunburst <- renderEcharts4r({geo_sunburst})
-#   output$geo_treemap <- renderEcharts4r({geo_treemap })
-# 
-#   # observe({
-# # 
-#   # print(input$geo_sunburst_clicked_data)
-#   # print(input$geo_sunburst_clicked_data_value)
-#   # print(input$geo_sunburst_clicked_row)
-#   # print(input$geo_sunburst_clicked_serie)
-#   #
-#   # print(input$geo_treemap_clicked_data)
-#   # print(input$geo_treemap_clicked_data_value)
-#   # print(input$geo_treemap_clicked_row)
-#   # print(input$geo_treemap_clicked_serie)
-# 
-#   # })
-# 
-# 
-  # Reactive data source for pivot module
-  # population_data <- reactive({
-  #   # df <- read.csv("./populations/test_population.csv", stringsAsFactors = FALSE)
-  #   df <- read.fst('./populations/k20_population.fst')
-  # 
-  #   # Convert logical health conditions to factors for better pivoting
-  #   health_cols <- c("stroke", "chd", "diabetes", "dementia", "heart_failure",
-  #                    "atrial_fibrillation", "hypertension", "chronic_kidney_disease")
-  #   df[health_cols] <- lapply(df[health_cols], function(x) factor(ifelse(x, "Yes", "No")))
-  # 
-  #   # Ensure proper factor ordering for age groups
-  #   if("age_risk" %in% names(df)) {
-  #     df$age_risk <- factor(df$age_risk, levels = c("0-15", "16-34", "35-44", "45-54", "55-64", "65-74", "75-110"))
-  #   }
-  # 
-  #   # Convert BMI to factor with proper ordering
-  #   if("bmi" %in% names(df)) {
-  #     df$bmi <- factor(df$bmi, levels = c("normal", "overweight", "obese"))
-  #   }
-  # 
-  #   return(df)
+#start commented out production data ----
+  output$geo_sunburst <- renderEcharts4r({geo_sunburst})
+  output$geo_treemap <- renderEcharts4r({geo_treemap })
+
+  # observe({
+#
+  # print(input$geo_sunburst_clicked_data)
+  # print(input$geo_sunburst_clicked_data_value)
+  # print(input$geo_sunburst_clicked_row)
+  # print(input$geo_sunburst_clicked_serie)
+  #
+  # print(input$geo_treemap_clicked_data)
+  # print(input$geo_treemap_clicked_data_value)
+  # print(input$geo_treemap_clicked_row)
+  # print(input$geo_treemap_clicked_serie)
+
   # })
+
+
+#Reactive data source for pivot module
+population_data <- reactive({
+  # df <- read.csv("./populations/test_population.csv", stringsAsFactors = FALSE)
+  df <- read.fst('./populations/k20_population.fst')
+
+  # Convert logical health conditions to factors for better pivoting
+  health_cols <- c("stroke", "chd", "diabetes", "dementia", "heart_failure",
+                   "atrial_fibrillation", "hypertension", "chronic_kidney_disease")
+  df[health_cols] <- lapply(df[health_cols], function(x) factor(ifelse(x, "Yes", "No")))
+
+  # Ensure proper factor ordering for age groups
+  if("age_risk" %in% names(df)) {
+    df$age_risk <- factor(df$age_risk, levels = c("0-15", "16-34", "35-44", "45-54", "55-64", "65-74", "75-110"))
+  }
+
+  # Convert BMI to factor with proper ordering
+  if("bmi" %in% names(df)) {
+    df$bmi <- factor(df$bmi, levels = c("normal", "overweight", "obese"))
+  }
+
+  return(df)
+})
   
   
   population_data <- reactive({
@@ -4070,542 +4070,542 @@ server <- function(input, output, session) {
   # Pivot module server ----
   pivot_result <- pivot_module_server("pivot_reports", data = population_data)
 
-#   output$mymap <- renderLeaflet({
-#     leaflet(#width='99%',height='99%',
-#       options = leafletOptions(zoomControl = FALSE)
-#     ) %>%
-#       htmlwidgets::onRender("function(el, x) {
-#         //L.control.zoom({ position: 'bottomright' }).addTo(this);
-#         var map = this;
-#         setTimeout(function() { map.invalidateSize(); }, 100);
-#       }") %>%
-#       addTiles() %>%
-#       setView(lng = -5.9576, lat = 54.904, zoom = 8) %>%
-#       # addMarkers(lng = -0.1276, lat = 51.5074, popup = "London") %>%
-# 
-#       addCircles(data = parks,
-#                  weight = 15,
-#                  # radius = 150,
-#                  fillOpacity = 1,
-#                  fillColor  = 'mediumseagreen',
-#                  fill = F,
-#                  opacity=0.5,
-#                  color = 'mediumseagreen',
-#                  stroke = T,
-#                  label = ~name#,
-#                  #popup = ~as.character(name)
-#       ) %>%
-#       addCircles(data = fast_food,
-#                  weight = 15,
-#                  fillOpacity = 1,
-#                  fillColor  = 'steelblue',
-#                  fill = F,
-#                  opacity=0.5,
-#                  color = 'steelblue',
-#                  stroke = T,
-#                  label = ~name
-#       ) %>%
-#       addLegend(position = 'topright',
-#                 colors = c('mediumseagreen','steelblue'),
-#                 labels = c('Parks','Fast Food Outlets'),
-#                 opacity = 1
-#       ) %>%
-#       addPolygons(data = st_as_sfc(
-#         st_bbox(c(
-#           xmin = -1.796265 + 0.2,
-#           ymin = 53.40626 + 0.2,
-#           xmax = -10.1239 - 0.2,
-#           ymax = 56.34699 - 0.2
-#         ), crs = st_crs(4326))
-#       ),
-#       color = 'black',
-#       weight = 2,
-#       fill = F,
-#       group = 'bbox')
-#     # addPolygons(data = isolate(bb()),
-#     #             color = 'black',
-#     #             weight = 2,
-#     #             fill = F)
-# 
-#   })
-# 
-#   observe({
-#     print(input$switch)
-#     default_val(input$switch)
-#   })
-# 
-#   trig= reactiveVal({FALSE})
-# 
-#   observe({
-#     x <- isolate(trig())
-#     debounced_bounds()
-#     if(default_val()==F){
-#       trig(!x)
-#     }
-#   })
-# 
-#   observeEvent(ignoreInit = T, ignoreNULL = T, trig(),{ #debounced_bounds()
-#     req(default_val()==F)
-#     leafletProxy('mymap')  %>%
-#       clearGroup('bbox') %>%
-#       addPolygons(data = isolate(bb()),
-#                   color = 'black',
-#                   weight = 2,
-#                   fill = F,group = 'bbox')#%>%
-#     # flyTo(lng = -6.1576, lat = 54.704, zoom = 7)
-#     # setView(lng = -5.9576, lat = 54.904, zoom = 8) %>% %>%
-#     # clearShapes() %>
-# 
-# 
-#   })
-# 
-#   map_filtered_chart <- reactiveVal(pop)
-# 
-#   debounced_bounds <- reactive({
-#     req(bb()!= list(ymax = 57.0706,
-#                     xmax =  0.2636719,
-#                     ymin = 52.19414,
-#                     xmin = -12.56836))
-# 
-#     input$mymap_bounds
-#   }) %>%
-#     debounce(3000)   # 4000 milliseconds = 4 seconds
-# 
-#   bb <- reactiveVal({
-#     st_as_sfc(
-#       st_bbox(c(
-#         xmin = -1.796265 + 0.2,
-#         ymin = 53.40626 + 0.2,
-#         xmax = -10.1239 - 0.2,
-#         ymax = 56.34699 - 0.2
-#       ), crs = st_crs(4326))
-#     )
-#   })
-# 
-#   default_val <- reactiveVal({FALSE})
-#   # 2. Replace input$mymap_bounds with debounced_bounds() in your observeEvent
-# 
-#   observeEvent(debounced_bounds() , { #debounced_bounds()
-#     req(debounced_bounds())
-#     req(default_val()==F)
-#     req(input$mymap_bounds$south != input$mymap_bounds$north)
-#     
-#     # print(bb())
-#     req(bb()!=   st_as_sfc(
-#       st_bbox(c(ymax = 57.0706,
-#                 xmax =  0.2636719,
-#                 ymin = 52.19414,
-#                 xmin = -12.56836))))
-# 
-# 
-# 
-#     # print('printing bounds')
-#     # print(input$mymap_bounds)
-# 
-#     ytol = abs(input$mymap_bounds$south - input$mymap_bounds$north)/10
-#     xtol = abs(input$mymap_bounds$west - input$mymap_bounds$east)/10
-# 
-# 
-#     bbox_poly <- st_as_sfc(
-#       st_bbox(c(
-#         xmin = input$mymap_bounds$west + xtol,
-#         ymin = input$mymap_bounds$south + ytol,
-#         xmax = input$mymap_bounds$east - xtol,
-#         ymax = input$mymap_bounds$north - ytol
-#       ), crs = st_crs(4326))
-#     )
-# 
-#     bb(bbox_poly)
-#     # print(bbox_poly)
-# 
-#     # req(input$mymap_bounds$west != input$mymap_bounds$west)
-#     # req(input$mymap_bounds$north != input$mymap_bounds$south)
-# 
-#     print(bbox_poly)
-#     print(bbox_poly$geometry)
-#     inside_mat <- st_within(csv_pts_wgs84, bbox_poly, sparse = FALSE)
-#     #st_within(csv_pts_wgs84, x, sparse = FALSE)
-# 
-#     csv_pts_wgs84 <- csv_pts_wgs84 %>%
-#       mutate(in_bbox = as.logical(inside_mat[, 1]))
-# 
-#     dz_in_bbox <- csv_pts_wgs84 %>%
-#       filter(in_bbox)
-# 
-#     # dz_in_bbox$DZ2021_code
-#     # dz_in_bbox$DZ2021_name
-# 
-#     # print(head(pop))
-#     # print(head(dz_in_bbox$DZ2021_code))
-#     # print(head(map_filtered_chart()))
-# 
-#     # map_filtered_chart(pop %>%
-#     #                      filter(dz_id %in% dz_in_bbox$DZ2021_code ))
-# 
-#     # print(dz_in_bbox)
-#     # print(pop$sdz_code)
-#     # print(dz_in_bbox$DZ2021_code)
-# 
-#     map_filtered_chart(pop %>%
-#                          filter(sdz_code %in% dz_in_bbox$SDZ2021_code ))
-# 
-#     # print('##############')
-#     # print(head(map_filtered_chart()))
-#     # print('##############')
-#   })
-# 
-#   output$group_echarts <- renderEcharts4r({
-#     map_filtered_chart() %>%
-#       group_by(Urban_status) %>%
-#       summarise(count = n() ) %>%
-#       e_charts(Urban_status) %>%
-#       echarts4r::e_tooltip(trigger = "axis",confine = T) %>%
-#       e_bar(count) %>%
-#       e_title("Population by Urban Status") %>%
-#       e_theme('walden') %>%
-#       e_grid(containLabel = TRUE)
-#   })
-# 
-#   output$excedance_bmi <- renderEcharts4r({
-# 
-#     # bmi_counts(); validate(need(nrow(dat) > 0, "BMI not available."))
-# 
-#     expect <- pop %>%
-#       count(bmi,name = 'bmi_count') %>%
-#       add_count(wt = bmi_count, name = 'total_count') %>%
-#       mutate( expect = bmi_count/total_count )
-# 
-#     dat <-count(map_filtered_chart(),bmi, name = 'filter') %>%
-#       add_count(wt = filter,name = 'filtered_count') %>%
-#       mutate( actual = filter/filtered_count )
-# 
-#     expect <- left_join(expect, dat) %>%
-#       mutate(exceed = actual - expect) %>%
-#       mutate(isPos = (exceed>0)) %>%
-#       filter(!is.na(bmi)) %>%
-#       filter(bmi!='normal')
-# 
-#     # print(expect)
-#     expect %>%
-#       # group_by(isPos) %>%
-#       echarts4r::e_charts(bmi,textStyle = list( fontSize=9)) %>%
-#       echarts4r::e_bar(exceed) %>%
-#       e_visual_map(type = 'piecewise', orient = 'horizontal',
-#                    pieces = list(
-#                      list(gt= 0,
-#                           # lte= 50,
-#                           color= '#ffcdd2'),
-#                      list(lte= 0,
-#                           # lte= 50,
-#                           color= '#bbdefb'))
-#       ) %>%
-#       # )) %>%
-#       # e_color((c("#ffcdd2",
-#       #            "#bbdefb"
-#       #            ))) %>%
-#       e_x_axis(show = FALSE) %>%
-#       # e_y_axis(show = FALSE) %>%
-#       #echarts4r::e_title("BMI distribution (filtered)") %>%
-#       echarts4r::e_tooltip(trigger = "axis",confine =T) %>%
-#       e_theme('walden') %>%
-#       echarts4r::e_title( text = "BMI Excedance", subtext = "Where values of BMI exceed expected") %>%
-#       e_legend(show=F) %>%
-#       e_y_axis(formatter = e_axis_formatter("percent", digits = 0)) %>%
-#       # e_color(c('#2AFEB7','yellow')) %>%
-#       #echarts4r::e_x_axis(name = "BMI band") %>%
-#       # echarts4r::e_y_axis(name = "People") %>%
-#       e_grid(containLabel = TRUE) # top = 40, right = 20, bottom = 40, left = 50)
-#   })
-# 
-#   # exceedence_age
-#   output$excedance_age <- renderEcharts4r({
-# 
-#     ## bmi_counts(); validate(need(nrow(dat) > 0, "BMI not available."))
-# 
-#     expect <- pop %>%
-#       count(age10,bmi, name = 'bmi_count') %>%
-#       add_count(age10, wt = bmi_count, name = 'total_count') %>%
-#       mutate( expect = bmi_count/total_count )
-# 
-#     dat <-count(map_filtered_chart(), bmi, age10, name = 'filter') %>%
-#       add_count(age10,wt = filter,name = 'filtered_count') %>%
-#       mutate( actual = filter/filtered_count )
-# 
-#     expect <- left_join(expect, dat) %>%
-#       mutate(exceed = actual - expect) %>%
-#       mutate(isPos = (exceed>0)) %>%
-#       filter(!is.na(bmi)) %>%
-#       filter(bmi!='normal')
-# 
-#     # print(expect)
-#     expect %>%
-#       group_by(age10) %>%
-#       echarts4r::e_charts(bmi,textStyle = list( fontSize=9)) %>%
-#       echarts4r::e_bar(exceed) %>%
-#       e_visual_map(type = 'piecewise',orient = 'horizontal',
-#                    pieces = list(
-#                      list(gt= 0,
-#                           # lte= 50,
-#                           color= '#ffcdd2'),
-#                      list(lte= 0,
-#                           # lte= 50,
-#                           color= '#bbdefb'))
-#       ) %>%
-#       # )) %>%
-#       # e_color((c("#ffcdd2",
-#       #            "#bbdefb"
-#       #            ))) %>%
-#       e_x_axis(show = FALSE) %>%
-#       # e_y_axis(show = FALSE) %>%
-#       #echarts4r::e_title("BMI distribution (filtered)") %>%
-#       echarts4r::e_tooltip(trigger = "axis",confine =T) %>%
-#       e_theme('walden') %>%
-#       echarts4r::e_title( text = "BMI Age Excedance", subtext = "Where values of BMI exceed expected") %>%
-#       e_legend(show=F) %>%
-#       e_y_axis(formatter = e_axis_formatter("percent", digits = 0)) %>%       # e_color(c('#2AFEB7','yellow')) %>%
-# 
-#       #echarts4r::e_x_axis(name = "BMI band") %>%
-#       # echarts4r::e_y_axis(name = "People") %>%
-#       e_grid(containLabel = TRUE) # top = 40, right = 20, bottom = 40, left = 50)
-#   })
-# 
-#   output$excedance_bmi_deprivation <- renderEcharts4r({
-#     ## bmi_counts(); validate(need(nrow(dat) > 0, "BMI not available."))
-# 
-#     expect <- pop %>%
-#       count(bmi,mdm_quintile_soa_name, name = 'bmi_count') %>%
-#       add_count(mdm_quintile_soa_name, wt = bmi_count, name = 'total_count') %>%
-#       mutate( expect = bmi_count/total_count )
-# 
-#     dat <-count(map_filtered_chart(),bmi, mdm_quintile_soa_name, name = 'filter') %>%
-#       add_count(mdm_quintile_soa_name, wt = filter,name = 'filtered_count') %>%
-#       mutate( actual = filter/filtered_count )
-# 
-#     expect <- left_join(expect, dat) %>%
-#       mutate(exceed = actual - expect) %>%
-#       mutate(isPos = (exceed>0)) %>%
-#       filter(!is.na(bmi))
-# 
-#     # print(expect)
-#     expect %>%
-#       group_by(mdm_quintile_soa_name) %>%
-#       echarts4r::e_charts(bmi,textStyle = list( fontSize=9)) %>%
-#       echarts4r::e_bar(exceed) %>%
-#       echarts4r::e_title( text = "BMI Deprivation Exceedance", subtext = "Where values of BMI exceed expected") %>%
-#       e_visual_map(type = 'piecewise',orient = 'horizontal',
-#                    pieces = list(
-#                      list(gt= 0,
-#                           # lte= 50,
-#                           color= 'rgb(0,200,0)'# '#ffcdd2'
-#                           ),
-#                      list(lte= 0,
-#                           # lte= 50,
-#                           color= 'steelblue'
-#                           ))
-#       ) %>%
-#       e_x_axis(show = FALSE) %>%
-#       e_theme('walden') %>%
-#       e_y_axis(formatter = e_axis_formatter("percent", digits = 0)) %>%
-#       # e_y_axis(show = FALSE) %>%
-#       echarts4r::e_tooltip(trigger = "axis",confine =T) %>%
-#       e_legend(show=F) %>%
-#       e_grid(containLabel = TRUE)
-#   })
-# 
-# 
-#   # --- charts ---------------------------------------------------------------
-#   output$bmi_chart <- renderEcharts4r({
-#     dat <- count(map_filtered_chart(),bmi) %>% ## bmi_counts(); validate(need(nrow(dat) > 0, "BMI not available."))
-#       mutate(n = n * pop_scale_up)
-#     
-#     dat %>%
-#       echarts4r::e_charts(bmi,height = 190, width='200',textStyle = list( fontSize=9)) %>%
-#       echarts4r::e_bar(n, name = "Count") %>%
-#       #echarts4r::e_title("BMI distribution (filtered)") %>%
-#       echarts4r::e_tooltip(trigger = "axis",confine =T) %>%
-#       e_legend(show=F) %>%
-#       # e_color(c('#2AFEB7','yellow')) %>%
-#       #echarts4r::e_x_axis(name = "BMI band") %>%
-#       echarts4r::e_y_axis(name = "People") %>%
-#       e_theme('walden') %>%
-#       e_grid(containLabel = TRUE) # top = 40, right = 20, bottom = 40, left = 50)
-#   })
-# 
-#   output$age_chart <- renderEcharts4r({
-#     dat <- count(map_filtered_chart(),age20) %>% ##age_counts(); validate(need(nrow(dat) > 0, "Age not available."))
-#       mutate(n = n * pop_scale_up)
-#     
-#     dat %>%
-#       echarts4r::e_charts(age20,height = 190, width='200') %>%
-#       echarts4r::e_bar(n, name = "Count") %>%
-#       #echarts4r::e_title("Age bands (filtered)") %>%
-#       echarts4r::e_tooltip(trigger = "axis",confine =T) %>%
-#       e_legend(show=F) %>%
-#       #echarts4r::e_x_axis(name = "Age band") %>%
-#       echarts4r::e_y_axis(name = "People") %>%
-#       e_legend(show=F) %>%
-#       e_theme('walden') %>%
-#       #e_color(c('#2AFEB7','yellow')) %>%
-#       e_grid(containLabel = TRUE)
-#   })
-# 
-#   output$sex_chart <- renderEcharts4r({
-# 
-#     dat <- count(map_filtered_chart(),sex) %>% #sex_counts(); validate(need(nrow(dat) > 0, "Sex not available."))
-#       mutate(n = n * pop_scale_up)
-#     
-#     dat %>%
-#       # group_by(sex) %>%
-#       echarts4r::e_charts(sex,height = 190,width='200') %>%
-#       echarts4r::e_bar(n) %>%
-#       e_legend(show=F) %>%
-#       #echarts4r::e_title("Sex split (filtered)", textStyle = list( fontSize=9)) %>%
-#       echarts4r::e_tooltip(formatter = "{b}: {c} ({d}%)",confine = T) %>%
-#       #e_color(c('#2AFEB7','yellow')) %>%
-#       echarts4r::e_grid(containLabel = TRUE) %>%
-#       e_text_style(
-#         #color = "white",
-#         #fontStyle = "italic"
-#         textStyle = list(fontSize = 9)
-#         ) %>%
-#       e_theme('walden')
-#   })
-# 
-#   output$depriv_chart <- renderEcharts4r({
-#     dat <- count(map_filtered_chart(), mdm_quintile_soa_name) %>% #depriv_counts(); validate(need(nrow(dat) > 0, "Deprivation not available."))
-#       mutate(n = n * pop_scale_up)
-#     
-#     # Pick the x column dynamically
-#     # xcol <- if ("mdm_quintile_soa_name" %in% names(dat)) "mdm_quintile_soa_name" else "mdm_quintile_soa"
-# 
-#     dat %>%
-#       mutate(mdm_quintile_soa_name = factor(mdm_quintile_soa_name,
-#                                             levels = c("Most Deprived","Quintile 2","Quintile 3","Quintile 4","Least Deprived"))) %>%
-#       arrange(mdm_quintile_soa_name) %>%
-#       echarts4r::e_charts(mdm_quintile_soa_name,height = 190,width='200') %>%
-#       echarts4r::e_bar(n, name = "Count") %>%
-#       e_legend(show = F) %>%
-#       #echarts4r::e_title("Deprivation quintile (filtered)",textStyle = list( fontSize=9)) %>%
-#       #echarts4r::e_tooltip(trigger = "axis") %>%
-#       echarts4r::e_tooltip(trigger = "axis",confine =T) %>%
-#       # e_color(c('#2AFEB7','yellow')) %>%
-# 
-#       #echarts4r::e_x_axis(name = "MDM quintile") %>%
-#       echarts4r::e_y_axis(name = "People") %>%
-#       echarts4r::e_grid(containLabel = TRUE) %>%
-#       e_theme('walden')
-#   })
-# 
-#   output$qrisk_chart <- renderEcharts4r({
-#     dat <- map_filtered_chart() %>%
-#       slice_sample(n = 500)
-# 
-#     y_max <- ceiling(max(dat$qrisk_score, na.rm = TRUE))
-#     y_max <- max(y_max, 1)  # ensure sensible upper bound
-# 
-#     dat %>%
-#       echarts4r::e_charts(id,height = 190,width='200') %>%
-#       # points (strip/list)
-#       echarts4r::e_scatter(qrisk_percentile,
-#                            name = "QRisk",
-#                            symbolSize = 6,
-#                            large = TRUE,
-#                            largeThreshold = 2000,
-#                            itemStyle=list(opacity=0.2)
-#       ) %>%
-#       # mean & median reference lines
-#       echarts4r::e_mark_line(data = list(
-#         list(type = "average", name = "Mean"),
-#         list(type = "median", name = "Median")
-#       )) %>%
-#       # axes & layout
-#       echarts4r::e_y_axis(
-#         name = "QRisk (%)",
-#         min = 0, max = y_max,
-#         axisLabel = list(formatter = "{value}%")
-#       ) %>%
-#       echarts4r::e_x_axis(show = FALSE) %>%
-#       echarts4r::e_grid(containLabel = TRUE) %>%
-#       e_theme('walden')
-# 
-#   })
-# 
-#   output$qrisk_chart1 <- renderEcharts4r({
-#     dat <- map_filtered_chart() %>%
-#       slice_sample(n = 500)
-# 
-#     dat %>%
-#       filter(age>25) %>%
-#       filter(!is.na(bmi)) %>%
-#       group_by(bmi) %>%
-#       e_charts(height=290) %>%
-#       e_density(qrisk_percentile,breaks=5) %>%
-# 
-#       e_mark_line(title = 'Baseline',
-#                   data = list(
-#                     type = "average",
-#                     name = "Average"
-#                   )) %>%
-#       e_theme('walden')%>%
-#       echarts4r::e_grid(containLabel = TRUE)
-# 
-#   })
-# 
-#   # --- headline card (optional) --------------------------------------------
-#   output$headline_count <- renderText({
-# 
-#     format(nrow(map_filtered_chart())*pop_scale_up, big.mark = ",")
-#   })
-# 
-#   output$qrisk_average <- renderText({
-#     # print('##############')
-#     # print(head(map_filtered_chart()))
-#     # print('##############')
-#     signif(digits = 3 ,mean(map_filtered_chart()$qrisk_score)) #qrisk_percentile
-#   })
-# 
-#   output$areaPer100k <- renderText({
-#     tryCatch({
-#     inside <- st_within(parks, bb(), sparse = FALSE)
-#     sum(parks$area[inside])/nrow(map_filtered_chart()) * 100000/1000
-#   }, error = function(e) {
-#     NA_real_
-#   })
-#   })
-# 
-#   output$parkPer100k <- renderText({
-#     tryCatch({
-#     inside <- st_within(parks, bb(), sparse = FALSE)
-#     nrow(parks[inside,])/nrow(map_filtered_chart()) * 100000
-#   }, error = function(e) {
-#     NA_real_
-#   })
-#   })
-# 
-#   output$ffPer100k <- renderText({
-#     tryCatch({
-#       inside <- st_within(fast_food, bb(), sparse = FALSE)
-#       nrow(fast_food[inside, ]) / nrow(map_filtered_chart()) * 100000
-#     }, error = function(e) {
-#       # NA_real_
-#       bb_replace <- st_as_sfc(
-#         st_bbox(c(ymax = 57.0706,
-#                   xmax =  0.2636719,
-#                   ymin = 52.19414,
-#                   xmin = -12.56836), crs = st_crs(4326)
-#                 ))
-#       inside <- st_within(fast_food, bb_replace, sparse = FALSE)
-#       nrow(fast_food[inside, ]) / nrow(map_filtered_chart()) * 100000
-#     })
-#   })
-# 
-#   output$overweight_percentage <- renderText({
-#     x <-  map_filtered_chart() %>%
-#       summarise(ow = sum(bmi%in%c('overweight','obese')), n=n()) %>%
-#       mutate(pw_perc = ow/n) %>%
-#       pull(pw_perc)
-#     signif(digits = 2, x*100)
-#   })
+  output$mymap <- renderLeaflet({
+    leaflet(#width='99%',height='99%',
+      options = leafletOptions(zoomControl = FALSE)
+    ) %>%
+      htmlwidgets::onRender("function(el, x) {
+        //L.control.zoom({ position: 'bottomright' }).addTo(this);
+        var map = this;
+        setTimeout(function() { map.invalidateSize(); }, 100);
+      }") %>%
+      addTiles() %>%
+      setView(lng = -5.9576, lat = 54.904, zoom = 8) %>%
+      # addMarkers(lng = -0.1276, lat = 51.5074, popup = "London") %>%
+
+      addCircles(data = parks,
+                 weight = 15,
+                 # radius = 150,
+                 fillOpacity = 1,
+                 fillColor  = 'mediumseagreen',
+                 fill = F,
+                 opacity=0.5,
+                 color = 'mediumseagreen',
+                 stroke = T,
+                 label = ~name#,
+                 #popup = ~as.character(name)
+      ) %>%
+      addCircles(data = fast_food,
+                 weight = 15,
+                 fillOpacity = 1,
+                 fillColor  = 'steelblue',
+                 fill = F,
+                 opacity=0.5,
+                 color = 'steelblue',
+                 stroke = T,
+                 label = ~name
+      ) %>%
+      addLegend(position = 'topright',
+                colors = c('mediumseagreen','steelblue'),
+                labels = c('Parks','Fast Food Outlets'),
+                opacity = 1
+      ) %>%
+      addPolygons(data = st_as_sfc(
+        st_bbox(c(
+          xmin = -1.796265 + 0.2,
+          ymin = 53.40626 + 0.2,
+          xmax = -10.1239 - 0.2,
+          ymax = 56.34699 - 0.2
+        ), crs = st_crs(4326))
+      ),
+      color = 'black',
+      weight = 2,
+      fill = F,
+      group = 'bbox')
+    # addPolygons(data = isolate(bb()),
+    #             color = 'black',
+    #             weight = 2,
+    #             fill = F)
+
+  })
+
+  observe({
+    print(input$switch)
+    default_val(input$switch)
+  })
+
+  trig= reactiveVal({FALSE})
+
+  observe({
+    x <- isolate(trig())
+    debounced_bounds()
+    if(default_val()==F){
+      trig(!x)
+    }
+  })
+
+  observeEvent(ignoreInit = T, ignoreNULL = T, trig(),{ #debounced_bounds()
+    req(default_val()==F)
+    leafletProxy('mymap')  %>%
+      clearGroup('bbox') %>%
+      addPolygons(data = isolate(bb()),
+                  color = 'black',
+                  weight = 2,
+                  fill = F,group = 'bbox')#%>%
+    # flyTo(lng = -6.1576, lat = 54.704, zoom = 7)
+    # setView(lng = -5.9576, lat = 54.904, zoom = 8) %>% %>%
+    # clearShapes() %>
+
+
+  })
+
+  map_filtered_chart <- reactiveVal(pop)
+
+  debounced_bounds <- reactive({
+    req(bb()!= list(ymax = 57.0706,
+                    xmax =  0.2636719,
+                    ymin = 52.19414,
+                    xmin = -12.56836))
+
+    input$mymap_bounds
+  }) %>%
+    debounce(3000)   # 4000 milliseconds = 4 seconds
+
+  bb <- reactiveVal({
+    st_as_sfc(
+      st_bbox(c(
+        xmin = -1.796265 + 0.2,
+        ymin = 53.40626 + 0.2,
+        xmax = -10.1239 - 0.2,
+        ymax = 56.34699 - 0.2
+      ), crs = st_crs(4326))
+    )
+  })
+
+  default_val <- reactiveVal({FALSE})
+  # 2. Replace input$mymap_bounds with debounced_bounds() in your observeEvent
+
+  observeEvent(debounced_bounds() , { #debounced_bounds()
+    req(debounced_bounds())
+    req(default_val()==F)
+    req(input$mymap_bounds$south != input$mymap_bounds$north)
+
+    # print(bb())
+    req(bb()!=   st_as_sfc(
+      st_bbox(c(ymax = 57.0706,
+                xmax =  0.2636719,
+                ymin = 52.19414,
+                xmin = -12.56836))))
+
+
+
+    # print('printing bounds')
+    # print(input$mymap_bounds)
+
+    ytol = abs(input$mymap_bounds$south - input$mymap_bounds$north)/10
+    xtol = abs(input$mymap_bounds$west - input$mymap_bounds$east)/10
+
+
+    bbox_poly <- st_as_sfc(
+      st_bbox(c(
+        xmin = input$mymap_bounds$west + xtol,
+        ymin = input$mymap_bounds$south + ytol,
+        xmax = input$mymap_bounds$east - xtol,
+        ymax = input$mymap_bounds$north - ytol
+      ), crs = st_crs(4326))
+    )
+
+    bb(bbox_poly)
+    # print(bbox_poly)
+
+    # req(input$mymap_bounds$west != input$mymap_bounds$west)
+    # req(input$mymap_bounds$north != input$mymap_bounds$south)
+
+    print(bbox_poly)
+    print(bbox_poly$geometry)
+    inside_mat <- st_within(csv_pts_wgs84, bbox_poly, sparse = FALSE)
+    #st_within(csv_pts_wgs84, x, sparse = FALSE)
+
+    csv_pts_wgs84 <- csv_pts_wgs84 %>%
+      mutate(in_bbox = as.logical(inside_mat[, 1]))
+
+    dz_in_bbox <- csv_pts_wgs84 %>%
+      filter(in_bbox)
+
+    # dz_in_bbox$DZ2021_code
+    # dz_in_bbox$DZ2021_name
+
+    # print(head(pop))
+    # print(head(dz_in_bbox$DZ2021_code))
+    # print(head(map_filtered_chart()))
+
+    # map_filtered_chart(pop %>%
+    #                      filter(dz_id %in% dz_in_bbox$DZ2021_code ))
+
+    # print(dz_in_bbox)
+    # print(pop$sdz_code)
+    # print(dz_in_bbox$DZ2021_code)
+
+    map_filtered_chart(pop %>%
+                         filter(sdz_code %in% dz_in_bbox$SDZ2021_code ))
+
+    # print('##############')
+    # print(head(map_filtered_chart()))
+    # print('##############')
+  })
+
+  output$group_echarts <- renderEcharts4r({
+    map_filtered_chart() %>%
+      group_by(Urban_status) %>%
+      summarise(count = n() ) %>%
+      e_charts(Urban_status) %>%
+      echarts4r::e_tooltip(trigger = "axis",confine = T) %>%
+      e_bar(count) %>%
+      e_title("Population by Urban Status") %>%
+      e_theme('walden') %>%
+      e_grid(containLabel = TRUE)
+  })
+
+  output$excedance_bmi <- renderEcharts4r({
+
+    # bmi_counts(); validate(need(nrow(dat) > 0, "BMI not available."))
+
+    expect <- pop %>%
+      count(bmi,name = 'bmi_count') %>%
+      add_count(wt = bmi_count, name = 'total_count') %>%
+      mutate( expect = bmi_count/total_count )
+
+    dat <-count(map_filtered_chart(),bmi, name = 'filter') %>%
+      add_count(wt = filter,name = 'filtered_count') %>%
+      mutate( actual = filter/filtered_count )
+
+    expect <- left_join(expect, dat) %>%
+      mutate(exceed = actual - expect) %>%
+      mutate(isPos = (exceed>0)) %>%
+      filter(!is.na(bmi)) %>%
+      filter(bmi!='normal')
+
+    # print(expect)
+    expect %>%
+      # group_by(isPos) %>%
+      echarts4r::e_charts(bmi,textStyle = list( fontSize=9)) %>%
+      echarts4r::e_bar(exceed) %>%
+      e_visual_map(type = 'piecewise', orient = 'horizontal',
+                   pieces = list(
+                     list(gt= 0,
+                          # lte= 50,
+                          color= '#ffcdd2'),
+                     list(lte= 0,
+                          # lte= 50,
+                          color= '#bbdefb'))
+      ) %>%
+      # )) %>%
+      # e_color((c("#ffcdd2",
+      #            "#bbdefb"
+      #            ))) %>%
+      e_x_axis(show = FALSE) %>%
+      # e_y_axis(show = FALSE) %>%
+      #echarts4r::e_title("BMI distribution (filtered)") %>%
+      echarts4r::e_tooltip(trigger = "axis",confine =T) %>%
+      e_theme('walden') %>%
+      echarts4r::e_title( text = "BMI Excedance", subtext = "Where values of BMI exceed expected") %>%
+      e_legend(show=F) %>%
+      e_y_axis(formatter = e_axis_formatter("percent", digits = 0)) %>%
+      # e_color(c('#2AFEB7','yellow')) %>%
+      #echarts4r::e_x_axis(name = "BMI band") %>%
+      # echarts4r::e_y_axis(name = "People") %>%
+      e_grid(containLabel = TRUE) # top = 40, right = 20, bottom = 40, left = 50)
+  })
+
+  # exceedence_age
+  output$excedance_age <- renderEcharts4r({
+
+    ## bmi_counts(); validate(need(nrow(dat) > 0, "BMI not available."))
+
+    expect <- pop %>%
+      count(age10,bmi, name = 'bmi_count') %>%
+      add_count(age10, wt = bmi_count, name = 'total_count') %>%
+      mutate( expect = bmi_count/total_count )
+
+    dat <-count(map_filtered_chart(), bmi, age10, name = 'filter') %>%
+      add_count(age10,wt = filter,name = 'filtered_count') %>%
+      mutate( actual = filter/filtered_count )
+
+    expect <- left_join(expect, dat) %>%
+      mutate(exceed = actual - expect) %>%
+      mutate(isPos = (exceed>0)) %>%
+      filter(!is.na(bmi)) %>%
+      filter(bmi!='normal')
+
+    # print(expect)
+    expect %>%
+      group_by(age10) %>%
+      echarts4r::e_charts(bmi,textStyle = list( fontSize=9)) %>%
+      echarts4r::e_bar(exceed) %>%
+      e_visual_map(type = 'piecewise',orient = 'horizontal',
+                   pieces = list(
+                     list(gt= 0,
+                          # lte= 50,
+                          color= '#ffcdd2'),
+                     list(lte= 0,
+                          # lte= 50,
+                          color= '#bbdefb'))
+      ) %>%
+      # )) %>%
+      # e_color((c("#ffcdd2",
+      #            "#bbdefb"
+      #            ))) %>%
+      e_x_axis(show = FALSE) %>%
+      # e_y_axis(show = FALSE) %>%
+      #echarts4r::e_title("BMI distribution (filtered)") %>%
+      echarts4r::e_tooltip(trigger = "axis",confine =T) %>%
+      e_theme('walden') %>%
+      echarts4r::e_title( text = "BMI Age Excedance", subtext = "Where values of BMI exceed expected") %>%
+      e_legend(show=F) %>%
+      e_y_axis(formatter = e_axis_formatter("percent", digits = 0)) %>%       # e_color(c('#2AFEB7','yellow')) %>%
+
+      #echarts4r::e_x_axis(name = "BMI band") %>%
+      # echarts4r::e_y_axis(name = "People") %>%
+      e_grid(containLabel = TRUE) # top = 40, right = 20, bottom = 40, left = 50)
+  })
+
+  output$excedance_bmi_deprivation <- renderEcharts4r({
+    ## bmi_counts(); validate(need(nrow(dat) > 0, "BMI not available."))
+
+    expect <- pop %>%
+      count(bmi,mdm_quintile_soa_name, name = 'bmi_count') %>%
+      add_count(mdm_quintile_soa_name, wt = bmi_count, name = 'total_count') %>%
+      mutate( expect = bmi_count/total_count )
+
+    dat <-count(map_filtered_chart(),bmi, mdm_quintile_soa_name, name = 'filter') %>%
+      add_count(mdm_quintile_soa_name, wt = filter,name = 'filtered_count') %>%
+      mutate( actual = filter/filtered_count )
+
+    expect <- left_join(expect, dat) %>%
+      mutate(exceed = actual - expect) %>%
+      mutate(isPos = (exceed>0)) %>%
+      filter(!is.na(bmi))
+
+    # print(expect)
+    expect %>%
+      group_by(mdm_quintile_soa_name) %>%
+      echarts4r::e_charts(bmi,textStyle = list( fontSize=9)) %>%
+      echarts4r::e_bar(exceed) %>%
+      echarts4r::e_title( text = "BMI Deprivation Exceedance", subtext = "Where values of BMI exceed expected") %>%
+      e_visual_map(type = 'piecewise',orient = 'horizontal',
+                   pieces = list(
+                     list(gt= 0,
+                          # lte= 50,
+                          color= 'rgb(0,200,0)'# '#ffcdd2'
+                          ),
+                     list(lte= 0,
+                          # lte= 50,
+                          color= 'steelblue'
+                          ))
+      ) %>%
+      e_x_axis(show = FALSE) %>%
+      e_theme('walden') %>%
+      e_y_axis(formatter = e_axis_formatter("percent", digits = 0)) %>%
+      # e_y_axis(show = FALSE) %>%
+      echarts4r::e_tooltip(trigger = "axis",confine =T) %>%
+      e_legend(show=F) %>%
+      e_grid(containLabel = TRUE)
+  })
+
+
+  # --- charts ---------------------------------------------------------------
+  output$bmi_chart <- renderEcharts4r({
+    dat <- count(map_filtered_chart(),bmi) %>% ## bmi_counts(); validate(need(nrow(dat) > 0, "BMI not available."))
+      mutate(n = n * pop_scale_up)
+
+    dat %>%
+      echarts4r::e_charts(bmi,height = 190, width='200',textStyle = list( fontSize=9)) %>%
+      echarts4r::e_bar(n, name = "Count") %>%
+      #echarts4r::e_title("BMI distribution (filtered)") %>%
+      echarts4r::e_tooltip(trigger = "axis",confine =T) %>%
+      e_legend(show=F) %>%
+      # e_color(c('#2AFEB7','yellow')) %>%
+      #echarts4r::e_x_axis(name = "BMI band") %>%
+      echarts4r::e_y_axis(name = "People") %>%
+      e_theme('walden') %>%
+      e_grid(containLabel = TRUE) # top = 40, right = 20, bottom = 40, left = 50)
+  })
+
+  output$age_chart <- renderEcharts4r({
+    dat <- count(map_filtered_chart(),age20) %>% ##age_counts(); validate(need(nrow(dat) > 0, "Age not available."))
+      mutate(n = n * pop_scale_up)
+
+    dat %>%
+      echarts4r::e_charts(age20,height = 190, width='200') %>%
+      echarts4r::e_bar(n, name = "Count") %>%
+      #echarts4r::e_title("Age bands (filtered)") %>%
+      echarts4r::e_tooltip(trigger = "axis",confine =T) %>%
+      e_legend(show=F) %>%
+      #echarts4r::e_x_axis(name = "Age band") %>%
+      echarts4r::e_y_axis(name = "People") %>%
+      e_legend(show=F) %>%
+      e_theme('walden') %>%
+      #e_color(c('#2AFEB7','yellow')) %>%
+      e_grid(containLabel = TRUE)
+  })
+
+  output$sex_chart <- renderEcharts4r({
+
+    dat <- count(map_filtered_chart(),sex) %>% #sex_counts(); validate(need(nrow(dat) > 0, "Sex not available."))
+      mutate(n = n * pop_scale_up)
+
+    dat %>%
+      # group_by(sex) %>%
+      echarts4r::e_charts(sex,height = 190,width='200') %>%
+      echarts4r::e_bar(n) %>%
+      e_legend(show=F) %>%
+      #echarts4r::e_title("Sex split (filtered)", textStyle = list( fontSize=9)) %>%
+      echarts4r::e_tooltip(formatter = "{b}: {c} ({d}%)",confine = T) %>%
+      #e_color(c('#2AFEB7','yellow')) %>%
+      echarts4r::e_grid(containLabel = TRUE) %>%
+      e_text_style(
+        #color = "white",
+        #fontStyle = "italic"
+        textStyle = list(fontSize = 9)
+        ) %>%
+      e_theme('walden')
+  })
+
+  output$depriv_chart <- renderEcharts4r({
+    dat <- count(map_filtered_chart(), mdm_quintile_soa_name) %>% #depriv_counts(); validate(need(nrow(dat) > 0, "Deprivation not available."))
+      mutate(n = n * pop_scale_up)
+
+    # Pick the x column dynamically
+    # xcol <- if ("mdm_quintile_soa_name" %in% names(dat)) "mdm_quintile_soa_name" else "mdm_quintile_soa"
+
+    dat %>%
+      mutate(mdm_quintile_soa_name = factor(mdm_quintile_soa_name,
+                                            levels = c("Most Deprived","Quintile 2","Quintile 3","Quintile 4","Least Deprived"))) %>%
+      arrange(mdm_quintile_soa_name) %>%
+      echarts4r::e_charts(mdm_quintile_soa_name,height = 190,width='200') %>%
+      echarts4r::e_bar(n, name = "Count") %>%
+      e_legend(show = F) %>%
+      #echarts4r::e_title("Deprivation quintile (filtered)",textStyle = list( fontSize=9)) %>%
+      #echarts4r::e_tooltip(trigger = "axis") %>%
+      echarts4r::e_tooltip(trigger = "axis",confine =T) %>%
+      # e_color(c('#2AFEB7','yellow')) %>%
+
+      #echarts4r::e_x_axis(name = "MDM quintile") %>%
+      echarts4r::e_y_axis(name = "People") %>%
+      echarts4r::e_grid(containLabel = TRUE) %>%
+      e_theme('walden')
+  })
+
+  output$qrisk_chart <- renderEcharts4r({
+    dat <- map_filtered_chart() %>%
+      slice_sample(n = 500)
+
+    y_max <- ceiling(max(dat$qrisk_score, na.rm = TRUE))
+    y_max <- max(y_max, 1)  # ensure sensible upper bound
+
+    dat %>%
+      echarts4r::e_charts(id,height = 190,width='200') %>%
+      # points (strip/list)
+      echarts4r::e_scatter(qrisk_percentile,
+                           name = "QRisk",
+                           symbolSize = 6,
+                           large = TRUE,
+                           largeThreshold = 2000,
+                           itemStyle=list(opacity=0.2)
+      ) %>%
+      # mean & median reference lines
+      echarts4r::e_mark_line(data = list(
+        list(type = "average", name = "Mean"),
+        list(type = "median", name = "Median")
+      )) %>%
+      # axes & layout
+      echarts4r::e_y_axis(
+        name = "QRisk (%)",
+        min = 0, max = y_max,
+        axisLabel = list(formatter = "{value}%")
+      ) %>%
+      echarts4r::e_x_axis(show = FALSE) %>%
+      echarts4r::e_grid(containLabel = TRUE) %>%
+      e_theme('walden')
+
+  })
+
+  output$qrisk_chart1 <- renderEcharts4r({
+    dat <- map_filtered_chart() %>%
+      slice_sample(n = 500)
+
+    dat %>%
+      filter(age>25) %>%
+      filter(!is.na(bmi)) %>%
+      group_by(bmi) %>%
+      e_charts(height=290) %>%
+      e_density(qrisk_percentile,breaks=5) %>%
+
+      e_mark_line(title = 'Baseline',
+                  data = list(
+                    type = "average",
+                    name = "Average"
+                  )) %>%
+      e_theme('walden')%>%
+      echarts4r::e_grid(containLabel = TRUE)
+
+  })
+
+  # --- headline card (optional) --------------------------------------------
+  output$headline_count <- renderText({
+
+    format(nrow(map_filtered_chart())*pop_scale_up, big.mark = ",")
+  })
+
+  output$qrisk_average <- renderText({
+    # print('##############')
+    # print(head(map_filtered_chart()))
+    # print('##############')
+    signif(digits = 3 ,mean(map_filtered_chart()$qrisk_score)) #qrisk_percentile
+  })
+
+  output$areaPer100k <- renderText({
+    tryCatch({
+    inside <- st_within(parks, bb(), sparse = FALSE)
+    sum(parks$area[inside])/nrow(map_filtered_chart()) * 100000/1000
+  }, error = function(e) {
+    NA_real_
+  })
+  })
+
+  output$parkPer100k <- renderText({
+    tryCatch({
+    inside <- st_within(parks, bb(), sparse = FALSE)
+    nrow(parks[inside,])/nrow(map_filtered_chart()) * 100000
+  }, error = function(e) {
+    NA_real_
+  })
+  })
+
+  output$ffPer100k <- renderText({
+    tryCatch({
+      inside <- st_within(fast_food, bb(), sparse = FALSE)
+      nrow(fast_food[inside, ]) / nrow(map_filtered_chart()) * 100000
+    }, error = function(e) {
+      # NA_real_
+      bb_replace <- st_as_sfc(
+        st_bbox(c(ymax = 57.0706,
+                  xmax =  0.2636719,
+                  ymin = 52.19414,
+                  xmin = -12.56836), crs = st_crs(4326)
+                ))
+      inside <- st_within(fast_food, bb_replace, sparse = FALSE)
+      nrow(fast_food[inside, ]) / nrow(map_filtered_chart()) * 100000
+    })
+  })
+
+  output$overweight_percentage <- renderText({
+    x <-  map_filtered_chart() %>%
+      summarise(ow = sum(bmi%in%c('overweight','obese')), n=n()) %>%
+      mutate(pw_perc = ow/n) %>%
+      pull(pw_perc)
+    signif(digits = 2, x*100)
+  })
   # end commented out production data ----
   
 }
