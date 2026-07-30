@@ -69,6 +69,7 @@ source('./6_post_main/post_evaluation_module/lost_productivity_estimator.R')
 
 source('./components/sticky_side_bar.R')
 
+print(ls())
 
 lapply(ls(),function(x){
   # y <<- x
@@ -88,6 +89,7 @@ lapply(ls(),function(x){
     }
   }
 })
+
 print(system.file("htmlwidgets/lib/echarts-6.0.0/themes", package = "echarts4r"))
 print(bmi_sya_age$dependencies)
 
