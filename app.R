@@ -96,9 +96,7 @@ lapply(ls(global_env()),function(x){
                                                                   print (obj)
                                                                   assign(x, obj,envir = global_env())
     }}
-    if(!is.null(obj$dependencies[[1]])){
-      print(x)
-  }
+
 })
 
 print(system.file("htmlwidgets/lib/echarts-6.0.0/themes", package = "echarts4r"))
