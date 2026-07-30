@@ -66,8 +66,25 @@ print(paste('running','/pivottable_module.R'));source('modules/pivot_module/pivo
 source('./pivot_columns.R')
 source('./6_post_main/post_evaluation_module/bed_days_estimator.R')
 source('./6_post_main/post_evaluation_module/lost_productivity_estimator.R')
+source('./components/sticky_side_bar.R')
 
-# source('./components/sticky_side_bar.R')
+
+print(paste('running','pages_prep.R'));source('pages_prep.R')
+print(paste('running','bed_days_estimate.R'));source("bed_days_estimate.R")
+print(paste('running','risk_stratification.R'));source('risk_stratification.R')
+print(paste('running','obesity_causes.R'));source('obesity_causes.R')
+print(paste('running','comorbidity.R'));source('comorbidity.R')
+print(paste('running','deprivation.R'));source('deprivation.R')
+# print(paste('running','tables.R')); source('tables.R')
+# print(paste('running','sick_days_estimate.R'));source("sick_days_estimate.R")
+print(paste('running','infographics.R'));source('infographics.R')
+print(paste('running','obesity_prevalence_tables.R'));source('obesity_prevalence_tables.R')
+print(paste('running','app_prep.R'));source('app_prep.R')
+# print(paste('running','pages_prep_geo.R'));source('pages_prep_geo.R')
+print(paste('running','inequality_charts.R'));source('inequality_charts.R')
+print(paste('running','PAF.R'));source('PAF.R')
+print(paste('running','obesigenic.R'));source('obesigenic.R')
+print(paste('running','INT.R'));source('INT.R')
 
 graph_wrapper <- function(..., header =NULL){
   
