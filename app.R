@@ -4051,7 +4051,7 @@ server <- function(input, output, session) {
   
   population_data <- reactive({
     # df <- read.csv("./populations/test_population.csv", stringsAsFactors = FALSE)
-    df <- read.fst('./3_pre_main/intermediate_populations/initial_time_zero_population.fst')
+    df <- read.fst('./3_pre_main/intermediate_populations/time_one_population.fst')
     df <- df |> select(all_of(pivot_columns))
     # Ensure proper factor ordering for age groups
     if("age_risk" %in% names(df)) {
