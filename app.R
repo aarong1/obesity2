@@ -70,7 +70,24 @@ source('./6_post_main/post_evaluation_module/lost_productivity_estimator.R')
 source('./components/sticky_side_bar.R')
 
 
-
+lapply(ls(),function(x){
+  y <<- x
+  obj <- get(x)
+  if('echarts4r'%in%class(obj)){
+    # print(T)
+    
+    if(!is.null(obj$x$theme) & obj$x$theme != ''){
+      print(T)
+      print(x)
+      # print(obj$x$theme)
+      obj$dependencies[[1]]$src$file <- htmltools::htmlDependency(name = obj$x$theme, version = "1.0.0", 
+                                                                  src = system.file("htmlwidgets/lib/echarts-6.0.0/themes", package = "echarts4r"),
+                                                                  script = paste0(obj$x$theme, ".js")
+                                                                  # x=obj
+      )
+    }
+  }
+})
 
 graph_wrapper <- function(..., header =NULL){
   
