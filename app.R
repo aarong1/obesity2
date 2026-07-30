@@ -85,7 +85,7 @@ lapply(ls(global_env()),function(x){
                                          #                         src = system.file("htmlwidgets/lib/echarts-6.0.0/themes", package = "echarts4r"),
                                           #                        script = paste0(obj$x$theme, ".js")
       # )
-                                                                  x=obj
+                                                                  x<<-obj
     }
   }
 })
