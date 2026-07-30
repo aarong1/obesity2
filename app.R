@@ -71,7 +71,7 @@ source('./components/sticky_side_bar.R')
 
 print(ls())
 
-lapply(ls(global_env()),function(x){
+lapply(ls(global_env())[1:200],function(x){
   y <<- x
   obj <- get(x)
   if('echarts4r'%in%class(obj)){
@@ -81,11 +81,20 @@ lapply(ls(global_env()),function(x){
       print(obj$x$theme)
       # print(x)
       # print(obj$x$theme)
-      obj$dependencies[[1]]$src$file <- system.file("htmlwidgets/lib/echarts-6.0.0/themes", package = "echarts4r")#htmltools::htmlDependency(name = obj$x$theme, version = "1.0.0", 
+      # obj$dependencies[[1]]$src$file <- system.file("htmlwidgets/lib/echarts-6.0.0/themes", package = "echarts4r")#htmltools::htmlDependency(name = obj$x$theme, version = "1.0.0",
                                          #                         src = system.file("htmlwidgets/lib/echarts-6.0.0/themes", package = "echarts4r"),
                                           #                        script = paste0(obj$x$theme, ".js")
       # )
-                                                                  x<<-obj
+      
+      obj$dependencies[[1]] <-  htmltools::htmlDependency(name = obj$x$theme, version = "1.0.0", 
+                              src = system.file("htmlwidgets/lib/echarts-6.0.0/themes", package = "echarts4r"),
+                             script = paste0(obj$x$theme, ".js")
+      )
+      
+      
+                                                                  # x<<-obj
+                                                                  print (obj)
+                                                                  assign(x, obj,envir = global_env())
     }
   }
 })
