@@ -20,7 +20,7 @@ print('#######')
 print(system('ls /opt/R/4.5.1/lib/'))
 # print(system('ls ..'))
 
-      
+
 print(resourcePaths())
 
 dot <- function(col){
@@ -2257,7 +2257,7 @@ $(document).ready(function() {
     
      setTimeout(function() {
       $('#main-tab-area .tab-pane').removeClass('active')
-      $('#' + 'specify-tab').addClass('active show')
+      $('#' + 'analytics-tab').addClass('active show')
      }, 1000);
      
     // setTimeout(function() {
