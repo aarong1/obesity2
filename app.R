@@ -28,7 +28,7 @@ dot <- function(col){
 }
 
 # load(".RData")
-total_pop <- read.fst('total_pop.fst')
+# total_pop <- read.fst('total_pop.fst')
 
 source('app_prep.R')
 source('global.R')
@@ -3521,7 +3521,7 @@ server <- function(input, output, session) {
 
       message('no run yet')
       # past_populations
-      total_pop <- write.fst( 'total_pop.fst')
+      total_pop <- read.fst( 'total_pop.fst')
 
 
     }
