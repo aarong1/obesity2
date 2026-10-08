@@ -103,34 +103,55 @@ xx[[2]][[7]] <- xx[[2]][[7]]
 /* Selectize */ 
 
 <style>
-    span.label {
+    span.label1 {
     padding:5px;
-    font-size: 12px;
+    font-size: 11px;
     color:mediumseagreen;
+    margin-left:15px;
     }
-    
- div[data-value="45-54"] span.label {
-    color:var(--bs-warning);
-    }
-
-  div[data-value="55-64"] span.label {
-    color:var(--bs-warning);
+     
+div[data-value="0-15"] span.label1 {
+    color:white;
+    background:RGB(var(--bs-success-rgb));
     font-weight:bold;
     }
+    
+ div[data-value="16-34"] span.label1 {
+    color:var(--bs-sucess);
+    }
+ 
+  div[data-value="35-44"] span.label1 {
+    color:var(--bs-warning);
+    }
+    
+ div[data-value="45-54"] span.label1 {
+     color:var(--bs-warning);
 
-  div[data-value="65-74"] span.label {
+    font-weight:bold;
+
+    }
+
+  div[data-value="55-64"] span.label1 {
     color:var(--bs-danger);
     }
 
-  div[data-value="75-110"] span.label {
-    color:var(--bs-danger);
+  div[data-value="65-74"] span.label1 {
+      color:var(--bs-danger);
+
+        font-weight:bold;
+
+    }
+
+  div[data-value="75-110"] span.label1 {
+    color:white;
+    background:RGB(var(--bs-danger-rgb));
     font-weight:bold;
     }
 
      span.caption {
-    padding:5px;
+    padding:7px;
     position:absolute;
-    left:50px;
+    left:70px;
     font-size: 8px;
     color: grey;
     }
@@ -223,7 +244,7 @@ xx[[2]][[7]] <- xx[[2]][[7]]
       var label = item.name || item.email;
       var caption = item.name ? item.email : null;
       return '<div>' +
-       (caption ? '<span class=\"label\">' + caption + '</span>' : '') + '<span class=\"caption\">' + label + '</span>' +
+       (caption ? '<span class=\"label1 rounded-5\">' + caption + '</span>' : '') + '<span class=\"caption\">' + label + '</span>' +
 
       '</div>';
     }

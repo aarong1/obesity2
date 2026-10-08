@@ -137,7 +137,9 @@ models <- tibble::tibble(
            'Diagnosed diabetes or Deprived Area',
            'Undiagnosed diabetes',
            'Early Targeting of Obesity',
-           'Belfast where highest rates of Cardiovascular Disease',
+           'Belfast where highest anticipated incidence rates of Disease',
+           'Belfast where highest prevalence rates of Cardiovascular Disease',
+           'Complex, dynamic, responsive intervention responding to anyone becoming obese and or overweight over the next decade.',
            'NHSCT Urban Areas with One Comorbidity',
            'Targeting Deprived areas without access to green spaces',
            'Targeting those who 2 of 3: Smoke, Drink and Obese',
@@ -166,7 +168,7 @@ models <- tibble::tibble(
   
   'This intervention includes screening, intervening on BMI, for those estimated to have diabetes but no diagnosis. May be difficult in practice' ,
   
-  '','',  
+  '','','',  '',
   'This targets Inner city deprived areas of overweight and obese people\'s weight without risk stratification or other prioritisation.',
 
   '','','','',
@@ -205,11 +207,15 @@ models <- tibble::tibble(
                    c("Obesity",'Overweight'),
                    c("Obesity",'Overweight'),
                    c("Obesity",'Overweight'),
+                   c("Obesity",'Overweight'),
+                   c("Obesity",'Overweight'),
                    c("Obesity",'Overweight')
                    ),
                    
   risk2     = c("Deprivation",
                 "High BMI",
+                "Existing High CVD Rates",
+                "Existing High CVD Rates",
                 "Existing High CVD Rates",
                 "Existing High CVD Rates",
                 "Existing High CVD Rates",
@@ -230,6 +236,8 @@ models <- tibble::tibble(
                 "40+",
                 "40+",
                 "40+",
+                "18+",
+                "18+",
                 "18+",
                 "18+",
                 "18+",

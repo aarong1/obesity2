@@ -1,5 +1,5 @@
 library(reactable)
-library(reactablefmtr)
+# library(reactablefmtr)
 library(htmltools)
 library(data.table)
 library(shiny)
@@ -8,7 +8,7 @@ library(bslib)
 library(leaflet)
 library(reactable)
 library(fst)
-library(qs)
+# library(qs)
 library(readxl)
 library(tidyverse)
 library(sf)
@@ -28,8 +28,7 @@ dot <- function(col){
 }
 
 # load(".RData")
-total_pop <- qread( 'total_pop.qs')
-
+total_pop <- read.fst('total_pop.fst')
 
 source('app_prep.R')
 source('global.R')
@@ -68,6 +67,7 @@ source('./6_post_main/post_evaluation_module/bed_days_estimator.R')
 source('./6_post_main/post_evaluation_module/lost_productivity_estimator.R')
 
 source('./components/sticky_side_bar.R')
+source('./modules/disease_selector/morbidity_risk_highlights.R')
 
 print(ls())
 
@@ -171,7 +171,7 @@ ui <- page_fluid( id = 'main-content',
                   ),
                   
                   
-                  div(style='top:100px;width:150px;z-index:1000',class = 'nav nav-tabs ms-2 p-3 d-flex flex-column display-absolute position-fixed left-0 shadow-sm glass-card',
+                  div(style='top:100px;width:150px;z-index:1000',class = 'nav nav-tabs ms-2 p-3 d-flex flex-column display-absolute position-fixed left-0 glass-card',
                       
                       div(class = "nav-section",
                           h6(class = "bg-opacity-25 border-5  p-2 rounded-3 text-bg-dark", "Health Burden"), #text-body-secondary
@@ -1843,9 +1843,9 @@ div(class = "bg-light p-2 m-2 theme-green w-100 rounded-4 d-flex flex-row gap-3"
     br()
 ),
 
+        div(class = "p-2 fw-bold fs-5  pt-2 ps-2", "Modelled Disease Cost by indivdual Condition "),
 div(class = "bg-light p-2 m-2 theme-green w-100 rounded-4 d-flex flex-row gap-3",
     div(class = "grid-item-content",
-        div(class = "p-2 fw-bold fs-5  pt-2 ps-2", "Modelled Disease Cost by indivdual Condition "),
         echarts4rOutput("disease_cost_breakdown", height = "250px")
     ),
     br(), 
@@ -1897,36 +1897,52 @@ div( id = 'outputs-right', class= 'w-25 h-75 p-5 position-sticky',style = 'top:7
   tags$div(
     class = " py-3", #container
     h4("Morbidity Focus"),
-    selectizeInput(
-      inputId = "disease",
-      label = "Disease",
-      choices = character(0),
-      selected = NULL,
-      options = list(
-        valueField = "email",
-        labelField = "name",
-        render = I("{
-    item: function(item, escape) {
-      console.log(item);
-      var name = item.email ? '<span class=\"name\">' + item.email + '</span>' : '';
-      return '<div class =  m-2 p-2>' + '<span class=\"email m-2\">' + item.name + '</span></div>';
-    },
-    option: function(item, escape) {
-      var label = item.name || item.email;
-      var caption = item.name ? item.email : null;
-      return '<div class =  \"m-2 p-2 rounded-3 \">' +
-       (caption ? '<div class=\"label position-relative\">' + item.email + '</div>' : '') 
-        
-      '</div>';
-    }
-  }") 
-      )),
+  #   selectizeInput(
+  #     inputId = "disease",
+  #     label = "Disease",
+  #     choices = character(0),
+  #     selected = NULL,
+  #     options = list(
+  #       valueField = "email",
+  #       labelField = "name",
+  #       render = I("{
+  #   item: function(item, escape) {
+  #     console.log(item);
+  #     var name = item.email ? '<span class=\"name\">' + item.email + '</span>' : '';
+  #     return '<div class =  m-2 p-2>' + '<span class=\"email m-2\">' + item.name + '</span></div>';
+  #   },
+  #   option: function(item, escape) {
+  #     var label = item.name || item.email;
+  #     var caption = item.name ? item.email : null;
+  #     return '<div class =  \"m-2 p-2 rounded-3 \">' +
+  #      (caption ? '<div class=\"label position-relative\">' + item.email + '</div>' : '') 
+  #       
+  #     '</div>';
+  #   }
+  # }") 
+  #     )),
+  div(style = 'height:300px;width:300px;overflow:scroll',
+  disease_selector_module()
+  ),
     icon('globe',class='visually-hidden')#,
     # tags$div(class = "mt-2 mb-2", textOutput("selected_disease"))
   ),
 
   # Selected Morbidity Prevalence trend charts
 div(class = 'd-flex flex-row align-items-start',
+div(class = "grid-item--graph p-2 m-2 theme-green", #grid-item 
+    div(class = "grid-item-content",
+        div(class = " p-2", #card-header
+            # textOutput("selected_disease"),
+            div(class = "fw-bold fs-4 p-2",
+                'Incidence'
+            )
+            #"Selected Prevalence"
+        ),
+        echarts4rOutput("selected_incidence_chart", height = "250px")
+    )
+),
+
                                     div(class = "grid-item--graph p-2 m-2 theme-green",
                                         div(class = "grid-item-content",
                                             div(class = "fw-bold fs-4 p-2",
@@ -1937,18 +1953,19 @@ div(class = 'd-flex flex-row align-items-start',
                                         )
                                     ),
 
-div(class = "grid-item--graph p-2 m-2 theme-green", #grid-item 
+div(class = "grid-item--graph p-2 m-2 theme-green",
     div(class = "grid-item-content",
-        div(class = " p-2", #card-header
-            # textOutput("selected_disease")
-            div(class = "fw-bold fs-4 p-2",
-                'Incidence'
-            )
+        div(class = "fw-bold fs-4 p-2",
+            # textOutput("selected_disease1"), 
+            'Disease Fatality'
             #"Selected Prevalence"
         ),
-        echarts4rOutput("selected_incidence_chart", height = "250px")
+        echarts4rOutput("selected_fatality_chart", height = "250px")
     )
-)
+),
+
+
+
 ),
   
 
@@ -2397,6 +2414,25 @@ server <- function(input, output, session) {
 
   targeted_pop <- reactive(
     {
+      
+      session$sendCustomMessage(
+              "loader_start",
+              list(
+                wrapId = "loaderWrap",
+                barId  = "loaderBar",
+                totalMs  = 10000,   # fixed duration
+                tickMs   = 50,      # smoothness
+                lingerMs = 1000,    # linger after completion then hide
+                stages = list(
+                  list(t = 0,    cls = "bg-success"),
+                  list(t = 3000, cls = "bg-info"),
+                  list(t = 7000, cls = "bg-warning"),
+                  list(t = 9000, cls = "bg-danger")
+                )
+              )
+            )
+          
+      
     reached <- api$data () %>% filter(intervention_reached == T)
     targets <- api$data () %>% filter(intervention_target == T)
 
@@ -3370,7 +3406,7 @@ server <- function(input, output, session) {
   # This one below works !!!!
   observeEvent(input$draggable_data,
                {
-                 qsave(input$draggable_data, "draggable_data.qs")
+                 write.fst(input$draggable_data, "draggable_data.fst")
                  }
   )
 
@@ -3475,7 +3511,7 @@ server <- function(input, output, session) {
     # total_pop <- compute_cmms(total_pop)
     # total_pop <- add_multimorbidity_fn(total_pop)
 
-    qsave(total_pop, 'total_pop.qs')
+    write.fst(total_pop, 'total_pop.fst')
     total_pop #%>%
       # select(-any_of( c('cmms', 'multimorbidity'))) %>%
       # compute_cmms() %>%
@@ -3485,7 +3521,7 @@ server <- function(input, output, session) {
 
       message('no run yet')
       # past_populations
-      total_pop <- qread( 'total_pop.qs')
+      total_pop <- write.fst( 'total_pop.fst')
 
 
     }
@@ -3507,7 +3543,7 @@ server <- function(input, output, session) {
   # observe({
   #   print('output_df')
   # 
-  #   qsave(output_df(), "output_df.qs")
+  #   write.fst(output_df(), "output_df.fst")
   # 
   #   session$sendCustomMessage(
   #     "loader_start",
@@ -3531,12 +3567,12 @@ server <- function(input, output, session) {
 # 
 #   # observe({
 #   #   print('simulation_state')
-#   #   qsave(simulation_state$past_populations(), "myfile.qs")
+#   #   write.fst(simulation_state$past_populations(), "myfile.fst")
 #   # })
 # 
   observe({
     #print(simulation_state$result())
-    qsave(simulation_state$results(), "result.qs")
+    write.fst(simulation_state$results(), "result.fst")
   })
 # 
 #   # df <- reactiveVal({NULL})
@@ -3608,7 +3644,37 @@ server <- function(input, output, session) {
     
     # return(plot)
   }
-# 
+  
+  plot_outputs_fatality <- function(df, morbidity = 'stroke') {
+    
+    print(morbidity)
+    
+    # Build a complete run/intervention/year grid so absent incidence rows are treated as zero.
+    base_combinations <- df %>%
+      distinct(run, intervention, year)
+    
+    mortality_counts <- df[df[[death_reason]] == morbidity, ] %>%
+      count(run, intervention, year, name = "n")
+    
+    plot = base_combinations %>%
+      left_join(mortality_counts, by = c("run", "intervention", "year")) %>%
+      mutate(n = replace_na(n, 0)) %>%
+      group_by(year , intervention) %>%
+      summarise(n = mean(n)) %>%
+      mutate(year = as.character(year),
+             n = n*model_specification$population$scale_down_factor) %>%
+      group_by(intervention) %>%
+      e_charts(year, emphasis = list(focus = 'series')) %>%
+      e_bar(n) %>%
+      e_tooltip(trigger = "axis", confine=T,backgroundColor = 'white' ) %>%
+      e_grid(containLabel = T) %>%
+      # e_theme("shine") %>%
+      e_theme('roma') |> 
+      e_y_axis(name = "Count")
+    
+    return(plot)
+  }
+  
 #   plot_outputs_incidence <- function(df, morbidity = 'stroke') {
 # 
 #     print(morbidity)
@@ -3634,6 +3700,7 @@ server <- function(input, output, session) {
 #     # return(plot)
 #   }
 # 
+  
   output$chd_prevalence_chart <- renderEcharts4r({
 
     # simulation_state$results() %>%
@@ -3858,8 +3925,8 @@ server <- function(input, output, session) {
   #
   #     print(simulation_state$past_populations())
   #     x <- simulation_state$past_populations()
-  #     cat("Saving past_populations to myfile.qs\n")
-  #     qsave(x, "myfile.qs")
+  #     cat("Saving past_populations to myfile.fst\n")
+  #     write.fst(x, "myfile.fst")
   #   }
   # )
 
@@ -3885,7 +3952,7 @@ server <- function(input, output, session) {
   #   print('--------------')
   #   print(isolate(simulation_state))
   #   # cat(simulation_state)
-  #   qsave(simulation_state$past_populations, "myfile.qs")
+  #   write.fst(simulation_state$past_populations, "myfile.fst")
   #   print('--------------')
   # })  
   
@@ -3908,35 +3975,45 @@ server <- function(input, output, session) {
                        #       )})
   )
   
-  output$selected_disease <- renderText({
-    req(input$disease)
+  
+  output$selected_disease <- renderPrint({
+    # req(input$disease)
+    # req(input$risk_container_clicked)
     
-    # print(paste("Selected:", input$disease))
+    print(paste("Selected:", input$risk_container_clicked))
     
     # risk_matrix$disease[str_detect(pattern = risk_matrix$disease_pretty_name, string = input$disease)]    
-    risk_matrix$disease_pretty_name [str_detect(pattern = risk_matrix$disease_pretty_name, string = input$disease)]
-
+    # risk_matrix$disease_pretty_name [str_detect(pattern = risk_matrix$disease_pretty_name, string = input$disease)]
+    risk_matrix$disease_pretty_name [str_detect(pattern = risk_matrix$disease_pretty_name, string = input$risk_container_clicked)]
     
     # paste("Selected:", input$disease)
   })
   
   output$selected_disease1 <- renderText({
     
-    req(input$disease)
-    risk_matrix$disease_pretty_name [str_detect(pattern = risk_matrix$disease_pretty_name, string = input$disease)]
+    # req(input$risk_container_clicked)
+    
+    # req(input$disease)
+    risk_matrix$disease_pretty_name [str_detect(pattern = risk_matrix$disease_pretty_name, string = input$risk_container_clicked) ]
 
   })
   
   output$selected_prevalence_chart <- renderEcharts4r({
     df = output_df()# simulation_state$results()
-    disease = risk_matrix$disease[str_detect(pattern = risk_matrix$disease_pretty_name, string = input$disease)]
-    plot_outputs_prevalence(df, disease)
+    disease = risk_matrix$disease[str_detect(pattern = risk_matrix$disease_pretty_name, string = input$risk_container_clicked)]
+    plot_outputs_prevalence(df, input$risk_container_clicked)
   })
   
   output$selected_incidence_chart <- renderEcharts4r({
     df = output_df()# simulation_state$results()
-    disease = risk_matrix$disease[str_detect(pattern = risk_matrix$disease_pretty_name, string = input$disease)]
-    plot_outputs_incidence(df, disease)
+    disease = risk_matrix$disease[str_detect(pattern = risk_matrix$disease_pretty_name, string = input$risk_container_clicked)]
+    plot_outputs_incidence(df, input$risk_container_clicked)
+    
+  })
+  
+  output$selected_fatality_chart <- renderEcharts4r({
+    df = output_df()# simulation_state$results()
+    plot_outputs_fatality(df, input$risk_container_clicked)
     
   })
   
@@ -4026,27 +4103,27 @@ server <- function(input, output, session) {
 
 
 #Reactive data source for pivot module
-population_data <- reactive({
-  # df <- read.csv("./populations/test_population.csv", stringsAsFactors = FALSE)
-  df <- read.fst('./populations/k20_population.fst')
-
-  # Convert logical health conditions to factors for better pivoting
-  health_cols <- c("stroke", "chd", "diabetes", "dementia", "heart_failure",
-                   "atrial_fibrillation", "hypertension", "chronic_kidney_disease")
-  df[health_cols] <- lapply(df[health_cols], function(x) factor(ifelse(x, "Yes", "No")))
-
-  # Ensure proper factor ordering for age groups
-  if("age_risk" %in% names(df)) {
-    df$age_risk <- factor(df$age_risk, levels = c("0-15", "16-34", "35-44", "45-54", "55-64", "65-74", "75-110"))
-  }
-
-  # Convert BMI to factor with proper ordering
-  if("bmi" %in% names(df)) {
-    df$bmi <- factor(df$bmi, levels = c("normal", "overweight", "obese"))
-  }
-
-  return(df)
-})
+# population_data <- reactive({
+#   # df <- read.csv("./populations/test_population.csv", stringsAsFactors = FALSE)
+#   df <- read.fst('./populations/k20_population.fst')
+# 
+#   # Convert logical health conditions to factors for better pivoting
+#   health_cols <- c("stroke", "chd", "diabetes", "dementia", "heart_failure",
+#                    "atrial_fibrillation", "hypertension", "chronic_kidney_disease")
+#   df[health_cols] <- lapply(df[health_cols], function(x) factor(ifelse(x, "Yes", "No")))
+# 
+#   # Ensure proper factor ordering for age groups
+#   if("age_risk" %in% names(df)) {
+#     df$age_risk <- factor(df$age_risk, levels = c("0-15", "16-34", "35-44", "45-54", "55-64", "65-74", "75-110"))
+#   }
+# 
+#   # Convert BMI to factor with proper ordering
+#   if("bmi" %in% names(df)) {
+#     df$bmi <- factor(df$bmi, levels = c("normal", "overweight", "obese"))
+#   }
+# 
+#   return(df)
+# })
   
   
   population_data <- reactive({
@@ -4068,7 +4145,7 @@ population_data <- reactive({
   
 
   # Pivot module server ----
-  pivot_result <- pivot_module_server("pivot_reports", data = population_data)
+  pivot_result <- pivot_module_server("pivot_reports", data = population_data, count_multiplier = 10)
 
   output$mymap <- renderLeaflet({
     leaflet(#width='99%',height='99%',

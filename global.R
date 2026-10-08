@@ -3,7 +3,7 @@
 bmi_levels = c('normal','overweight','obese')
 source('1_2_utils/main_configuration.R')
 
-pop_scale_up = model_specification$population$scale_down_factor
+pop_scale_up = model_specification$population$scale_down_factor/2
 
 # past_populations <- read.fst('./3_pre_main/intermediate_populations/full_history_past_populations.fst')
 

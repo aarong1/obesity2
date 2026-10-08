@@ -119,9 +119,8 @@ source('./3_pre_main/main_deaths_dt.R')
 # source('./Births_module/births.R')
 # source('./births_module/births_by_fertility_projections.R')
 
-
 source('./1_2_utils/main_configuration.R') # model_specification list
-model_specification$population$scale_down_factor =1000# model_specification$population$scale_down_factor/0.01
+model_specification$population$scale_down_factor = 1000 # model_specification$population$scale_down_factor/0.01
 model_specification$model$duration = 5#12
 model_specification$model$number_of_runs = 5
 
@@ -256,16 +255,13 @@ for(run1 in 1:(model_specification$model$number_of_runs)) {
   #         mutate(run = run1))
   # current_population <- current_population %>% 
   #   mutate(bern_trial = runif(n()))
-  # 
   
   # ############################################################################
   
   current_population <- target_population %>% filter(run == run1)
   
-  
   target_populations <- bind_rows(target_populations, current_population%>%
                                     mutate(run = run1))
-  
   
   current_population_alive <- current_population %>%
     filter( death_reason == 'survive')
@@ -413,9 +409,9 @@ for(run1 in 1:(model_specification$model$number_of_runs)) {
     print('Applying absolute morbidity onset')
     
     current_population <- current_population %>% 
-      declare_absolute_incident_morbidity_alt(morbidity = "stroke") %>% 
-      declare_absolute_incident_morbidity_alt(morbidity = "chd") %>% 
-      declare_absolute_incident_morbidity_alt(morbidity = "diabetes") %>% 
+      declare_absolute_incident_morbidity(morbidity = "stroke") %>% 
+      declare_absolute_incident_morbidity(morbidity = "chd") %>% 
+      declare_absolute_incident_morbidity(morbidity = "diabetes") %>% 
       declare_absolute_incident_morbidity_alt(morbidity = "dementia") %>% 
       declare_absolute_incident_morbidity_alt(morbidity = "heart_failure") %>% 
       declare_absolute_incident_morbidity_alt(morbidity = "atrial_fibrillation") %>% 

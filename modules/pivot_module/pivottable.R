@@ -16,6 +16,7 @@
 #'   function names to apply to that column.
 #' @param wide_by Optional single grouping column name to spread across columns
 #' @param na_rm Logical, whether to remove NAs for numeric functions
+#' @param count_multiplier Numeric multiplier applied to count results (default 1)
 #' @return A data.frame/tibble of aggregated results
 #' @examples
 #' # Basic: cyl x gear, mean/sd of mpg & hp, plus a row count
@@ -51,7 +52,8 @@ pivot_agg <- function(data,
                       funs   = c("sum"),
                       value_funs = NULL,
                       wide_by = NULL,
-                      na_rm = TRUE) {
+                      na_rm = TRUE,
+                      count_multiplier = 1) {
   stopifnot(is.data.frame(data))
   stopifnot(all(groups %in% names(data)))
   
@@ -147,10 +149,10 @@ pivot_agg <- function(data,
     if (length(groups)) {
       counts <- data |>
         dplyr::group_by(dplyr::across(dplyr::all_of(groups))) |>
-        dplyr::summarise(count_rows = dplyr::n(), .groups = "drop")
+        dplyr::summarise(count_rows = dplyr::n() * count_multiplier, .groups = "drop")
       df <- dplyr::left_join(df, counts, by = groups)
     } else {
-      df$count_rows <- nrow(data)
+      df$count_rows <- nrow(data) * count_multiplier
     }
   }
 

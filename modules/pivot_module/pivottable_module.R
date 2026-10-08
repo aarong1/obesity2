@@ -522,8 +522,9 @@ pivot_module_ui <- function(id,
 #' Pivot module server
 
 #' @param id Shiny module id
+#' @param count_multiplier Numeric multiplier applied to the count aggregation (default 1)
 #' @return A reactive expression with the current pivoted data
-pivot_module_server <- function(id, data) {
+pivot_module_server <- function(id, data, count_multiplier = 1) {
   shiny::moduleServer(id, function(input, output, session) {
     
     ns <- session$ns
@@ -592,6 +593,23 @@ pivot_module_server <- function(id, data) {
     }
 
     pivoted <- shiny::reactiveVal(NULL)
+
+    format_count_columns <- function(df) {
+      count_cols <- grep("^count_rows($| = )", names(df), value = TRUE)
+      for (col in count_cols) {
+        values <- df[[col]]
+        formatted <- values
+        valid <- !is.na(values)
+        formatted[valid] <- formatC(
+          trunc(values[valid] * 1000) / 1000,
+          format = "f",
+          digits = 3,
+          big.mark = ","
+        )
+        df[[col]] <- formatted
+      }
+      df
+    }
     
     shiny::observe({
       print(input$groups)
@@ -620,7 +638,8 @@ pivot_module_server <- function(id, data) {
           data_rx(),
           groups = c(input$groups, wb) %||% character(),
           value_funs = value_func_mapping,
-          wide_by = wb
+          wide_by = wb,
+          count_multiplier = count_multiplier
         )
       } else {
         print('else')
@@ -630,7 +649,8 @@ pivot_module_server <- function(id, data) {
           groups = c(input$groups, wb) %||% character(),
           values = input$values %||% character(),
           funs   = input$funs %||% 'mean',
-          wide_by = wb
+          wide_by = wb,
+          count_multiplier = count_multiplier
         )
       }
       # print(pivot_agg(
@@ -652,14 +672,14 @@ pivot_module_server <- function(id, data) {
 
       # shiny::req(pivoted())
       print(pivoted())
-      pivoted()
+      format_count_columns(pivoted())
     })
     
     output$retbl <- renderReactable({
       print('in table')
       print(pivoted())
       # shiny::req(pivoted(), cancelOutput = TRUE)
-      reactable::reactable(as.data.frame(pivoted()))
+      reactable::reactable(as.data.frame(format_count_columns(pivoted())))
     })
     
     # Download handler

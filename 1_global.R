@@ -20,7 +20,7 @@ select <- dplyr::select
 source('./1_2_utils/main_utils.R')
 source('./2_synthetic_population/1_10_temp_synthetic_population.R')
 
-source("~/Documents/SIB/PHM/PHModel/2_synthetic_population/risk_correlation.R", echo = TRUE)
+source("./2_synthetic_population/risk_correlation.R", echo = TRUE)
 
 source('./3_pre_main/pre_main_1.R')
 source('./3_pre_main/pre_main_1_theoretical_minimum.R')

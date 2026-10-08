@@ -71,7 +71,7 @@ read_joint_distribution_files <- function(){
   limiting_stratified_prevalence <<- read.fst( './3_pre_main/joint_distributions/limiting_stratified_prevalence.fst')
   disability_stratified_prevalence <<- read.fst( './3_pre_main/joint_distributions/disability_stratified_prevalence.fst') 
   # special_cholesterol <<- read.fst( './3_pre_main/joint_distributions/special_cholesterol.fst') 
-  special_cholesterol <<- qread('./3_pre_main/joint_distributions/special_cholesterol.fst')
+  special_cholesterol <<- read.fst('./3_pre_main/joint_distributions/special_cholesterol.fst')
   
   
 }
@@ -276,7 +276,6 @@ assign_year_minus_one_prevalence <- function(input_population,
  #  count(x,HSCT,diabetes)
  # }
 
-# declare absolute morbidity ----
 declare_absolute_incident_morbidity <- function(input_population = NULL,
                                                 #transition_probability = NULL,
                                                 morbidity = NULL){
@@ -294,58 +293,30 @@ declare_absolute_incident_morbidity <- function(input_population = NULL,
   recovered_col <- sym(paste0(morbidity, "_recovered"))
   
   #only stroke is recoverable and only then in the sense it is an acute onset.
+  
+  # print(input_population |> count(!!suffers_col))
   input_population <- input_population %>%
     mutate(bern_trial = runif(n())) |> 
     mutate(!!suffers_col :=
-           # apply_morbidity
-           # tyI
-           # tyII
              case_when(
+               ( morbidity == 'non_diabetic_hyperglycaemia') & (bern_trial < !!risk_col) & (diabetes==0) ~ current_year,
                #stroke can have multiple instances of acute episode - you'll only be a stroke survivor once !!
-              ( morbidity == 'stroke') & (bern_trial < !!risk_col) ~ current_year,
+               (morbidity == 'stroke') & (bern_trial < !!risk_col) ~ current_year,
                # if any other of the chronic diseases come back as recovered or has never suffered then calculate the risk
                # do not apply a new, or update an instance of disease if already suffering
-               (morbidity != 'stroke') & (   (!!suffers_col==0) | is.na(!!suffers_col)) ~ current_year * (bern_trial < !!risk_col),
+               
+               # (!morbidity %in% c('stroke','non_diabetic_hyperglycaemia')) & ( (!!recovered_col == TRUE) | (!!suffers_col==0) | is.na(!!suffers_col)) ~ current_year * (bern_trial < !!risk_col),
+               (!morbidity %in% c('stroke','non_diabetic_hyperglycaemia')) & (   (!!suffers_col==0) | is.na(!!suffers_col)) ~ current_year * (bern_trial < !!risk_col),
+               
                #if sample comes back negative continue as is.
                T ~ !!suffers_col)
     )
 }
 
-declare_absolute_incident_morbidity <- function(input_population = NULL,
-                                                #transition_probability = NULL,
-                                                morbidity = NULL){
+declare_absolute_incident_morbidity_small_numbers <- declare_absolute_incident_morbidity_alt <- function(input_population = NULL,
+                                                              #transition_probability = NULL,
+                                                              morbidity = NULL){
   
-  if( inherits(input_population, "rowwise_df")){
-    input_population <- ungroup(input_population)
-  }
-  
-  #sample(c(T,F),prob=c(transition_probability = 0.02,1-0.02),size=100, replace=T) 
-  current_year = max(input_population$year)
-  #morbidity = 'chronic_kidney_disease'
-  suffers_col  <- sym(morbidity)    # turn “stroke”  →  symbol stroke
-  risk_col <- sym(paste0(morbidity, "_year_risk"))
-  history_col <- sym(paste0(morbidity, "_history"))
-  recovered_col <- sym(paste0(morbidity, "_recovered"))
-  
-#only stroke is recoverable and only then in the sense it is an acute onset.
-input_population <- input_population %>%
-  mutate(bern_trial = runif(n())) |> 
-  mutate(!!suffers_col :=
-           case_when(
-             ( morbidity == 'non_diabetic_hyperglycaemia') & (bern_trial < !!risk_col) & (diabetes==0) ~ current_year,
-             #stroke can have multiple instances of acute episode - you'll only be a stroke survivor once !!
-             (morbidity == 'stroke') & (bern_trial < !!risk_col) ~ current_year,
-             # if any other of the chronic diseases come back as recovered or has never suffered then calculate the risk
-             # do not apply a new, or update an instance of disease if already suffering
-             (!morbidity %in% c('stroke','non_diabetic_hyperglycaemia')) & ( (!!recovered_col == TRUE) | (!!suffers_col==0) | is.na(!!suffers_col)) ~ current_year * (bern_trial < !!risk_col),
-             #if sample comes back negative continue as is.
-             T ~ !!suffers_col)
-  )
-}
-
-declare_absolute_incident_morbidity_alt <- function(input_population = NULL,
-                                                #transition_probability = NULL,
-                                                morbidity = NULL){
   
   if( inherits(input_population, "rowwise_df")){
     input_population <- ungroup(input_population)
@@ -361,26 +332,29 @@ declare_absolute_incident_morbidity_alt <- function(input_population = NULL,
   
   risk_col_name <- paste0(morbidity, "_year_risk")
   i <- as.data.table(input_population)
-
+  
+  print(risk_col_name)
+  
+  
   eligible <- i[get(as.character(suffers_col)) == 0]
   if (nrow(eligible) == 0) {
     return(input_population)
   }
-
+  
   # Expected incident case count from summed individual annual probabilities.
   x <- sum(eligible[[risk_col_name]], na.rm = TRUE)
   remainder <- x - floor(x)
-
+  
   print(input_population %>%
           filter(!!suffers_col==0) %>%
           summarise(sum(!!risk_col)))
-
+  
   print(paste(suffers_col, 'x: ', x, 'remainder:' , remainder, 'floor: ', floor(x) ))
-
-  # Unbiased integer draw around x: floor with prob (1-r), ceiling with prob r.
+  
+  #  draw around x: floor with prob (1-r), ceiling with prob r.
   y <- sample(x = c(floor(x), floor(x) + 1), size = 1, prob = c(1 - remainder, remainder))
   y <- max(0, min(y, nrow(eligible)))
-
+  
   weights <- eligible[[risk_col_name]]
   weights[is.na(weights) | weights < 0] <- 0
   if (sum(weights) <= 0 || y == 0) {
@@ -388,15 +362,15 @@ declare_absolute_incident_morbidity_alt <- function(input_population = NULL,
   } else {
     ids <- eligible[sample.int(.N, size = y, replace = FALSE, prob = weights), id]
   }
-
+  
   input_population <- input_population %>%
     mutate(!!suffers_col := ifelse(id %in% ids,
-                            current_year,
-                            !!suffers_col))
-   
-   return(input_population)
-     
-    
+                                   current_year,
+                                   !!suffers_col))
+  
+  return(input_population)
+  
+  
   #only stroke is recoverable and only then in the sense it is an acute onset.
   # input_population <- input_population %>%
   #   mutate(bern_trial = runif(n())) |>
@@ -411,7 +385,7 @@ declare_absolute_incident_morbidity_alt <- function(input_population = NULL,
   #              #if sample comes back negative continue as is.
   #              T ~ !!suffers_col)
   #   )
-   
+  
 }
 
 # current_year = max(current_population$year)

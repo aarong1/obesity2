@@ -103,6 +103,7 @@ progress_component <- function(){
         // Custom message hooks from server
         Shiny.addCustomMessageHandler('loader_start', startLoader);
         Shiny.addCustomMessageHandler('loader_stop',  stopLoader);
+        
       })();
     ")))
   ),
